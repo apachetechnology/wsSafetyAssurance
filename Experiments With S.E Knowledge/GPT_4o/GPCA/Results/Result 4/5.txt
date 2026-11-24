@@ -1,0 +1,39 @@
+G1: Operational safety is verified in the GPCA system.
+G2: All operational hazards are mitigated.
+G3: Over-infusion hazard is mitigated.
+G3: Under-infusion hazard is mitigated.
+G4: Under-infusion hazard is mitigated under low battery scenario.
+G4: Over-infusion hazard is mitigated under high flow rate scenario.
+G5: Low battery spec is appropriate for low battery scenario.
+G5: High flow rate spec is appropriate for high flow rate scenario.
+G6: Low battery property is appropriate for low battery spec.
+G6: High flow rate property is appropriate for high flow rate spec.
+G7: Low battery property source is appropriate and trustworthy.
+G7: High flow rate property source is appropriate and trustworthy.
+G8: Low battery property definition is sufficient.
+G8: High flow rate property definition is sufficient.
+S1: Argument over the satisfaction of all specs over the GPCA system. (Undeveloped)
+S2: Argument over reliability in all suitable levels of the GPCA system. (Undeveloped)
+S3: Argument over operational hazards.
+S4: Argument over the applied scenarios of Over-infusion hazard.
+S4: Argument over the applied scenarios of Under-infusion hazard.
+S5: Argument over all specs related to high flow rate scenario.
+S5: Argument over all specs related to low battery scenario.
+S6: Argument on the appropriateness of low battery spec over properties.
+S6: Argument on the appropriateness of high flow rate spec over properties.
+S7: Argument over the source of the low battery property definition.
+S7: Argument over the source of the high flow rate property definition.
+C1: All specs are given by GPCA system.
+C2: Operational hazards are given by GPCA operational hazards.
+C3: All related scenarios are given by Over-infusion scenarios.
+C4: All related specs are given by high flow rate scenario specs.
+C5: Properties are given by high flow rate spec properties.
+C3: All related scenarios are given by Under-infusion scenarios.
+C4: All related specs are given by low battery scenario specs.
+C5: Properties are given by low battery spec properties.
+C6: Source is given by low battery property source.
+C6: Source is given by high flow rate property source.
+Sn1: Documented clinical guidelines.
+Sn1: Documented engineering specs.
+Sn2: Reliability test results.
+Sn2: Verified by clinical trials.

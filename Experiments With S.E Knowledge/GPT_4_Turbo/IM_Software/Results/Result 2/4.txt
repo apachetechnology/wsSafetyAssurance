@@ -1,0 +1,27 @@
+G1: Instant Messaging (IM) software is acceptably secure in digital communication platforms
+G2: All identified IM software critical assets are protected
+G3: User account information is protected
+G3: Registration process is protected
+G3: Authentication information is protected
+G3: Login process is protected
+G3: Chat logs are protected
+G4: User account information, a Data Storage type asset, is secured.
+G4: Registration process, a Process type asset, is secured.
+G4: Authentication information, a Data Exchange type asset, is secured.
+G4: Login process, a Process type asset, is secured.
+G4: Chat logs, a Data Storage type asset, is secured.
+S1: Argument that IM software assets are under protection
+S2: Argument over individual protection of all critical IM software assets
+S3: Asset-specific protection argument based on PEDD classification.
+S3: Asset-specific protection argument based on PEDD classification.
+S3: Asset-specific protection argument based on PEDD classification.
+S3: Asset-specific protection argument based on PEDD classification.
+S3: Asset-specific protection argument based on PEDD classification.
+C1: Instant Messaging (IM) software allows real-time text transmission between users.
+C2: In the context of digital communication platforms used by individuals and organizations.
+C3: 'Acceptably secure' means ensuring the confidentiality, integrity, and availability of communication.
+C4: Critical assets include registration information, user account info, authentication info, login process, chat logs.
+C5: Asset categories in PEDD: Process, Environment Entity, Data Exchange, Data Storage.
+J1: Protecting software assets ensures the software is secure enough for use in sensitive communications.
+J2: Each asset plays a critical role in overall security, allowing precise control.
+J3: Classifying assets according to PEDD provides structured protection oversight.

@@ -1,0 +1,23 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G4: Overinfusion is mitigated under excessive bolus requests scenario
+G5: Flow rate sensor is appropriate for excessive bolus requests
+G6: Flow rate sensing property is appropriate for flow rate sensor spec
+G7: FDA standard is appropriate and trustworthy
+G8: Flow rate sensing property definition is sufficient
+S1: Argument over the satisfaction of all safety requirements over GPCA system
+S2: Argument over reliability in all suitable levels of GPCA system
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of overinfusion
+S5: Argument over all specs related to excessive bolus requests
+S6: Argument the appropriateness of flow rate sensor over properties
+S7: Argument over the source of the flow rate sensing property definition
+C1: All specs are given by safety requirements (SR)
+C2: Operational hazards are given by overinfusion and underinfusion
+C3: All related scenarios are given by overinfusion scenarios
+C4: All related specs are given by SR1.10, SR6.1.3, SR6.1.4
+C5: Properties are given by safety specification properties
+C6: Source is given by FDA standard
+Sn1: Citation or evidence supporting FDA standard's trustworthiness
+Sn2: Evidence or documentation proving adequacy of the flow rate sensing property definition

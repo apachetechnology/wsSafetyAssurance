@@ -1,0 +1,30 @@
+G1: IM software is acceptably secure in the system
+G2: All identified IM software critical assets are protected
+G3: Registration information is protected
+G3: Registration process is protected
+G3: User account information is protected
+G3: Authentication information is protected
+G3: Login process is protected
+G3: Chat logs are protected
+G4: Registration information which belongs to Data Storage is protected
+G4: Registration process which belongs to Process is protected
+G4: User account information which belongs to Data Storage is protected
+G4: Authentication information which belongs to Data Exchange is protected
+G4: Login process which belongs to Process is protected
+G4: Chat logs which belong to Data Storage is protected
+S1: Argument that IM software assets are under protection
+S2: Respective arguments for IM software critical assets
+S3: Argument of the type which the software critical asset belongs to
+S3: Argument of the type which the software critical asset belongs to
+S3: Argument of the type which the software critical asset belongs to
+S3: Argument of the type which the software critical asset belongs to
+S3: Argument of the type which the software critical asset belongs to
+S3: Argument of the type which the software critical asset belongs to
+C1: Description of IM software A software platform used for direct text, voice, and video communications between users.
+C2: Definition of the system The entire digital architecture and networks where IM software operates including servers, user devices, and internet connectivity.
+C3: Definition of acceptably secure Meeting all operational security standards, ensuring data confidentiality, integrity, and availability.
+C4: List of IM software critical assets – Registration information, Registration process, User account information, Authentication information, Login process, Chat logs.
+C5: List of software critical asset types in PEDD Process, Environment Entity, Data Exchange, Data Storage.
+J1: Protection of software assets supports that IM software is acceptably secure
+J2: The relationship between assets is clear and can be argued separately
+J3: Types of software assets are according to PEDD

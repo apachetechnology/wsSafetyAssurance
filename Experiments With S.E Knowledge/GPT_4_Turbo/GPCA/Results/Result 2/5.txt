@@ -1,0 +1,17 @@
+G1: Operational Safety is Verified in GPCA System
+G2: All Operational Hazards are Mitigated
+G3: Overinfusion is Mitigated
+G4: Overinfusion is Mitigated Under Scenario "Bolus volume/concentration too high"
+G5: Flow rate sensor is appropriate for "Bolus volume/concentration too high"
+G6: Property 'Flow rate less than 90% of the programmed rate setting' is appropriate for 'Flow rate sensor'
+G7: Source 'FDA standard' is appropriate and trustworthy
+G8: Property definition 'Flow rate less than 90% of the programmed rate' is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (Undeveloped)
+S2: Argument Over Reliability in All Suitable Levels of GPCA System (Undeveloped)
+S3: Argument Over Operational Hazards
+S4: Argument over the Applied Scenarios of Overinfusion
+S5: Argument over all specs related to "Bolus volume/concentration too high"
+S6: Argument the appropriateness of 'Flow rate sensor' over properties
+S7: Argument Over the Source of the Property Definition
+Sn1: FDA approval documentation
+Sn2: Scientific studies confirming accuracy of this threshold

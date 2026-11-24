@@ -1,0 +1,39 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3.1: operational hazard1 is mitigated
+G3.2: operational hazard2 is mitigated
+G4.1: operational hazard1 is mitigated under scenario1
+G4.2: operational hazard2 is mitigated under scenario2
+G5.1: spec1 is appropriate for scenario1
+G5.2: spec2 is appropriate for scenario2
+G6.1: property1 is appropriate for spec1
+G6.2: property2 is appropriate for spec2
+G7.1: Source1 is appropriate and trustworthy
+G7.2: Source2 is appropriate and trustworthy
+G8.1: property1 definition is sufficient
+G8.2: property2 definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (Undeveloped)
+S2: Argument over reliability in all suitable levels of GPCA system (Undeveloped)
+S3: Argument over operational hazards
+S4.1: Argument over the applied scenarios of operational hazard1
+S4.2: Argument over the applied scenarios of operational hazard2
+S5.1: Argument over all specs related to scenario1
+S5.2: Argument over all specs related to scenario2
+S6.1: Argument the appropriateness of spec1 over properties
+S6.2: Argument the appropriateness of spec2 over properties
+S7.1: Argument over the source of the property1 definition
+S7.2: Argument over the source of the property2 definition
+C1: All specs are given by spec.allInstances()
+C2: Operational hazards are given by operational hazard.allInstances()
+C3.1: All related scenarios are given by operational hazard1
+C3.2: All related scenarios are given by operational hazard2
+C4.1: All related specs are given by scenario1.spec.allInstances()
+C4.2: All related specs are given by scenario2.spec.allInstances()
+C5.1: Properties are given by spec1.property.allInstances()
+C5.2: Properties are given by spec2.property.allInstances()
+C6.1: Source is given by property1.source
+C6.2: Source is given by property2.source
+Sn1.1: source1
+Sn1.2: source2
+Sn2.1: property1
+Sn2.2: property2

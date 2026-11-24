@@ -1,0 +1,22 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: PCA operational hazard is mitigated
+G4: PCA operational hazard is mitigated under specific scenario
+G5: Spec for drug delivery is appropriate for specific scenario
+G6: Drug dosage property is appropriate for drug delivery spec
+G7: Source of drug property definition is appropriate and trustworthy
+G8: Drug dosage property definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (UNDEVELOPED)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of PCA operational hazard
+S5: Argument over all specs related to specific scenario
+S6: Argument the appropriateness of spec over properties
+S7: Argument over the source of the property definition
+C1: All specs are given by GPCA spec instances
+C2: Operational hazards are given by PCA operational hazard instances
+C3: All related scenarios are given by PCA operational hazard scenarios
+C4: All related specs are given by specific scenario specs instances
+C5: Properties are given by spec properties instances
+C6: Source is given by drug dosage property source
+Sn1: Verified source documentation
+Sn2: Drug dosage validation report

@@ -1,0 +1,22 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G4: Overinfusion is mitigated under scenario of flow rate mismatch
+G5: Flow rate sensor is appropriate for flow rate mismatch
+G6: Property of flow rate less than 90% is appropriate for flow rate sensor
+G7: FDA standards are appropriate and trustworthy
+G8: Property definition of less than 90% flow rate is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system
+S3: Argument over operational hazards related to Overinfusion and Underinfusion
+S4: Argument over the applied scenarios of Overinfusion
+S5: Argument over all specs related to flow rate mismatch
+S6: Argument the appropriateness of flow rate sensor over properties
+S7: Argument over the source of the property definition
+C1: All specs are given by FDA standard: Expertise opinion: and Previous knowledge
+C2: Operational hazards are given by Overinfusion and Underinfusion hazards
+C3: All related scenarios include flow rate mismatch: excessive bolus requests
+C4: All related specs are given by FDA standards
+C5: Properties are given by setting limits and triggering alarms
+C6: Source is given by FDA standards
+Sn1: source as FDA standards
+Sn2: property definition related to flow rate limits and alarms

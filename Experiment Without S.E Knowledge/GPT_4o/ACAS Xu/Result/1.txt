@@ -1,0 +1,44 @@
+G1: ACAS Xu is acceptably secure
+S1: ACAS Xu security requirements are satisfied
+S2: ACAS Xu prevents unauthorized access
+S3: ACAS Xu detects and mitigates threats effectively
+S4: ACAS Xu ensures data integrity and availability
+S5: ACAS Xu security is maintained throughout its lifecycle
+S6: Secure development practices are followed
+S7: Deployment and operations follow security protocols
+S8: Secure decommissioning procedures are in place
+S9: ACAS Xu security assurance is communicated and reviewed
+S10: ACAS Xu undergoes rigorous security testing
+S11: ACAS Xu security posture is continuously monitored and improved
+C1: Security requirements associated with preventing unauthorized access
+C2: Security requirements associated with detecting and mitigating threats
+C3: Security requirements associated with data integrity and availability
+C4: Security during the development phase
+C5: Security during the deployment and operational phase
+C6: Security during the decommissioning phase
+C7: Comprehensive security testing is conducted and documented
+C8: Continuous security monitoring and improvement
+J1: Compliance with industry security standards (e.g., DO-326A)
+J2: Adherence to threat mitigation best practices
+J3: Adoption of secure data communication protocols
+J4: Use of security-focused development frameworks
+J5: Ongoing security monitoring and updates
+J6: Conformance to decommissioning security standards
+J7: Regular updates to the security test suite
+J8: Implementation of a continuous security improvement plan
+E1: Penetration testing results
+E2: Access control mechanisms documentation
+E3: Threat detection algorithm analysis
+E4: Incident response logs
+E5: Data redundancy and recovery plans
+E6: Integrity checks and balance mechanisms
+E7: Secure coding standards and guidelines
+E8: Development team security training records
+E9: Security audits and reviews
+E10: Secure deployment configurations
+E11: Data destruction and sanitization reports
+E12: Decommissioning process documentation
+E13: Security test cases and results
+E14: Third-party security assessment reports
+E15: Security incident reports and resolutions
+E16: Security updates and patch logs

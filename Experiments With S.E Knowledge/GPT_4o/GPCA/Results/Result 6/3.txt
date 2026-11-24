@@ -1,0 +1,54 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G3: Underinfusion is mitigated
+G3: Dose limit exceeded due to excessive bolus requests is mitigated
+G4: Overinfusion is mitigated under the scenario: Flow rate does not match the programmed rate
+G4: Underinfusion is mitigated under the scenario: Flow rate is less than 90% of the programmed rate setting
+G4: Dose limit exceeded due to excessive bolus requests is mitigated under the scenario: Bolus volume/concentration too high
+G5: The spec SR1.1 is appropriate for the scenario: Bolus volume/concentration too high
+G5: The spec SR6.1.3 is appropriate for the scenario: Flow rate does not match the programmed rate
+G5: The spec SR1.5 is appropriate for the scenario: Flow rate is less than 90% of the programmed rate setting
+G6: Period (to trigger the underinfusion alarm) is 15 minutes is appropriate for SR6.1.3
+G6: Flow rate is less than 90% of the programmed rate setting is appropriate for SR1.5
+G6: Flow rate sensor is equipped is appropriate for SR1.1
+G7: FDA standard is appropriate and trustworthy
+G7: Expert opinion is appropriate and trustworthy
+G7: Previous knowledge is appropriate and trustworthy
+G8: Period (to trigger the underinfusion alarm) is 15 minutes definition is sufficient
+G8: Flow rate is less than 90% of the programmed rate setting definition is sufficient
+G8: Flow rate sensor is equipped definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Underinfusion
+S4: Argument over the applied scenarios of Dose limit exceeded due to excessive bolus requests
+S4: Argument over the applied scenarios of Overinfusion
+S5: Argument over all specs related to the scenario: Flow rate does not match the programmed rate
+S5: Argument over all specs related to the scenario: Flow rate is less than 90% of the programmed rate setting
+S5: Argument over all specs related to the scenario: Bolus volume/concentration too high
+S6: Argument the appropriateness of SR1.1 over properties
+S6: Argument the appropriateness of SR6.1.3 over properties
+S6: Argument the appropriateness of SR1.5 over properties
+S7: Argument over the source of the property definition
+S7: Argument over the source of the property definition
+S7: Argument over the source of the property definition
+C1: All specs are given by spec.allInstances()
+C2: Operational hazards are given by operational hazard.allInstances()
+C3: All related scenarios are given by Overinfusion
+C3: All related scenarios are given by Underinfusion
+C3: All related scenarios are given by Dose limit exceeded due to excessive bolus requests
+C4: All related specs are given by scenario.spec.allInstances()
+C4: All related specs are given by scenario.spec.allInstances()
+C4: All related specs are given by scenario.spec.allInstances()
+C5: Properties are given by spec.property.allInstances()
+C5: Properties are given by spec.property.allInstances()
+C5: Properties are given by spec.property.allInstances()
+C6: Source is given by property.source
+C6: Source is given by property.source
+C6: Source is given by property.source
+Sn1: FDA standard
+Sn2: Period (to trigger the underinfusion alarm) is 15 minutes
+Sn1: Expert opinion
+Sn1: Previous knowledge
+Sn2: Flow rate is less than 90% of the programmed rate setting
+Sn2: Flow rate sensor is equipped

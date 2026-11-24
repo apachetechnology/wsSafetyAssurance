@@ -1,0 +1,41 @@
+G1: Operational safety is verified in Generic PatientControlled Analgesia (GPCA) system
+G2: All operational hazards are mitigated
+G3: "Overinfusion" is mitigated
+G3: "Underinfusion" is mitigated
+G4: "Overinfusion" is mitigated under "Flow rate does not match the programmed rate"
+G4: "Underinfusion" is mitigated under "Flow rate is less than 90% of the programmed rate setting"
+G5: SR6.1.4 is appropriate for "Flow rate is less than 90% of the programmed rate setting"
+G5: SR1.1 is appropriate for "Flow rate does not match the programmed rate"
+G6: "Period (to trigger the underinfusion alarm) is 15 minutes" is appropriate for SR6.1.4
+G6: "Flow rate sensor is equipped" is appropriate for SR1.1
+G7: Source (FDA standard) is appropriate and trustworthy
+G7: Source (Expertise opinion) is appropriate and trustworthy
+G8: "Flow rate sensor is equipped" definition is sufficient
+G8: "Period (to trigger the underinfusion alarm) is 15 minutes" definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (Undeveloped)
+S2: Argument over reliability in all suitable levels of GPCA system (Undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of "Overinfusion"
+S4: Argument over the applied scenarios of "Underinfusion"
+S5: Argument over all specs related to "Flow rate does not match the programmed rate"
+S5: Argument over all specs related to "Flow rate is less than 90% of the programmed rate setting"
+S6: Argument the appropriateness of SR1.1 over properties
+S6: Argument the appropriateness of SR6.1.4 over properties
+S7: Argument over the source of the "Flow rate sensor is equipped" definition
+S7: Argument over the source of the "Period (to trigger the underinfusion alarm) is 15 minutes" definition
+C1: All specs are given by GPCA system
+C2: Operational hazards are given by operational hazard.allInstances()
+C2: Operational hazards are given by operational hazard.allInstances()
+C3: All related scenarios are given by operational hazard
+C3: All related scenarios are given by operational hazard
+C3: All related scenarios are given by operational hazard
+C4: All related specs are given by scenario.spec.allinstances()
+C4: All related specs are given by scenario.spec.allinstances()
+C5: Properties are given by spec.property.allInstances()
+C5: Properties are given by spec.property.allinstances()
+C6: Source is given by property.source
+C6: Source is given by property.source
+Sn1: FDA standard
+Sn1: Expertise opinion
+Sn2: Flow rate sensor is equipped
+Sn2: Period (to trigger the underinfusion alarm) is 15 minutes

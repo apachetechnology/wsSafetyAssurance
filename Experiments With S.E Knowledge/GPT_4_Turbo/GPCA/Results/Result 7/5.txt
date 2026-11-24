@@ -1,0 +1,23 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G3: Underinfusion is mitigated 
+G4: Overinfusion is mitigated under specific scenarios
+G5: Specific spec is appropriate for specific scenario
+G6: Specific property is appropriate for specific spec
+G7: FDA standard is appropriate and trustworthy
+G8: Property definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of overinfusion
+S5: Argument over all specs related to specific scenarios
+S6: Argument the appropriateness of specific spec over properties
+S7: Argument over the source of the property definition
+C1: All specs are given by {FDA standard: Expertise opinion: Previous knowledge}
+C2: Operational hazards are given by {overinfusion: underinfusion}
+C3: All related scenarios are given by overinfusion
+C4: All related specs are given by specific scenario specs
+C5: Properties are given by specific spec properties
+C6: Source is given by property source
+Sn1: FDA standard validation
+Sn2: Definition adequacy documentation

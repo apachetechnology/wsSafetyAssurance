@@ -1,0 +1,25 @@
+Goal: ACAS Xu is safe and secure for operational use
+Goal: ACAS Xu avoids mid-air collisions (Safety)
+Goal: ACAS Xu resists unauthorized access and tampering (Security)
+Sub-goal: Mid-air collision avoidance algorithms are formally verified
+Sub-goal: System is validated in relevant operational scenarios
+Sub-goal: Software integrity is maintained
+Sub-goal: Hardware is tamper-resistant
+Sub-goal: Communication subsystem is secure
+Strategy: Decompose safety and security argument by aspects
+Strategy: Use of formal verification and validation methods
+Strategy: Decompose the security argument by components
+Context: ACAS Xu operational environment
+Context: Potential threat model for ACAS Xu
+Assumption: ACAS Xu receives accurate and timely data
+Assumption: Adequate cryptographic measures are implemented
+Evidence: Formal proof of algorithm correctness
+Evidence: Simulation results
+Evidence: Test results from simulation environments
+Evidence: Flight test results
+Evidence: Security analysis of communication protocols
+Evidence: Results from penetration testing
+Evidence: Code signing and verification process
+Evidence: Results from static and dynamic code analysis
+Evidence: Design assessment of tamper-resistance features
+Evidence: Results from physical security testing

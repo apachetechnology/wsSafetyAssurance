@@ -1,0 +1,28 @@
+G1: Ensure the overall security of the IM software
+G2: Ensure encryption of messages
+G3: Use state-of-the-art encryption algorithms
+G4: Ensure the keys are securely generated and stored
+G5: Authenticate users securely
+G6: Protect data at rest
+G7: Meet GDPR requirements for data protection and privacy
+G8: Achieve ISO/IEC 27001 certification
+Sn1: Address security by following a multi-layered approach
+Sn2: Implement end-to-end encryption
+Sn3: Use multi-factor authentication
+Sn4: Use strong data storage encryption and access controls
+Sn5: Comply with international security standards and regulations
+C1: The IM software is used globally across different devices and platforms
+C2: Users range from individual consumers to large enterprises
+A1: Users have access to secure internet connections
+A2: Regulatory requirements are stable over the next five years
+J1: Adoption of AES-256 is based on its widespread acceptance and recommendation by security experts
+J2: Multi-factor authentication significantly reduces the risk of unauthorized access
+S1: Establish, implement, maintain and continually improve an information security management system (ISMS)
+S1: Implement data handling protocols that ensure data minimization and purpose limitation
+S1: Implement a two-factor authentication system
+S1: Encrypt local caches with device-specific keys
+S1: Implement AES with 256-bit keys for message encryption
+S1: Use a secure key generation protocol (e.g., Diffie-Hellman)
+S2: Store keys in a secure key vault
+S2: Use file access permissions to limit data access
+S2: Require biometric verification for accessing sensitive action

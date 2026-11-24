@@ -1,0 +1,41 @@
+G1: ACAS Xu is secure from unauthorized access and manipulation.
+G2: Data communication in ACAS Xu is secure.
+G3: Physical security of ACAS Xu components is ensured.
+G4: ACAS Xu software is secure from vulnerabilities.
+G5: ACAS Xu is resilient to cyber-attacks.
+S1: System-level security policies and procedures are implemented.
+S2: All communication channels are encrypted.
+S3: Integrity checks are performed on all data transfers.
+S4: ACAS Xu hardware is protected against physical tampering.
+S5: Access to ACAS Xu hardware is controlled and monitored.
+S6: All software components undergo regular security assessments.
+S7: Secure coding practices are followed in the development of ACAS Xu software.
+S8: Incident response plans are in place and regularly tested.
+S9: Continuous monitoring for potential cyber threats is in place.
+C1: Context of the organization's security policies.
+C2: Context of communication protocols used.
+C3: Context of data integrity mechanisms.
+C4: Context of physical security measures employed.
+C5: Context of access control mechanisms.
+C6: Context of security assessment procedures.
+C7: Context of secure coding standards.
+C8: Context of incident response plans.
+C9: Context of monitoring tools and strategies.
+A1: Assumption that organizational security policies are up-to-date.
+A2: Assumption that encryption standards are adhered to.
+A3: Assumption that integrity-check algorithms are robust.
+A4: Assumption that physical security standards are maintained.
+A5: Assumption that access control policies are enforced.
+A6: Assumption that security assessments are comprehensive.
+A7: Assumption that all developers are trained in secure coding.
+A8: Assumption that incident response plans cover all scenarios.
+A9: Assumption that monitoring systems are effective.
+E1: Evidence: Review of organizational security policy documentation.
+E2: Evidence: Encryption protocol certification.
+E3: Evidence: Logs showing successful integrity checks.
+E4: Evidence: Audit of physical security controls.
+E5: Evidence: Access logs and security cameras footage.
+E6: Evidence: Reports from recent security assessments.
+E7: Evidence: Code review records and developer training certificates.
+E8: Evidence: Results from recent incident response drills.
+E9: Evidence: Logs from monitoring systems showing detection of potential threats.

@@ -1,0 +1,15 @@
+G1: Hazards for BlueROV2 addressed in accordance with ALARP (As Low As Reasonably Practicable) principle.
+G2: No intolerable risks present in BlueROV2.
+G3: Risk from electrical system hazards has been reduced as low as reasonably practicable.
+G4: Model for electrical hazard propagation accurately describes potential failure cascades.
+G5: Quantitative risk estimates are accurate and below acceptable threshold.
+G9: State probability distribution used for risk estimation accurately reflects the BlueROV2’s dive scenarios. (undeveloped)
+G10: Estimated probability of severe damage is below allowable threshold for high severity class.
+S1: Argument by risk reduction/elimination of each hazard inherent to BlueROV2.
+S2: Argue that risk posed by any remaining hazards is negligible. (undeveloped)
+S3: Argue that no other risks have been identified in BlueROV2 operations. (undeveloped)
+S4: Apply ReSonAte to estimate level of risk from electrical hazard.
+C1: Definition of "intolerable" specific to underwater ROV operations.
+C2: Assigned severity class is high for electrical failure.
+A1: Function for electrical isolation requires manual activation is available.
+Sn1: Estimated risk level showing compliance with safety thresholds.

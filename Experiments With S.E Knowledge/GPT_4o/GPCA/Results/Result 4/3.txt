@@ -1,0 +1,38 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Operational hazard overdosing is mitigated
+G3: Operational hazard leaking is mitigated
+G4: Operational hazard overdosing is mitigated under software failure scenario
+G5: Software reliability spec is appropriate for software failure scenario
+G4: Operational hazard leaking is mitigated under pump failure scenario
+G5: Pump reliability spec is appropriate for pump failure scenario
+G6: Performance property is appropriate for software reliability spec
+G6: Reliability property is appropriate for pump reliability spec
+G7: Source of performance property is appropriate and trustworthy
+G7: Source of reliability property is appropriate and trustworthy
+G8: Performance property definition is sufficient
+G8: Reliability property definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (Undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of operational hazard
+S4: Argument over the applied scenarios of operational hazard
+S5: Argument over all specs related to pump failure scenario
+S5: Argument over all specs related to software failure scenario
+S6: Argument the appropriateness of software reliability spec over properties
+S6: Argument the appropriateness of pump reliability spec over properties
+S7: Argument over the source of the performance property definition
+S7: Argument over the source of the reliability property definition
+C1: All specs are given by GPCA system specs
+C2: Operational hazards are given by GPCA system operational hazards
+C3: All related scenarios are given by operational hazard scenarios
+C3: All related scenarios are given by operational hazard scenarios
+C4: All related specs are given by pump failure scenario specs
+C4: All related specs are given by software failure scenario specs
+C5: Properties are given by pump reliability spec properties
+C5: Properties are given by software reliability spec properties
+C6: Source is given by reliability property source
+C6: Source is given by performance property source
+Sn1: Source document from reliable manufacturer
+Sn1: Source document from software developer
+Sn2: Sufficient performance property definition provided by software documentation
+Sn2: Sufficient reliability property definition provided by technical specification

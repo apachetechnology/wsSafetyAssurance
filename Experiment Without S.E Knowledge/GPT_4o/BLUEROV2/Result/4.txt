@@ -1,0 +1,44 @@
+Goal: Ensure the BlueROV2 system is operationally safe and effective.
+Goal: Ensure the BlueROV2 system is safe.
+Goal: Ensure the hardware is safe.
+Goal: Ensure the software is safe.
+Goal: Ensure the BlueROV2 system is reliable.
+Goal: Ensure proper operational procedures are in place.
+Goal: Ensure system redundancy.
+Goal: Ensure regular maintenance is conducted.
+Goal: Ensure rigorous testing.
+Goal: Ensure the BlueROV2 system performs effectively.
+Goal: Ensure operational capabilities meet requirements.
+Goal: Ensure positive user feedback.
+Goal: Ensure compliance with regulatory standards.
+Strategy: Argue over safety, reliability, and performance.
+Strategy: Argue over hardware safety, software safety, and procedural safety.
+Strategy: Argue over redundancy, maintenance, and testing practices.
+Strategy: Argue about operational capabilities, user feedback, and compliance.
+Context: Hardware specifications and design documents.
+Context: Software development plan.
+Context: Operational manuals, emergency procedures.
+Context: System architecture design.
+Context: Testing protocols.
+Context: Performance specifications.
+Context: List of applicable regulations.
+Context: User engagement plan.
+Context: Maintenance schedule.
+Solution: Use IEC 61508 safety standard for electronic hardware.
+Solution: Develop software according to ISO/IEC 12207 for software lifecycle processes.
+Solution: Establish operational and emergency procedures following industry best practices.
+Solution: Implement redundant systems for critical components.
+Solution: Follow a scheduled maintenance plan.
+Solution: Perform environmental and operational testing.
+Solution: Validate capability through field tests and simulations.
+Solution: Conduct systematic user surveys and feedback collection.
+Solution: Assess system against relevant underwater vehicle regulations.
+Evidence: Test reports, inspection records.
+Evidence: Code reviews, static analysis reports.
+Evidence: Training records, drill reports.
+Evidence: Component redundancy diagrams, fault tolerance analysis.
+Evidence: Field test reports, simulation results.
+Evidence: User feedback records, satisfaction surveys.
+Evidence: Maintenance logs, inspection records.
+Evidence: Test results, qualification reports.
+Evidence: Compliance audit reports, certification documents.

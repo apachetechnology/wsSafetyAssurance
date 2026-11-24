@@ -1,0 +1,17 @@
+G1: Interpretability Claim. The DeepMind's ML model is sufficiently interpretable in the clinical pathway for retinal diagnosis.
+G2: Right Method. The neural network segmentation maps are implemented ensuring that correct information is faithfully being explained.
+G3: Right Context. Interpretations are produced in the clinical setting where decisions are made.
+G4: Right Format. Neural network outputs, including segmentation maps, are presented in schematic formats recognizable by clinicians. (Undeveloped)
+G5: Right Time. Interpretations produced at the appropriate time during the diagnostic process.
+G6: Right Setting. Interpretations are available in the clinical software during live consultations.
+G7: Right Audience. Interpretations produced specifically for retinal clinicians.
+G8: Interpretability method of segmentation maps is the right type (i.e., both local and global explanations are included).
+G9: Interpretability method of segmentation maps is suitably faithful to the neural network processes.
+C1: DeepMind system uses neural networks to predict diseases from retinal scans.
+C2: Interpretability is defined as the clarity of model output reasoning in order to mimic clinician decision-making paths.
+C3: The model context includes its application within real-time clinical settings, focusing on user (clinician) interactions.
+C4: Essential aspects of interpretability include transparency and the ability of clinicians to understand and validate outputs.
+C5: Interpretability methods include segmentation maps and diagnostic confidence levels.
+C6: Information presented includes both raw and interpreted data suitable for clinician review.
+S1: Argument based on the essential aspects of interpretability.
+S2: Argument over interpretability methods.

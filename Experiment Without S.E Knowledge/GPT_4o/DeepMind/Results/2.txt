@@ -1,0 +1,28 @@
+G1: Demonstrate the interpretability of the DeepMind ML enabled system.
+G1.1: Ensure the system's decision-making process is transparent.
+G1.1.1: Provide model explainability methods.
+G1.2: Validate the quality of the explanations provided.
+G1.2.1: Conduct user studies to measure understandability.
+G1.2.2: Ensure alignment between explanations and the model's internal logic.
+G1.3: Documentation and communication of the interpretability features.
+G1.3.1: Generate comprehensive documentation.
+G1.3.2: Train users and stakeholders on interpretability tools.
+G1.4: Continuous improvement of interpretability.
+G1.4.1: Implement feedback loops for continuous monitoring and improvement.
+S1: Use interpretable models or post-hoc explanation methods.
+S2: Survey end-users and experts on explanation quality.
+S3: Cross-verify with domain experts.
+S4: Document methodologies, tools, and results.
+S5: Develop and deliver training sessions.
+S6: Regularly update interpretable models and explanation methods.
+C1: Use diverse demographic samples in studies.
+C2: Follow standard documentation practices.
+J1: Keeping the system up-to-date with the latest research and user feedback is crucial.
+A1: Domain experts have adequate knowledge and are unbiased.
+Sn: Implement interpretable models such as decision trees.
+Sl: Apply post-hoc explanation methods like SHAP or LIME.
+Sm: Design and administer user studies and surveys.
+Sp: Conduct expert reviews on the generated explanations.
+Sd: Create detailed reports and manuals.
+St: Create training materials and conduct workshops.
+Su: Establish a process for periodic reviews and updates.

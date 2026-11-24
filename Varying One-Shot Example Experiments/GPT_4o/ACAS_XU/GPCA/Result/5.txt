@@ -1,0 +1,42 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G3: Underinfusion is mitigated
+G3: Dose limit exceeded due to excessive bolus requests is mitigated
+G3: Bolus volume/concentration too high is mitigated
+G4: Overinfusion is mitigated under scenario 1
+G4: Overinfusion is mitigated under scenario 2 (undeveloped)
+G4: Overinfusion is mitigated under scenario 3 (undeveloped)
+G4: Underinfusion is mitigated under scenario 1 (undeveloped)
+G4: Underinfusion is mitigated under scenario 2 (undeveloped)
+G4: Underinfusion is mitigated under scenario 3 (undeveloped)
+G4: Dose limit exceeded due to excessive bolus requests is mitigated under scenario 1 (undeveloped)
+G4: Dose limit exceeded due to excessive bolus requests is mitigated under scenario 2 (undeveloped)
+G4: Dose limit exceeded due to excessive bolus requests is mitigated under scenario 3 (undeveloped)
+G4: Bolus volume/concentration too high is mitigated under scenario 1 (undeveloped)
+G4: Bolus volume/concentration too high is mitigated under scenario 2 (undeveloped)
+G4: Bolus volume/concentration too high is mitigated under scenario 3 (undeveloped)
+G5: SR1.1 is appropriate for scenario 1
+G6: Flow rate sensor is appropriate for SR1.1
+G7: FDA standard is appropriate and trustworthy
+G8: Flow rate sensor definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (undeveloped)
+S2: Argument over reliability in all suitable levels of GPCA system (undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Underinfusion
+S4: Argument over the applied scenarios of Dose limit exceeded due to excessive bolus requests
+S4: Argument over the applied scenarios of Bolus volume/concentration too high
+S4: Argument over the applied scenarios of Overinfusion
+S5: Argument over all specs related to scenario 1
+S6: Argument the appropriateness of SR1.1 over properties
+S7: Argument over the source of the Flow rate sensor definition
+C1: All specs are given by GPCA spec.allInstances()
+C2: Operational hazards are given by operational hazard.allInstances()
+C3: All related scenarios are given by Overinfusion
+C3: All related scenarios are given by Underinfusion
+C3: All related scenarios are given by Dose limit exceeded due to excessive bolus requests
+C3: All related scenarios are given by Bolus volume/concentration too high
+C4: All related specs are given by scenario 1.spec.allInstances()
+C5: Properties are given by SR1.1.property.allInstances()
+Sn1: FDA standard
+Sn2: Flow rate sensor

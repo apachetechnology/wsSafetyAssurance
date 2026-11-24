@@ -1,0 +1,18 @@
+G1: Instant Messaging (IM) software is acceptably secure in the messaging system.
+G2: All identified IM software critical assets are protected
+G3: IM software critical asset is protected
+G4: User data which belongs to private data is protected
+G4: Message history which belongs to private data is protected
+G4: Encryption keys which belong to security data are protected
+G4: Server access which belongs to internal system access is protected
+S1: Argument that IM software assets are under protection
+S2: Respective arguments of IM software critical assets
+S3: Argument of the type which the IM software critical asset belongs to
+C1: Definition and description of Instant Messaging (IM) software
+C2: Definition and description of the messaging system
+C3: Definition of acceptably secure
+C4: List of IM software critical assets
+C5: List of software critical asset types in PEDD
+J1: Protection of software assets supports that IM software is acceptably secure
+J2: Relationship between assets is clear and can be argued separately
+J3: Types of IM software assets are according to PEDD

@@ -1,0 +1,64 @@
+G1: Operational safety is verified in GPCA system.
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G3.1: Underinfusion is mitigated
+G4.0: Overinfusion is mitigated under Scenario 1
+G4.0: Underinfusion is mitigated under Scenario 1
+G4.1: Underinfusion is mitigated under Scenario 2
+G4.1: Overinfusion is mitigated under Scenario 2
+G5.0: Spec1 is appropriate for Scenario 1
+G5.0: Spec1 is appropriate for Scenario 1
+G5.1: Spec2 is appropriate for Scenario 2
+G5.1: Spec2 is appropriate for Scenario 2
+G6.0: Property1 is appropriate for Spec1
+G6.0: Property1 is appropriate for Spec1
+G6.1: Property2 is appropriate for Spec2
+G6.1: Property2 is appropriate for Spec2
+G7: Source is appropriate and trustworthy
+G7: Source is appropriate and trustworthy
+G7: Source is appropriate and trustworthy
+G7: Source is appropriate and trustworthy
+G8: Property1 definition is sufficient
+G8: Property2 definition is sufficient
+G8: Property1 definition is sufficient
+G8: Property2 definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Overinfusion
+S4: Argument over the applied scenarios of Underinfusion
+S5: Argument over all specs related to Scenario 1
+S5: Argument over all specs related to Scenario 1
+S5: Argument over all specs related to Scenario 2
+S5: Argument over all specs related to Scenario 2
+S6: Argument the appropriateness of Spec1 over properties
+S6: Argument the appropriateness of Spec1 over properties
+S6: Argument the appropriateness of Spec2 over properties
+S6: Argument the appropriateness of Spec2 over properties
+S7: Argument over the source of the Property1 definition
+S7: Argument over the source of the Property1 definition
+S7: Argument over the source of the Property2 definition
+S7: Argument over the source of the Property2 definition
+C1: All specs are given by GPCA system.allInstances()
+C2: Operational hazards are given by GPCA system.allInstances()
+C3: All related scenarios are given by Overinfusion
+C3: All related scenarios are given by Underinfusion
+C4: All related specs are given by Scenario 1.spec.allinstances()
+C4: All related specs are given by Scenario 1.spec.allinstances()
+C4: All related specs are given by Scenario 2.spec.allinstances()
+C4: All related specs are given by Scenario 2.spec.allinstances()
+C5: Properties are given by Spec1.property.allinstances()
+C5: Properties are given by Spec1.property.allinstances()
+C5: Properties are given by Spec2.property.allinstances()
+C5: Properties are given by Spec2.property.allinstances()
+C6: Source is given by Property1.source
+C6: Source is given by Property1.source
+C6: Source is given by Property2.source
+C6: Source is given by Property2.source
+Sn1: source: "FDA standard"
+Sn1: source: "FDA standard"
+Sn1: source: "Expertise opinion"
+Sn1: source: "Previous knowledge"
+Sn2: property: "Flow rate sensor is equipped"
+Sn2: property: "Period (to trigger underinfusion alarm) is 15 minutes"
+Sn2: property: "Bolus volume/concentration too high"
+Sn2: property: "Flow rate less than 90% of programmed rate setting"

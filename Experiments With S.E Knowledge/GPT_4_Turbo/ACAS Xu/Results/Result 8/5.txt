@@ -1,0 +1,18 @@
+G0: ACAS Xu satisfies security requirements
+G1: ACAS Xu satisfies the asset protection requirements
+G2: ACAS Xu satisfies secure development requirements (undeveloped)
+G3: Asset protection requirements are met during the architecture design phase
+G4: Asset protection requirements are met during other phases for ACAS Xu (undeveloped)
+G5: ACAS Xu architecture is protected against identified security threats
+G0.X: ACAS Xu architecture is protected against specific identified security threat X (undeveloped: awaiting specific threat identification)
+S0: Argue through asset protection and secure development requirements
+S1: Argue through the different stages of the ACAS Xu development life cycle
+S2: Argue through deriving security threats from SRs
+S3: Argue over each security threat to ACAS Xu architecture
+C0: Description of ACAS Xu as an airborne collision avoidance system
+C1: SRs are requirements about protecting the ACAS Xu system from security threats
+C2: Description of the ACAS Xu architecture
+J0: The argumentation is based on satisfaction of SRs
+A0: ACAS Xu system SRS are complete: adequate: and consistent
+A1: Asset inventory is established for ACAS Xu
+A2: All relevant threats to ACAS Xu have been identified

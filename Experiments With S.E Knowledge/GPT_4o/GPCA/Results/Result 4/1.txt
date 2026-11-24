@@ -1,0 +1,19 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Operational hazard 1 is mitigated
+G4: Operational hazard 1 is mitigated under scenario 1
+G5: Spec 1 is appropriate for scenario 1
+G6: Property 1 is appropriate for spec 1
+G7: Source of Property 1 is appropriate and trustworthy
+G8: Property 1 definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system
+S2: Argument over reliability in all suitable levels of GPCA system
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of operational hazard 1
+S5: Argument over all specs related to scenario 1
+S6: Argument the appropriateness of spec 1 over properties
+S7: Argument over the source of the property 1 definition
+C1: All specs are given by spec.allInstances()
+C2: Operational hazards are given by operational hazard.allInstances()
+Sn1: Evidence of source appropriateness
+Sn2: Evidence of property sufficiency

@@ -1,0 +1,46 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3.1: Overinfusion is mitigated
+G3.2: Underinfusion is mitigated
+G4.1: Overinfusion is mitigated under "Flow rate does not match the programmed rate"
+G4.2: Underinfusion is mitigated under "Programmed rate too low"
+G5.1: Spec is appropriate for "Flow rate does not match the programmed rate"
+G5.2: Spec is appropriate for "Programmed rate too low"
+G6.1.1: Flow rate sensor is equipped is appropriate for Flow rate sensor spec
+G6.1.2: Period is 15 minutes is appropriate for underinfusion alarm period spec
+G6.1.3: Flow rate is less than 90% of programmed rate setting is appropriate for Flow rate spec
+G7.1: FDA standard is appropriate and trustworthy
+G7.2: Expertise opinion is appropriate and trustworthy
+G7.3: Previous knowledge is appropriate and trustworthy
+G8.1: Flow rate sensor is equipped definition is sufficient
+G8.2: Period is 15 minutes definition is sufficient
+G8.3: Flow rate is less than 90% of programmed rate setting definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (Undeveloped)
+S2: Argument over reliability in all suitable levels of GPCA system (Undeveloped)
+S3: Argument over operational hazards
+S4.1: Argument over the applied scenarios of Overinfusion
+S4.2: Argument over the applied scenarios of Underinfusion
+S5.1: Argument over all specs related to "Flow rate does not match the programmed rate"
+S5.2: Argument over all specs related to "Programmed rate too low"
+S6.1: Argument the appropriateness of spec over properties
+S6.2: Argument the appropriateness of spec over properties
+S7.1: Argument over the source of the Flow rate sensor is equipped definition
+S7.2: Argument over the source of the Period 15 minutes definition
+S7.3: Argument over the source of the Flow rate definition
+C1: All specs are given by spec.allInstances()
+C2: Operational hazards are given by operational hazard.allInstances()
+C3.1: All related scenarios are given by Overinfusion
+C3.2: All related scenarios are given by Underinfusion
+C4.1: All related specs are given by scenario.spec.allinstances()
+C4.2: All related specs are given by scenario.spec.allinstances()
+C5.1: Properties are given by spec.property.allinstances()
+C5.2: Properties are given by spec.property.allinstances()
+C6.1: Source is given by property.source
+C6.2: Source is given by property.source
+C6.3: Source is given by property.source
+Sn1.1: FDA standard
+Sn1.2: Expertise opinion
+Sn1.3: Previous knowledge
+Sn2.1: Flow rate sensor is equipped property
+Sn2.2: Period is 15 minutes property
+Sn2.3: Flow rate is less than 90% of programmed rate property

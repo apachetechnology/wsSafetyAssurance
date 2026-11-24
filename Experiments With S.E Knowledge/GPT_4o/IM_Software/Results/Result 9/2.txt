@@ -1,0 +1,30 @@
+G1: IM software is acceptably secure in its system
+G2: All identified IM software critical assets are protected
+G3.1: IM software critical asset 1 is protected
+G3.2: IM software critical asset 2 is protected
+G3.3: IM software critical asset 3 is protected
+G3.4: IM software critical asset 4 is protected
+G4.1: IM software critical asset 1 which belongs to type A is protected
+G4.2: IM software critical asset 2 which belongs to type B is protected
+G4.3: IM software critical asset 3 which belongs to type C is protected
+G4.4: IM software critical asset 4 which belongs to type D is protected
+S1: Argument that IM software assets are under protection
+S2: Respective arguments for each IM software critical asset
+S3: Argument of the type which the IM software critical asset belongs to
+S3: Argument of the type which the IM software critical asset belongs to
+S3: Argument of the type which the IM software critical asset belongs to
+S3: Argument of the type which the IM software critical asset belongs to
+C1: Definition and description of IM software
+C2: Definition and description of the system in which the IM software operates
+C3: Definition of acceptably secure
+C4: List of IM software critical assets
+C5: List of IM software critical asset types according to PEDD
+C5: List of IM software critical asset types according to PEDD
+C5: List of IM software critical asset types according to PEDD
+C5: List of IM software critical asset types according to PEDD
+J1: Protection of IM software assets supports that the IM software is acceptably secure
+J2: Relationship between assets is clear and can be argued separately
+J3: Types of IM software assets are according to PEDD
+J3: Types of IM software assets are according to PEDD
+J3: Types of IM software assets are according to PEDD
+J3: Types of IM software assets are according to PEDD

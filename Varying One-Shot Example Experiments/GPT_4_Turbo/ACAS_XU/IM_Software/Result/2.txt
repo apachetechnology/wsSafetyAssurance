@@ -1,0 +1,18 @@
+G1: Instant Messaging software is acceptably secure in online communication systems
+G2: All identified IM software critical assets are protected
+G3: Instant Messaging software critical asset is protected
+G4: Instant Messaging software critical asset which belongs to Process is protected
+G4: Instant Messaging software critical asset which belongs to Environment Entity is protected
+G4: Instant Messaging software critical asset which belongs to Data Exchange is protected
+G4: Instant Messaging software critical asset which belongs to Data Storage is protected
+S1: Argument that IM software assets are under protection
+S2: Respective arguments of IM software critical assets
+S3: Argument of the type which the IM software critical asset belongs to
+C1: Definition and description of Instant Messaging software
+C2: Definition and description of online communication systems
+C3: Definition of what it means to be "acceptably secure" in the context of Instant Messaging
+C4: List of Instant Messaging software critical assets Registration information, Registration process, User account information, Authentication information, Login process, Chat logs
+C5: List of IM software critical asset types according to PEDD classification
+J1: Protection of IM software assets supports that the software is acceptably secure
+J2: The relationship between IM software assets is clear and can be argued separately
+J3: Types of IM software assets are classified according to PEDD

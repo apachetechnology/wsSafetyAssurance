@@ -1,0 +1,23 @@
+G1: Ensure that the DeepMind ML system's decisions are interpretable
+G1.1: Establish clear definitions and criteria for interpretability
+G2.1: Integrate feature importance measures in the ML models
+G2.2: Use model-agnostic methods to enable understanding across different ML models
+G2.3: Provide user-accessible explanation interfaces
+G3.1: Assess user understanding through feedback and targeted evaluations
+G3.2: Continuously monitor and improve interpretability features based on user feedback
+S1: Define interpretability in the context of the ML system
+S2: Implement interpretability methods in the ML system
+S3: Validate the effectiveness of interpretability approaches
+J1.1: Adoption of widely accepted interpretability criteria relevant to DeepMind’s application areas
+J2.1: Usability testing reports showing effectiveness of explanation interfaces
+J3.1: External expert validation of interpretability assessments
+A1: Interpretability criteria are applicable across diverse DeepMind applications
+A2: Users have the basic technical knowledge necessary to understand explanations
+A3: Interpretability does not compromise the system's performance or confidentiality
+E1.1: Literature review on ML interpretability standards and metrics
+E2.1: Documentation of feature importance technique implementation
+E2.2: Case studies demonstrating the use of feature importance in model decisions
+E2.3: Integration and usage logs of LIME or SHAP for model explanations
+E2.4: User manuals and training materials on how to interpret model outcomes
+E3.1: Survey results before and after using the explanation features
+E3.2: Logs and reports from the system’s continuous improvement framework

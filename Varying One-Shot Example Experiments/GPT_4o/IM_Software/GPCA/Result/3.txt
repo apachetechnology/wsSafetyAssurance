@@ -1,0 +1,63 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3.1: Overinfusion is mitigated
+G3.2: Underinfusion is mitigated
+G4.1.1: Overinfusion is mitigated under scenario 1G4.1.2: Overinfusion is mitigated under scenario 2
+G4.2.1: Underinfusion is mitigated under scenario 1
+G4.2.2: Underinfusion is mitigated under scenario 2
+G5.1.1.1: spec 1 is appropriate for scenario 1
+G5.1.2.1: spec 2 is appropriate for scenario 2
+G5.2.1.1: spec 3 is appropriate for scenario 1
+G5.2.2.1: spec 4 is appropriate for scenario 2
+G6.1.1.1.1: "Flow rate sensor is equipped" is appropriate for spec 1
+G6.1.2.1.1: "Dose limit exceeded due to excessive bolus requests" is appropriate for spec 2
+G6.2.1.1.1: "Period (to trigger the underinfusion alarm) is 15 minutes" is appropriate for spec 3
+G6.2.2.1.1: "Flow rate is less than 90% of the programmed rate setting" is appropriate for spec 4
+G7.1.1.1.1.1: Source for "Flow rate sensor is equipped" is appropriate and trustworthy
+G7.2.1.1.1.1: Source for "Period (to trigger the underinfusion alarm) is 15 minutes" is appropriate and trustworthy
+G7.2.2.1.1.1: Source for "Flow rate is less than 90% of the programmed rate setting" is appropriate and trustworthy
+G7.1.2.1.1.1: Source for "Dose limit exceeded due to excessive bolus requests" is appropriate and trustworthy
+G8.1.1.1.1.2: "Flow rate sensor is equipped" definition is sufficient
+G8.1.2.1.1.2: "Dose limit exceeded due to excessive bolus requests" definition is sufficient
+G8.2.1.1.1.2: "Period (to trigger the underinfusion alarm) is 15 minutes" definition is sufficient
+G8.2.2.1.1.2: "Flow rate is less than 90% of the programmed rate setting" definition is sufficient
+S1: Argument over the satisfaction of all specs over {system}
+S3: Argument over operational hazards
+S4.1: Argument over the applied scenarios of Overinfusion
+S4.2: Argument over the applied scenarios of Underinfusion
+S5.1.1: Argument over all specs related to scenario 1
+S5.1.2: Argument over all specs related to scenario 2
+S5.2.1: Argument over all specs related to scenario 1
+S5.2.2: Argument over all specs related to scenario 2
+S6.1.1.1: Argument the appropriateness of spec 1 over properties
+S6.1.2.1: Argument the appropriateness of spec 2 over properties
+S6.2.1.1: Argument the appropriateness of spec 3 over properties
+S6.2.2.1: Argument the appropriateness of spec 4 over properties
+S7.1.1.1.1: Argument over the source of the "Flow rate sensor is equipped" definition
+S7.1.2.1.1: Argument over the source of the "Dose limit exceeded due to excessive bolus requests" definition
+S7.2.1.1.1: Argument over the source of the "Period (to trigger the underinfusion alarm) is 15 minutes" definition
+S7.2.2.1.1: Argument over the source of the "Flow rate is less than 90% of the programmed rate setting" definition
+C1: All specs are given by spec.allInstances()
+C2: Operational hazards are given by operational_hazard.allInstances()
+C3.1: All related scenarios are given by Overinfusion
+C3.2: All related scenarios are given by Underinfusion
+C4.1.1: All related specs are given by scenario 1.spec.allInstances()
+C4.1.2: All related specs are given by scenario 2.spec.allInstances()
+C4.2.1: All related specs are given by scenario 1.spec.allInstances()
+C4.2.2: All related specs are given by scenario 2.spec.allInstances()
+C5.1.1.1: Properties are given by spec 1.property.allInstances()
+C5.1.2.1: Properties are given by spec 2.property.allInstances()
+C5.2.1.1: Properties are given by spec 3.property.allInstances()
+C5.2.2.1: Properties are given by spec 4.property.allInstances()
+C6.1.1.1.1: Source is given by "Flow rate sensor is equipped"
+C6.1.2.1.1: Source is given by "Dose limit exceeded due to excessive bolus requests"
+C6.2.1.1.1: Source is given by "Period (to trigger the underinfusion alarm) is 15 minutes"
+C6.2.2.1.1: Source is given by "Flow rate is less than 90% of the programmed rate setting"
+Sn1.1: FDA standard
+Sn1.2: Expertise opinion
+Sn1.3: Previous knowledge
+Sn1.4: Expertise opinion
+Sn2.1: Property "Flow rate sensor is equipped"
+Sn2.2: Property "Dose limit exceeded due to excessive bolus requests"
+Sn2.3: Property "Period (to trigger the underinfusion alarm) is 15 minutes"
+Sn2.4: Property "Flow rate is less than 90% of the programmed rate setting"

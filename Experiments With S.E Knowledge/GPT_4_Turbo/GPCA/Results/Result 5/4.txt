@@ -1,0 +1,23 @@
+G1: Operational safety of the GPCA is verified
+G2: All operational hazards are mitigated in the GPCA
+G3: Over-infusion is mitigated
+G4: Over-infusion is mitigated under system malfunction scenario
+G5: Sensor accuracy specification is appropriate for system malfunction
+G6: Sensor range is appropriate for system malfunction scenario
+G7: Sensor manufacturer A is appropriate and trustworthy
+G8: Sensor range definition is sufficient
+S1: Argument over the satisfaction of all specifications over the GPCA
+S2: Argument over reliability at all suitable levels of the GPCA (Undeveloped)
+S3: Argument over operational hazards mitigation
+S4: Argument over the scenarios where over-infusion can occur
+S5: Argument over all specs related to system malfunction scenario
+S6: Argument the appropriateness of sensor specs over properties
+S7: Argument over the source of the sensor range definition
+C1: All specifications are detailed in the GPCA documentation
+C2: Operational hazards include over-infusion and incorrect drug selection
+C3: Scenarios include system malfunction and user error
+C4: Specifications include sensor accuracy and software response time
+C5: Properties include sensor range and sensitivity
+C6: Source is provided by sensor manufacturer A
+Sn1: ISO certification of manufacturer A
+Sn2: Manufacturer technical specifications document

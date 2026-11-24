@@ -1,0 +1,15 @@
+G1: Instant Messaging (IM software is acceptably secure in communication systems
+G2: All identified IM software critical assets are protected
+G3: IM software critical asset is protected
+G4: IM software critical asset which belongs to encryption is protected
+S1: Argument that IM software assets are under protection
+S2: Respective arguments of IM software critical assets
+S3: Argument of the type that the IM software critical asset belongs to
+C1: IM software includes applications capable of instant voice and message exchange
+C2: Communication systems include network infrastructure and software platforms supporting IM
+C3: Acceptably secure refers to the protection against unauthorized access and data integrity
+C4: List of IM software critical assets includes user data, communication logs, server access protocols
+C5: List of software critical asset types includes user authentication, encrypted data storage, secure communication channels
+J1: Protection of software assets supports that the software is acceptably secure
+J2: Relationship between assets is clear and can be argued separately
+J3: Types of software assets are arranged according to PEDD Privacy, Encryption, Data integrity, Denial of service protection

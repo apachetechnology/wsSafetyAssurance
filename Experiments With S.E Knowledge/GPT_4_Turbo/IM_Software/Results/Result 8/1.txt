@@ -1,0 +1,15 @@
+G1: Instant Messaging (IM) software is acceptably secure in user communication systems.
+G2: All identified IM software critical assets are protected.
+G3: User data as a critical asset of IM software is protected.
+G4: User data, which is a type of personal information, is protected.
+S1: Argument of that IM software assets are under protection
+S2: Respective arguments of IM software critical assets
+S3: Argument of the type which the user data belongs to
+C1: IM software includes user-to-user messaging, file transfers, and voice/video communication.
+C2: User communication systems include desktop and mobile platforms across various Operating Systems.
+C3: Acceptably secure means ensuring confidentiality, integrity, and availability of communication.
+C4: IM software critical assets include user data, authentication information, and network configuration.
+C5: List of IM software critical asset types include personal user information, chat logs, media files shared over IM, and cryptographic keys for encryption.
+J1: Protecting IM software critical assets ensures the security of user communications.
+J2: Each asset type like authentication information and network configurations has distinct protection mechanisms which are clearly defined, making the execution of the protective measures on these assets justifiable.
+J3: The types of user data assets are managed and protected according to Personal Data Protection Directives (PEDD).

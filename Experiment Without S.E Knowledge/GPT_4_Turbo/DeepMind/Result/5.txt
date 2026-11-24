@@ -1,0 +1,15 @@
+Goal 1: Assure that the DeepMind Machine Learning System is Interpretable
+Goal 1.1.1: Assure that the system design incorporates features that facilitate interpretability
+Goal 1.1.2: Assure that data inputs and outputs are interpretable
+Goal 1.2.1: Perform qualitative testing to validate interpretability
+Goal 1.2.2: Gather and analyze user feedback to ensure comprehensibility
+Strategy 1.1: Demonstrate via system design and data handling that the machine learning system promotes interpretability
+Strategy 1.2: Validate interpretability through testing and user feedback
+Evidence 1.1.1.1: Documented system architecture showing modules that support interpretability
+Evidence 1.1.1.2: List of interpretability features in the system
+Evidence 1.1.2.1: Description and examples of data inputs and outputs
+Evidence 1.1.2.2: User feedback on the interpretability of data inputs and outputs
+Evidence 1.2.1.1: Test plan that includes interpretability tests
+Evidence 1.2.1.2: Test results demonstrating interpretability
+Evidence 1.2.2.1: Surveys and interview protocols
+Evidence 1.2.2.2: Summary of key findings from user feedback

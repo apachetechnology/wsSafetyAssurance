@@ -1,0 +1,28 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G3: Underinfusion is mitigated
+G4: Overinfusion is mitigated under programmed high rate scenario
+G4: Underinfusion is mitigated under low flow rate scenario
+G5: Flow rate sensor is appropriate for high rate scenario
+G5: Alarm mechanism is appropriate for low flow scenario
+G6: Response time property is appropriate for Flow rate sensor
+G6: Alarm trigger period property is appropriate for Alarm mechanism
+G7: FDA standard is appropriate and trustworthy
+G7: Expert opinion is appropriate and trustworthy
+G8: Response time property definition is sufficient
+G8: Alarm period property definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Overinfusion
+S4: Argument over the applied scenarios of Underinfusion
+S5: Argument over all specs related to high rate scenario
+S5: Argument over all specs related to low flow scenario
+S6: Argument the appropriateness of Flow rate sensor over properties
+S6: Argument the appropriateness of Alarm mechanism over properties
+S7: Argument over the source of the response time property definition
+S7: Argument over the source of the alarm period property definition
+Sn1: FDA standard document
+Sn1: Expert consultation record
+Sn2: Technical report on response time measurement
+Sn2: Engineering analysis on alarm period

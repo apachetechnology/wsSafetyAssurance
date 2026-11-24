@@ -1,0 +1,24 @@
+G1: IM software is acceptably secure in the operational environment.
+G2: All identified IM software critical assets are protected.
+G3: User account information is protected.
+G3: Authentication information is protected.
+G3: Registration information is protected.
+G3: Chat logs are protected.
+G4: User account information which belongs to Data Storage type is protected.
+G4: Authentication information which belongs to Data Storage type is protected.
+G4: Registration information which belongs to Data Storage type is protected.
+G4: Chat logs which belong to Data Exchange type are protected.
+S1: Argument that IM software assets are under protection.
+S2: Separate arguments for the protection of each critical asset.
+S3: Argument based on the type of software critical asset, which belongs to Data Storage.
+S3: Argument based on the type of software critical asset, which belongs to Data Storage (according to PEDD).
+S3: Argument based on the type of software critical asset, which belongs to Data Storage.
+S3: Argument based on the type of software critical asset, which belongs to Data Exchange.
+C1: IM software allows people to exchange messages instantly and securely.
+C2: Operational environment refers to real-time communication via text, including one-on-one and group messages.
+C3: Acceptably secure means that all critical assets of the software are protected against unauthorized access and info leakage.
+C4: Critical assets include registration information, user account info, authentication info, chat logs.
+C5: PEDD classification includes Process, Environment Entity, Data Exchange, and Data Storage.
+J1: Protection of critical software assets ensures the software's overall security.
+J2: Each critical asset can be distinctly secured and forms a clear relationship within the security framework.
+J3: Ensuring the categorization of assets as per PEDD aid in focused security measures.

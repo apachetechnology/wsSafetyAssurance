@@ -1,0 +1,25 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G3.X: Underinfusion is mitigated (Undeveloped)
+G4: Overinfusion is mitigated under excessive patient request scenarios
+G4.X: Underinfusion is mitigated under reduced demand scenarios (Undeveloped)
+G5: Flow rate sensor is appropriate for excessive patient request scenarios
+G6: Period trigger for Underinfusion alarm (15 minutes) is appropriate for flow rate sensor
+G7: FDA standard is appropriate and trustworthy for flow rate sensor properties
+G8: Period definition is sufficient for Underinfusion detection
+S1: Argument over the satisfaction of all specs over GPCA system
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Overinfusion
+S4.X: Argument over the applied scenarios of Underinfusion (Undeveloped)
+S5: Argument over all specs related to excessive patient request scenarios
+S6: Argument the appropriateness of flow rate sensor over properties
+S7: Argument over the source of the property definition
+C1: All specs are given by specific operational requirements from safety standards
+C2: Operational hazards are given by a list of all possible operational hazards including Overinfusion and Underinfusion
+C3: All related scenarios are given by excessive patient demand as identified through safety analysis
+C4: All related specs are given by scenario-based expert guidelines
+C5: Properties are given by the properties related to sensors and alarms
+C6: Source is given by the references to FDA standards on medical safety
+Sn1: Reference to FDA medical safety standards
+Sn2: Technical documentation supporting the 15-minute period setting

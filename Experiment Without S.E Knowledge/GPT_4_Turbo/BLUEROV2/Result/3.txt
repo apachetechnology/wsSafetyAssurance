@@ -1,0 +1,31 @@
+G1: Ensure BlueROV2 operates safely and reliably in underwater environments
+G1.1: Ensure mechanical integrity of BlueROV2
+G1.1.1: Validate material selection for pressure and corrosion resistance
+G1.1.2: Validate structural design under simulated operational pressures
+G1.2: Ensure electrical systems perform consistently and safely
+G1.2.1: Ensure all electrical components are waterproof and appropriate for rated depths
+G1.2.2: Ensure electrical circuit integrity and reliability
+G1.3: Ensure software running on BlueROV2 is robust and secure
+G1.3.1: Software code meets coding standards and is peer-reviewed
+G1.3.2: Software has been rigorously tested under simulated and real operating conditions
+G1.4: Ensure operational procedures for BlueROV2 enhance safety and reliability
+G1.4.1: Operators are adequately trained
+G1.4.2: Comprehensive set of operational and emergency procedures are established and practiced
+Sn1.1: Strategy based on compliance to international underwater equipment standards
+Sn1.2: Strategy based on conformity to electrical safety standards
+Sn1.3: Strategy based on software development life cycle adherence
+Sn1.4: Strategy based on thorough training and adherence to established operational procedures
+C1.1: Context describing mechanical design specifications
+C1.2: Context describing electrical design and components used
+C1.3: Context regarding software development practices and overview
+C1.4: Context detailing training, operational guidelines, and emergency procedures
+E1.1.1: Material test reports and certificates
+E1.1.2: Structural simulation reports
+E1.2.1: Waterproof certification of components
+E1.2.2: Test logs of electrical system functionality from field tests  
+E1.3.1: Peer review reports and coding standard compliance checks
+E1.3.2: System test and field test reports
+E1.4.1: Training session records and operator certifications
+E1.4.2: Documentation of procedures and incident logs
+E1: Test reports and certification documents for all sub-components
+E2: Logs and records of operational procedures and outcomes

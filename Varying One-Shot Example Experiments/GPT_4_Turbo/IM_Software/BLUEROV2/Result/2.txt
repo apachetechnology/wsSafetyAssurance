@@ -1,0 +1,39 @@
+G1: Hazards for BlueROV2 system addressed in accordance with ALARP principle
+G2: No intolerable risks present in the BlueROV2 system
+G3.1: Risk from Deviation from the operating area has been reduced as low as reasonably practicable
+G3.2: Risk from Loss of pipeline has been reduced as low as reasonably practicable
+G3.3: Risk from Obstacle encounter has been reduced as low as reasonably practicable
+G4: Model Avoidance Maneuver BTD accurately describes possible propagation of hazard Deviation from the operating area
+G4: Model Emergency Stop BTD accurately describes possible propagation of hazard Loss of pipeline (Uninstantiated)
+G4: Model Avoidance Maneuver and Emergency Stop BTD accurately describes possible propagation of hazard Obstacle encounter
+G5: Quantitative risk estimates are accurate and below acceptable threshold
+G5: Quantitative risk estimates are accurate and below acceptable threshold
+G5: Quantitative risk estimates are accurate and below acceptable threshold (Uninstantiated)
+G6: Possible hazard propagation paths correctly captured in BTD (Undeveloped)
+G6: Possible hazard propagation paths correctly captured in BTD (Undeveloped)
+G6: Possible hazard propagation paths correctly captured in BTD (Undeveloped)
+G7: Barriers in the BTD correctly describe their respective control action including any required system functions (Undeveloped)
+G7: Barriers in the BTD correctly describe their respective control action including any required system functions (Undeveloped)
+G7: Barriers in the BTD correctly describe their respective control action including any required system functions (Undeveloped)
+G8: All non-negligible threats have been identified (Undeveloped)
+G8: All non-negligible threats have been identified (Undeveloped)
+G8: All non-negligible threats have been identified (Undeveloped)
+G9: State probability distribution used for risk estimation is an accurate representation of expected system states (Undeveloped)
+G9: State probability distribution used for risk estimation is an accurate representation of expected system states (Undeveloped)
+G9: State probability distribution used for risk estimation is an accurate representation of expected system states (Undeveloped)
+G10: Estimated probability of collision is below allowable threshold for severity class Minor
+G10: Estimated probability of pipeline loss is below allowable threshold for severity class Minor (Uninstantiated)
+G10: Estimated probability of collision is below allowable threshold for severity class Major
+S1: Argument by risk reduction/elimination of each hazard
+S2: Argue that risk posed by any remaining hazards is negligible (Undeveloped)
+S3: Argue that no other risk has been identified (Undeveloped)
+S4: Apply ReSonAte to estimate level of risk from hazard condition Deviation from the operating area
+S4: Apply ReSonAte to estimate level of risk from hazard condition Loss of pipeline (Uninstantiated)
+S4: Apply ReSonAte to estimate level of risk from hazard condition Obstacle encounter
+C1: Definition of "intolerable" risk as per ALARP
+C2.1: Assigned severity class is Minor
+C2.2: Assigned severity class is Minor (Uninstantiated)
+C2.3: Assigned severity class is Major
+Sn1: Estimated risk level 0.001 per hour
+Sn1: Estimated risk level 0.0005 per hour (Uninstantiated)
+Sn1: Estimated risk level 0.001 per hour

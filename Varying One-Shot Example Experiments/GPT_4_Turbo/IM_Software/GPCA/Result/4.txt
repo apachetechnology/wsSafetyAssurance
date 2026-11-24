@@ -1,0 +1,34 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G3: Underinfusion is mitigated
+G4: Overinfusion is mitigated under excessive bolus requests
+G4: Underinfusion is mitigated under programmed rate too low
+G5: 'Dose limit exceeded due to excessive bolus requests' is appropriate for 'excessive bolus requests'
+G5: 'Flow rate sensor is equipped and Period to trigger the underinfusion alarm is 15 minutes' is appropriate for 'programmed rate too low'
+G6: 'Bolus volume/concentration too high' property is appropriate for 'excessive bolus requests'
+G6: 'Flow rate less than 90% of programmed rate' is appropriate for detecting underinfusion
+G7: FDA standard is appropriate and trustworthy
+G7: Expert opinion is appropriate and trustworthy
+G8: 'Bolus volume/concentration too high' definition is sufficient
+G8: 'Flow rate less than 90% of programmed rate' definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of overinfusion
+S4: Argument over the applied scenarios of underinfusion
+S5: Argument over all specs related to excessive bolus requests
+S5: Argument over all specs related to programmed rate settings
+S6: Argument the appropriateness of 'Flow rate is less than 90% of the programmed rate setting' over properties
+S6: Argument the appropriateness of 'bolus volume/concentration
+S7: Argument over the source of the 'bolus volume/concentration too high' property definition
+S7: Argument over the source of the property 'Flow rate less than 90% of programmed rate' definition
+C1: All specs are given by using GPCA system requirements
+C2: Operational hazards are given by identifying overinfusion and underinfusion
+C3: All related scenarios are given by specific infusion volume and rate settings
+C4: All related specs are given by maximum bolus limit and alert settings on too high' over properties
+C5: Properties are given by volume and concentration limits
+C6: Source is given by FDA standard and expert opinion
+Sn1: FDA standard documentation
+Sn1: Expert review documentation
+Sn2: Detailed property definition documentation
+Sn2: Detailed property definition documentation

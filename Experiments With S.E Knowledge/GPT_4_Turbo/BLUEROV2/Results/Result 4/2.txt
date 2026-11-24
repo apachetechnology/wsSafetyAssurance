@@ -1,0 +1,18 @@
+G1: Hazards for BlueROV2 addressed in accordance with As Low As Reasonably Practicable (ALARP) principle.
+G2: No intolerable risks present in the BlueROV2 system.
+G3: Risk from pressure hazards has been reduced as low as reasonably practicable.
+G4: Model BTD accurately describes possible propagation of pressure-related hazards. (Undeveloped, Uninstantiated)
+G5: Quantitative risk estimates related to pressure are accurate and below the acceptable threshold.
+G6: All possible hazard propagation paths related to pressure are correctly captured in BTD. (Undeveloped)
+G7: All barriers in the BTD correctly describe their respective control actions including those preventing rapid pressure changes. (Undeveloped)
+G8: All non-negligible threats related to pressure changes have been identified. (Undeveloped)
+G9: State probability distribution used for risk estimation accurately reflects expected system states under varied pressure conditions. (Undeveloped)
+G10: Estimated probability of structural failure due to pressure is below the allowable threshold for high severity class.
+S1: Argument by risk reduction/elimination of each hazard for BlueROV2
+S2: Argue that risk posed by any remaining hazards is negligible. (undeveloped)
+S3: Argue that no other risks have been identified for BlueROV2. (undeveloped)
+S4: Apply ReSonAte to estimate level of risk from hazard condition related to pressure.
+C1: Definition of "intolerable" as unacceptable risk levels that cannot be mitigated or justified under any circumstance in underwater operations.
+C2: Assigned severity class is high due to potential for rapid pressure changes affecting operational integrity. (Uninstantiated)
+A1: Depth control system functionality required by bowtie diagram (BTD) is available and operational. (Uninstantiated)
+Sn1: Estimated risk level from depth-related data and pressure sensors. (Uninstantiated)

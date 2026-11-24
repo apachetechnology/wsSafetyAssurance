@@ -1,0 +1,24 @@
+G0: ACAS Xu satisfies security requirements
+G1: ACAS Xu satisfies the asset protection requirements.
+G2: ACAS Xu satisfies secure development requirements (undeveloped).
+G3: Asset protection requirements are met during the architecture design phase.
+G4: Asset protection requirements are met during other phases (undeveloped).
+G5: ACAS Xu architecture is protected against identified security threats (ST1 ST3).
+G6: ACAS Xu architecture is validated (undeveloped).
+G0.1: ACAS Xu architecture is protected against ST1 (Tampering).
+G0.2: ACAS Xu architecture is protected against ST2 (Spoofing).
+G0.3: ACAS Xu architecture is protected against ST3 (Elevation of privileges).
+S0: Argue through asset protection and secure development requirements.
+S1: Argue through the different stages of the system development lifecycle.
+S2: Argue through deriving security threats from security requirements (SRs).
+S3: Argue over each security threat.
+C0: ACAS Xu is a collision avoidance system for drones intended to enhance operational safety by preventing collisions.
+C1: Security requirements (SR) are essential to protect the system from malicious threats impacting functionality.
+C2: The architecture of ACAS Xu includes components like sensors, processors, planners, and actuators.
+C3: Details about ACAS Xu's architecture model are described using a formal method.
+J0: The argumentation relies on the fulfillment of specified security requirements (SR1-SR4).
+J1: Detection and mitigation of threats are designed to fulfill all security requirements (SR1-SR4).
+A0: The system security requirements specifications (SRS) are complete, adequately detailed, and consistent.
+A1: An asset inventory for ACAS Xu has been comprehensively established.
+A2: All relevant security threats against ACAS Xu have been identified based on the Microsoft STRIDE model.
+A3: The formal method provides a well-defined model of ACAS Xu's architecture.

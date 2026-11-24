@@ -1,0 +1,30 @@
+G1: Instant Messaging (IM) software is acceptably secure in the communication system.
+G2: All identified IM software critical assets are protected.
+G3: User data is protected.
+G3: Message logs are protected.
+G3: Encryption keys are protected.
+G3: Connection sessions are protected.
+G4: User data which belongs to Data Security is protected. (inactive)
+G4: Message logs which belong to Data Security are protected.
+G4: Encryption keys which belong to Key Management are protected.
+G4: Connection sessions which belong to Session Management are protected (undeveloped).
+S1: Argument of that software assets are under protection.
+S2: Respective arguments of IM software critical assets.
+S3: Argument of the type which the software critical asset belongs to.
+S3: Argument of the type which the software critical asset belongs to.
+S3: Argument of the type which the software critical asset belongs to.
+S3: Argument of the type which the software critical asset belongs to.
+C1: Definition and description of IM software. IM software: Software for real-time text transmission over the internet.
+C2: Definition and description of the communication system. Communication system: A system facilitating user-to-user communication.
+C3: Definition of acceptably secure. Acceptably secure: Meets specified security requirements and standards.
+C4: List of IM software critical assets. IM software critical assets: User data, Message logs, Encryption keys, Connection sessions.
+C5: List of software critical asset types in PEDD. User data: Protected under Data Security.
+C5: List of software critical asset types in PEDD. Message logs: Protected under Data Security.
+C5: List of software critical asset types in PEDD. Encryption keys: Protected under Key Management.
+C5: List of software critical asset types in PEDD. Connection sessions: Protected under Session Management.
+J1: Protection of software assets supports that software is acceptably secure.
+J2: Relationship between assets is clear and can be argued separately.
+J3: Types of software assets are according to PEDD.
+J3: Types of software assets are according to PEDD.
+J3: Types of software assets are according to PEDD.
+J3: Types of software assets are according to PEDD.

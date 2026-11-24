@@ -1,0 +1,19 @@
+G1: Hazards for BlueROV2 system addressed in accordance with ALARP principle
+G2: No intolerable risks present in the system
+G3: Risk from obstacle encounter has been reduced as low as reasonably practicable
+G4: Model obstacle encounter BTD accurately describes possible propagation of hazard obstacle encounter (Uninstantiated)
+G5: Quantitative risk estimates are accurate and below acceptable threshold
+G6: Possible hazard propagation paths correctly captured in BTD (Undeveloped)
+G7: Barriers in the BTD correctly describe their respective control action including any required system functions (Undeveloped)
+G8: All non-negligible threats have been identified (Undeveloped)
+G9: State probability distribution used for risk estimation is an accurate representation of expected system states (Undeveloped)
+G10: Estimated probability of collision is below allowable threshold for severity class Major
+S1: Argument by risk reduction/elimination of each hazard
+S2: Argue that risk posed by any remaining hazards is negligible (Undeveloped)
+S3: Argue that no other risks have been identified (Undeveloped)
+S4: Apply ReSonAte to estimate level of risk from hazard condition obstacle encounter
+S4: Assuming function avoidance logic (Uninstantiated)
+C1: Definition of "intolerable"
+C2: Assigned severity class is Major
+A1: Function avoidance logic required by obstacle encounter BTD is available
+Sn1: Estimated risk level 10^-3 per hour

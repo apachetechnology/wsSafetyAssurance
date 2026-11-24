@@ -1,0 +1,44 @@
+Goal1: Ensure the instant messaging software provides confidentiality, integrity, and availability
+Goal1.1.1: Prove that all communications are encrypted
+Goal1.1.2: Show that access controls are in place and effective
+Goal1.1.3: Ensure data integrity mechanisms are utilized
+Goal1.2.1: Ensures software compliance with standards such as ISO/IEC 27001
+Goal1.2.2: Conduct regular security audits and penetration testing
+Goal1.3.1: Protect against data breaches
+Goal1.3.2: Defend against Denial of Service (DoS) attacks
+Goal1.4.1: Ensure all users are aware of security policies and practices
+Goal2: Ensure compliance with relevant data protection laws and privacy standards
+Goal2.1.1: Audit and certify data handling processes comply with GDPR
+Goal2.1.2: Maintain transparency in data processing and user data rights
+Goal2.2.1: Regular updates to privacy policies and procedures
+Goal2.2.2: Conduct periodic reviews and updates of security policies regarding data protection
+Strategy1.1: Demonstrate that the IM software implements appropriate security controls
+Strategy1.2: Validate the implementation of security best practices and standards
+Strategy1.3: Ensure robustness against common security threats
+Strategy1.4: Incorporate user training on security practices
+Strategy2.1: Adhere to international and national regulations such as GDPR
+Strategy2.2: Implement continuous monitoring and updates to privacy protection measures
+Evidence1.1.1.1: Certificates of encryption protocols used (e.g., TLS, SSL)
+Evidence1.1.1.2: Security audit logs showing encryption in action
+Evidence1.1.2.1: Documentation of access control policies
+Evidence1.1.2.2: Audit report of access control implementations
+Evidence1.1.3.1: Use of MD5 or SHA hash functions
+Evidence1.1.3.2: Hash check validation reports
+Evidence1.2.1.1: Certification of compliance with ISO/IEC 27001
+Evidence1.2.1.2: Latest compliance audit results
+Evidence1.2.2.1: Schedule and records of past security audits
+Evidence1.2.2.2: Penetration testing reports
+Evidence1.3.1.1: Incident response plans
+Evidence1.3.1.2: Historical data on incident handling and outcomes
+Evidence1.3.2.1: DDoS mitigation tools and techniques in use
+Evidence1.3.2.2: Records of uptime and any related DoS incidents
+Evidence1.4.1.1: Training logs and materials
+Evidence1.4.1.2: Feedback and assessments of user understanding
+Evidence2.1.1.1: GDPR compliance certificate
+Evidence2.1.1.2: Privacy Impact Assessment report
+Evidence2.1.2.1: Publicly available privacy policy
+Evidence2.1.2.2: Logs of user data access and corrections requests
+Evidence2.2.1.1: Change logs for privacy policies
+Evidence2.2.1.2: Stakeholder communication records
+Evidence2.2.2.1: Review records
+Evidence2.2.2.2: Update implementation records

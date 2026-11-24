@@ -1,0 +1,34 @@
+Goal: BlueROV2 is safe for underwater exploration
+Goal: BlueROV2 design is safe
+Goal: Mechanical system is safe
+Goal: Electrical system is safe
+Goal: Software system is safe
+Goal: Navigation software is safe
+Goal: Communication software is safe
+Goal: BlueROV2 manufacturing is safe
+Goal: BlueROV2 operation is safe
+Goal: Safe operation in normal conditions
+Goal: Safe operation in emergency conditions
+Goal: BlueROV2 maintenance is safe
+Strategy: Decomposition by system lifecycle
+Strategy: Decomposition by sub-system
+Strategy: Decomposition by software components
+Strategy: Decomposition by operational scenario
+Context: Defined operational environment
+Justification: Safety is critical for preventing harm to operators and the environment
+Assumption: All subsystems and components must operate within specified limits
+Evidence: Mechanical testing results
+Evidence: Stress analysis report
+Evidence: Electrical safety certification
+Evidence: Circuit design review
+Evidence: Testing and validation reports 
+Evidence: Code review documentation
+Evidence: Integration test results
+Evidence: Quality control procedures
+Evidence: Compliance with manufacturing standards
+Evidence: Operator training certificates
+Evidence: Operational manuals
+Evidence: Emergency procedures documentation
+Evidence: Drill and exercise reports
+Evidence: Maintenance schedule
+Evidence: Maintenance logs

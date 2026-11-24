@@ -1,0 +1,31 @@
+G1: Ensure GPCA System is Safe for Patient Use
+G1.1: Demonstrate GPCA software operates safely
+G1.2: Demonstrate hardware safety
+G1.3: Ensure fail-safe operation under fault conditions
+G1.4: Use dependable power supply systems
+G1.5: Identify and mitigate risks associated with GPCA usage
+G1.6: Ensure alarm system alerts users appropriately under abnormal conditions
+S1: Demonstrate implementation adheres to safety requirements
+S1.1: Use of formal methods in software development
+S1.2: Rigorous software testing and validation
+S1.3: Hardware meets all safety critical standards
+S1.4: Ensure robust hardware integration
+S1.5: Design and test fail-safe mechanisms
+S1.6: Ensure continuous power supply during operation
+S1.7: Perform comprehensive risk analysis
+S1.8: Employ risk control measures
+S1.9: Design, test, and validate the alarm system
+S2: Incorporate fail-safe mechanisms
+S3: Utilize risk management and mitigation strategies
+S4: Implement effective alarm system
+Sn1: Proof of correctness of key algorithms
+Sn2: Results of unit testing, integration testing, and system testing
+Sn3: Validation test results and defect analysis
+Sn4: Compliance certificates for each hardware component
+Sn5: Results of hardware stress tests and lifecycle analysis
+Sn6: Description of fail-safe states and conditions
+Sn7: Test results demonstrating system transition to fail-safe mode effectively
+Sn8: Backup power system specifications and tests
+Sn9: Risk register and risk treatment plans
+Sn10: Documentation of safety barriers and controls implementation
+Sn11: Test results for alarm functionality and user feedback on alarm effectiveness

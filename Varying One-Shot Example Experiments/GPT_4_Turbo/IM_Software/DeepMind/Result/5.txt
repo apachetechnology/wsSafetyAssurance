@@ -1,0 +1,17 @@
+G1: Interpretability Claim. The DeepMind ML Model is sufficiently interpretable in the clinical pathway context of retinal diagnosis
+G2: Right Method. The tissue segmentation map as the interpretability method is implemented, i.e., the correct information is faithfully being explained
+G3: Right Context. Interpretations are produced in the clinical environment during patient consultations
+G4: Right Format. The interpretability method (tissue segmentation map) are presented digitally, viewable on clinical software used by retinal clinicians
+G5: Right Time. Interpretations (diagnosis and referral) are produced at the appropriate time during clinical assessment
+G6: Right Setting. Interpretations are available in the right clinical setting, accessible to the retinal clinician
+G7: Right Audience. Interpretations are specifically produced for and tailored to retinal clinicians
+G8: The tissue segmentation map is the right type (local to the specific scan)
+G9: The diagnosis and referral process based on the segmentation map is suitably faithful to the ML model process
+S1: Argument based on the essential aspects of interpretability of the ML model outputs to clinicians
+S2: Argument over interpretability methods like tissue segmentation maps
+C1: DeepMind ML Model processes retinal scans and generates both a tissue segmentation map and a diagnosis with confidence levels
+C2: Interpretability means providing clear, understandable, and clinically relevant outputs through the tissue segmentation map
+C3: Context: setting in clinical workflows, time during diagnosis, audience of retinal clinicians
+C4: Essential aspects of interpretability include transparency, clinical relevance, and timeliness
+C5: Interpretability methods include tissue segmentation maps and diagnosis confidence levels
+C6: The format of interpretations includes visual maps and textual descriptions

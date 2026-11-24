@@ -1,0 +1,74 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G3: Underinfusion is mitigated
+G4: Overinfusion is mitigated under scenario 1
+G4: Overinfusion is mitigated under scenario 2
+G4: Underinfusion is mitigated under scenario 1
+G4: Underinfusion is mitigated under scenario 2
+G5: spec 1.1 is appropriate for scenario 1
+G5: spec 1.2 is appropriate for scenario 1
+G5: spec 1.4 is appropriate for scenario 2
+G5: spec 1.10 is appropriate for scenario 1
+G5: spec 3.4.6 is appropriate for scenario 2
+G6: property 1.1.1 is appropriate for spec 1.1
+G6: property 1.2.1 is appropriate for spec 1.2
+G6: property 1.4.1 is appropriate for spec 1.4
+G6: property 1.10.1 is appropriate for spec 1.10
+G6: property 3.4.6.1 is appropriate for spec 3.4.6
+G7: Source 1.1.1 is appropriate and trustworthy
+G7: Source 1.2.1 is appropriate and trustworthy
+G7: Source 1.4.1 is appropriate and trustworthy
+G7: Source 1.10.1 is appropriate and trustworthy
+G7: Source 3.4.6.1 is appropriate and trustworthy
+G8: property 1.1.1 definition is sufficient
+G8: property 1.2.1 definition is sufficient
+G8: property 1.4.1 definition is sufficient
+G8: property 1.10.1 definition is sufficient
+G8: property 3.4.6.1 definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (undeveloped)
+S2: Argument over reliability in all suitable levels of GPCA system (undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Overinfusion
+S4: Argument over the applied scenarios of Underinfusion
+S5: Argument over all specs related to scenario 1
+S5: Argument over all specs related to scenario 2
+S5: Argument over all specs related to scenario 1
+S5: Argument over all specs related to scenario 2
+S6: Argument the appropriateness of spec 1.1 over properties
+S6: Argument the appropriateness of spec 1.2 over properties
+S6: Argument the appropriateness of spec 1.4 over properties
+S6: Argument the appropriateness of spec 1.10 over properties
+S6: Argument the appropriateness of spec 3.4.6 over properties
+S7: Argument over the source of the property 1.1.1 definition
+S7: Argument over the source of the property 1.2.1 definition
+S7: Argument over the source of the property 1.4.1 definition
+S7: Argument over the source of the property 1.10.1 definition
+S7: Argument over the source of the property 3.4.6.1 definition
+C2: Operational hazards are given by operational hazard.allInstances()
+C3: All related scenarios are given by operational hazard
+C3: All related scenarios are given by operational hazard
+C4: All related specs are given by scenario.spec.allInstances()
+C4: All related specs are given by scenario.spec.allInstances()
+C4: All related specs are given by scenario.spec.allInstances()
+C4: All related specs are given by scenario.spec.allInstances()
+C5: Properties are given by spec.property.allInstances()
+C5: Properties are given by spec.property.allInstances()
+C5: Properties are given by spec.property.allInstances()
+C5: Properties are given by spec.property.allInstances()
+C5: Properties are given by spec.property.allInstances()
+C6: Source is given by property.source
+C6: Source is given by property.source
+C6: Source is given by property.source
+C6: Source is given by property.source
+C6: Source is given by property.source
+Sn1: source (e.g., FDA standard)
+Sn1: source (e.g., Expertise opinion)
+Sn1: source (e.g., Previous knowledge)
+Sn1: source (e.g., FDA standard)
+Sn1: source (e.g., Expertise opinion)
+Sn2: property (e.g., "Flow rate sensor is equipped")
+Sn2: property (e.g., "Period (to trigger the underinfusion alarm) is 15 minutes.")
+Sn2: property (e.g., "Flow rate is less than 90% of the programmed rate setting.")
+Sn2: property (e.g., "Bolus volume/concentration too high.")
+Sn2: property (e.g., "Dose limit exceeded due to excessive bolus requests.")

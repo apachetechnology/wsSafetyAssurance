@@ -1,0 +1,53 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G3: Underinfusion is mitigated
+G3: Overinfusion is mitigated under Dose limit exceeded due to excessive bolus requests (undeveloped)
+G3: Underinfusion is mitigated under Bolus volume/concentration too high (undeveloped)
+G4: Overinfusion is mitigated under Flow rate does not match the programmed rate
+G4: Underinfusion is mitigated under Programmed rate too low
+G4: Underinfusion is mitigated under Flow rate less than 90% of the programmed rate setting
+G5: Flow rate sensor spec is appropriate for Flow rate does not match the programmed rate
+G5: Alarm period spec is appropriate for Programmed rate too low
+G5: Underinfusion alarm spec is appropriate for Flow rate less than 90% of the programmed rate setting
+G6: Property Flow rate sensor is appropriate for Flow rate sensor spec
+G6: Property Alarm period is appropriate for Alarm period spec
+G6: Property Alarm threshold is appropriate for Underinfusion alarm spec
+G7: Source FDA standard is appropriate and trustworthy
+G7: Source Expertise opinion is appropriate and trustworthy
+G7: Source Previous knowledge is appropriate and trustworthy
+G8: Property Flow rate sensor definition is sufficient
+G8: Property Alarm period definition is sufficient
+G8: Property Alarm threshold definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Overinfusion
+S4: Argument over the applied scenarios of Underinfusion
+S5: Argument over all specs related to Flow rate does not match the programmed rate
+S5: Argument over all specs related to Flow rate less than 90% of the programmed rate setting
+S5: Argument over all specs related to Programmed rate too low
+S6: Argument the appropriateness of Flow rate sensor spec over properties
+S6: Argument the appropriateness of Alarm period spec over properties
+S6: Argument the appropriateness of Underinfusion alarm spec over properties
+S7: Argument over the source of the Flow rate sensor definition
+S7: Argument over the source of the Alarm period definition
+S7: Argument over the source of the Alarm threshold definition
+C1: All specs are given by spec.allInstances()
+C2: Operational hazards are given by operational hazard.allInstances()
+C3: All related scenarios are given by Underinfusion
+C3: All related scenarios are given by Overinfusion
+C4: All related specs are given by Programmed rate too low.spec.allInstances()
+C4: All related specs are given by Flow rate does not match the programmed rate.spec.allInstances()
+C4: All related specs are given by Flow rate less than 90% of the programmed rate setting.spec.allInstances()
+C5: Properties are given by Flow rate sensor.property.allInstances()
+C5: Properties are given by Underinfusion alarm.property.allInstances()
+C5: Properties are given by Alarm period.property.allInstances()
+C6: Source is given by Flow rate sensor.source
+C6: Source is given by Alarm period.source
+C6: Source is given by Alarm threshold.source
+Sn1: Source FDA standard
+Sn1: Source Expertise opinion
+Sn1: Source Previous knowledge
+Sn2: Property Flow rate sensor
+Sn2: Property Alarm period
+Sn2: Property Alarm threshold

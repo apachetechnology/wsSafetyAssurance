@@ -1,0 +1,18 @@
+G1: IM software is acceptably secure in an enterprise system
+G2: All identified IM software critical assets are protected
+G3: User data as an IM software critical asset is protected
+G4: User data, classified under 'protected' in PEDD, is secured
+G4: Authentication credentials, classified under 'encrypted' in PEDD, is secured
+G4: Communication channels, classified under 'detection', are monitored
+G4: Documentation processes, classified under 'documentation', are compliant with privacy regulations
+S1: Argument that software assets are under protection
+S2: Respective arguments of IM software critical assets
+S3: Argument of the type to which the IM software critical asset belongs
+C1: IM software defined as a suite of messaging applications used for corporate communications.
+C2: Enterprise system defined as the network and infrastructure in an organization.
+C3: Acceptably secure defined as meeting all corporate security policies and privacy regulations.
+C4: Critical assets list includes user data, authentication credentials, and communication channels.
+C5: Asset types in PEDD (Protection, Encryption, Detection, Documentation)
+J1: Protection of software assets supports that IM software is acceptably secure.
+J2: Relationship between assets is clear and can be argued separately.
+J3: Asset types are determined according to corporate security policies.

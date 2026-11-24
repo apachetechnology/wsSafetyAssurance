@@ -1,0 +1,45 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Overinfusion hazard is mitigated
+G3: Underinfusion hazard is mitigated
+G4: Overinfusion hazard is mitigated under "Flow rate monitoring" scenario
+G4: Underinfusion hazard is mitigated under "Alarm triggering" scenario
+G5: Flow rate sensor spec is appropriate for "Flow rate monitoring" scenario
+G5: Alarm period spec is appropriate for "Alarm triggering" scenario
+G6: Alarm period property "Period (to trigger the underinfusion alarm) is 15 minutes" is appropriate for Alarm period spec
+G6: Flow rate property "Flow rate is less than 90% of the programmed rate setting" is appropriate for Flow rate spec
+G6: Flow rate sensor property "Flow rate sensor is equipped" is appropriate for Flow rate sensor spec
+G7: Source "FDA standard" is appropriate and trustworthy
+G7: Source "Previous knowledge" is appropriate and trustworthy
+G7: Source "Expertise opinion" is appropriate and trustworthy
+G8: Flow rate property definition is sufficient
+G8: Alarm period property definition is sufficient
+G8: Flow rate sensor property definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Underinfusion hazard
+S4: Argument over the applied scenarios of Overinfusion hazard
+S5: Argument over all specs related to "Flow rate monitoring" scenario
+S5: Argument over all specs related to "Alarm triggering" scenario
+S6: Argument the appropriateness of Flow rate sensor spec over properties
+S6: Argument the appropriateness of Alarm period spec over properties
+S7: Argument over the source of the "Flow rate sensor is equipped" property definition
+S7: Argument over the source of the "Period (to trigger the underinfusion alarm) is 15 minutes" property definition
+S7: Argument over the source of the "Flow rate is less than 90% of the programmed rate setting" property definition
+C1: All specs are given by spec.allInstances()
+C2: Operational hazards are given by operational hazard.allInstances()
+C3: All related scenarios are given by Underinfusion hazard
+C3: All related scenarios are given by Overinfusion hazard
+C4: All related specs are given by scenario.spec.allinstances()
+C4: All related specs are given by scenario.spec.allinstances()
+C5: Properties are given by spec.property.allinstances()
+C5: Properties are given by spec.property.allinstances()
+C6: Source is given by property.source
+C6: Source is given by property.source
+C6: Source is given by property.source
+Sn1: Source: FDA standard
+Sn1: Source: Previous knowledge
+Sn1: Source: Expertise opinion
+Sn2: Property: Flow rate sensor is equipped
+Sn2: Property: Period (to trigger the underinfusion alarm) is 15 minutes
+Sn2: Property: Flow rate is less than 90% of the programmed rate setting

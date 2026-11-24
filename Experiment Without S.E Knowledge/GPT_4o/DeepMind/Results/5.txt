@@ -1,0 +1,30 @@
+G1: Interpretability of DeepMind ML System is adequately demonstrated
+G2: Information about the system's operation is transparent
+G3: Key components and their functions are documented
+G4: The system's decision-making process is explainable
+G5: System outputs are interpretable by non-experts
+G6: Training provided to users to understand outputs
+G7: Assessment of interpretability by independent reviewers
+S1: Definition of "Interpretability"
+S2: Description of internal mechanisms provided
+S3: Documentation of system components
+S4: Detailed explanation of decision-making algorithms
+S5: Visual aids available to show decision paths
+S6: Outputs are presented in a user-friendly manner
+S7: Comprehensive user training programs available
+S8: User manual and documentation available
+S9: Peer review of interpretability features
+S10: Benchmarking against other interpretable systems
+C1: Standard definition of interpretability adopted from established literature
+C2: Documentation follows industry best practices
+C3: Scenarios cover a variety of typical use-cases
+C4: Feedback loop from users to improve training
+C5: Review bodies have relevant expertise
+C6: Benchmarks follow a standardized protocol
+E1: Example scenarios illustrating decision processes
+E2: Flowcharts and model visualizations included
+E3: User interface incorporates intuitive design principles
+E4: Training materials and workshops
+E5: Accessible and regularly updated user manual
+E6: Reports from independent review bodies
+E7: Comparative studies and benchmarks

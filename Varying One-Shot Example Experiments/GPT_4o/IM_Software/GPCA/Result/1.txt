@@ -1,0 +1,42 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3.1: Overinfusion is mitigated
+G3.2: Underinfusion is mitigated
+G3.3: Dose limit exceeded due to excessive bolus requests is mitigated
+G3.4: Bolus volume/concentration too high is mitigated
+G4.1.1: Overinfusion is mitigated under scenario 1
+G4.1.2: Overinfusion is mitigated under scenario 2
+G4.2.1: Underinfusion is mitigated under scenario 1
+G5.1.1.1: SR1.1 is appropriate for scenario 1
+G5.2.1.1: SR1.4 is appropriate for scenario 1
+G6.1.1.1.1: "Flow rate sensor is equipped" is appropriate for SR1.1
+G6.2.1.1.1: "Flow rate is less than 90% of the programmed rate setting" is appropriate for SR1.4
+G7.1.1.1.1.1: "FDA standard" is appropriate and trustworthy
+G7.2.1.1.1.1: "Expertise opinion" is appropriate and trustworthy
+G8.1.1.1.1.2: "Flow rate sensor is equipped" definition is sufficient
+G8.2.1.1.1.2: "Flow rate is less than 90% of the programmed rate setting" definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system
+S2: Argument over reliability in all suitable levels of GPCA system
+S3: Argument over operational hazards
+S4.1: Argument over the applied scenarios of Overinfusion
+S4.2: Argument over the applied scenarios of Underinfusion
+S5.1.1: Argument over all specs related to scenario 1
+S5.2.1: Argument over all specs related to scenario 1
+S6.1.1.1: Argument the appropriateness of SR1.1 over properties
+S6.2.1.1: Argument the appropriateness of SR1.4 over properties
+S7.1.1.1.1: Argument over the source of the "Flow rate sensor is equipped" definition
+S7.2.1.1.1: Argument over the source of the "Flow rate is less than 90% of the programmed rate setting" definition
+C1: All specs are given by GPCA system.spec.allInstances()
+C2: Operational hazards are given by GPCA system.operational_hazard.allInstances()
+C3.1: All related scenarios are given by Overinfusion
+C3.2: All related scenarios are given by Underinfusion
+C4.1.1: All related specs are given by scenario 1.spec.allinstances()
+C4.2.1: All related specs are given by scenario 1.spec.allinstances()
+C5.1.1.1: Properties are given by SR1.1.property.allinstances()
+C5.2.1.1: Properties are given by SR1.4.property.allinstances()
+C6.1.1.1.1: Source is given by "Flow rate sensor is equipped".source
+C6.2.1.1.1: Source is given by "Flow rate is less than 90% of the programmed rate setting".source
+Sn1.1.1.1.1.1: FDA standard
+Sn1.2.1.1.1.1: Expertise opinion
+Sn2.1.1.1.1.2: "Flow rate sensor is equipped"
+Sn2.2.1.1.1.2: "Flow rate is less than 90% of the programmed rate setting"

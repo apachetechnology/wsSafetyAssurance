@@ -1,0 +1,38 @@
+G1: Ensure that ACAS Xu system is secure against unauthorized access
+G1.1: Implement robust authentication mechanisms
+G1.2: Implement rigorous authorization practices
+G2: Guarantee the integrity of ACAS Xu operational software
+G2.1: Use code signing to ensure software integrity
+G2.2: Conduct regular security audits of the software
+G3: Maintain the confidentiality of ACAS Xu communication and data
+G3.1: Encrypt sensitive data in transit and at rest
+G3.2: Establish secure communication channels
+G4: Ensure the availability of ACAS Xu during operations
+G4.1: Implement redundant systems and components
+G4.2: Regular system maintenance and updates
+G5: Ensure the ACAS Xu system is resilient against cyberattacks
+G5.1: Deploy intrusion detection systems (IDS)
+G5.2: Establish a rapid incident response team
+S1: Implement and validate secure access controls
+S2: Employ secure software development lifecycle (SDLC) practices   
+S3: Implement effective encryption methods
+S4: Design for fault tolerance and redundancy
+S5: Integrate continuous monitoring and incident response
+J1.2: Access levels are defined according to job responsibilities
+J2.2: Previous audits have identified vulnerabilities timely
+J3.2: VPNs mitigate the risk of data interception
+J4.1: Redundancy ensures continuity during component failures
+A1.1: Users are assigned unique credentials
+A4.2: Maintenance conducted by trained personnel
+A3.1: Data encryption keys are managed securely
+A5.2: The response team is available 24/7
+Sn1.1: Use of multifactor authentication systems
+Sn1.2: Rolebased access control systems in place
+Sn2.1: Implementation of digital signatures and secure key storage   
+Sn2.2: Regular audits by internal and external security experts
+Sn3.1: Use of AES256 encryption for data protection
+Sn3.2: Use of VPN tunnels for remote communications
+Sn4.1: Duplication of critical system components
+Sn4.2: Scheduled maintenance and patch management procedures
+Sn5.1: Implementation of networkbased and hostbased IDS
+Sn5.2: Procedures and protocols for the incident response team

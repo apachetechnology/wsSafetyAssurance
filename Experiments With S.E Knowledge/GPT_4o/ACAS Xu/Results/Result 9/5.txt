@@ -1,0 +1,22 @@
+G0: ACAS Xu satisfies security requirements
+G1: ACAS Xu satisfies the asset protection requirements
+G2: ACAS Xu satisfies secure development requirements
+G3: Asset protection requirements are met during the architecture design phase
+G4: Asset protection requirements are met during other phases
+G5: ACAS Xu architecture is protected against identified security threats (STs)
+G6: ACAS Xu architecture is validated
+G0.X: ACAS Xu architecture is protected against STX
+S0: Argue through asset protection and secure development requirements
+S1: Argue through the different stages of the system development life cycle
+S2: Argue through deriving security threats from SRs
+S3: Argue over each security threat
+C0: Description of ACAS Xu
+C1: SR are requirements about protecting the system from malicious entities
+C2: Description of the ACAS Xu architecture
+C3: Description of ACAS Xu architecture model
+J0: The argumentation is based on satisfaction of SRs
+J1: Detection and mitigation of threats fulfill SRs
+A0: System SRS are complete: adequate: and consistent
+A1: Asset inventory is established
+A2: All relevant threats have been identified
+A3: ACAS Xu architecture model is well defined in {formal method}

@@ -1,0 +1,15 @@
+G1: Hazards for BlueROV2 addressed in accordance with ALARP principle
+G2: No intolerable risks present in the BlueROV2 system
+G3: Risk from mechanical failure has been reduced as low as reasonably practicable
+G4: Model BTD accurately describes possible propagation of mechanical failure hazard (BlueROV2 mechanical components)
+G5: Quantitative risk estimates are accurate and below acceptable threshold
+G9: State probability distribution used for risk estimation is an accurate representation of expected system states (undeveloped)
+G10: Estimated probability of major water ingress is below allowable threshold for critical severity class
+S1: Argument by risk reduction/elimination of each hazard
+S2: Argue that risk posed by any remaining hazards is negligible (undeveloped)
+S3: Argue that no other risks have been identified (undeveloped)
+S4: Apply ReSonAte to estimate level of risk from mechanical failure hazard
+C1: Definition of "intolerable" (Intolerable risk assumed as any risk exceeding regulatory thresholds)
+C2: Assigned severity class is critical
+A1: Function safety checks and emergency shutdown (function required by BlueROV2's BowTie Diagram (BTD)) is available
+Sn1: Risk estimation shows a 0.01% probability of occurrence

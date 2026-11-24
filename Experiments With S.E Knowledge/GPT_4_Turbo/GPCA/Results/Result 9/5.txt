@@ -1,0 +1,23 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Battery failure is mitigated
+G4: Battery failure is mitigated under power outage scenario
+G5: Battery backup time is appropriate for power outage scenario
+G6: Longevity property is appropriate for battery backup time
+G7: Manufacturer data is appropriate and trustworthy
+G8: Longevity property definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (Undeveloped)
+S2: Argument over reliability in all suitable levels of GPCA system (Undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Battery failure
+S5: Argument over all specs related to power outage scenario
+S6: Argument the appropriateness of battery backup time over properties
+S7: Argument over the source of the longevity property definition
+C1: All specs are given by GPCA system specifications
+C2: Operational hazards are given by GPCA hazard list
+C3: All related scenarios are given by Battery scenario list
+C4: All related specs are given by power outage scenario specs
+C5: Properties are given by battery spec properties
+C6: Source is given by battery documentation
+Sn1: Verified manufacturer data source
+Sn2: Battery test reports

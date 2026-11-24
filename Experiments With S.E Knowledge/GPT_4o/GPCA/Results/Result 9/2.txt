@@ -1,0 +1,23 @@
+G1: Operational safety is verified in GPCA System
+G2: All operational hazards are mitigated
+G3: data corruption is mitigated
+G4: data corruption is mitigated under high CPU load scenario
+G5: data integrity check is appropriate for high CPU load scenario
+G6: checksum validity is appropriate for data integrity check
+G7: design specification is appropriate and trustworthy
+G8: checksum validity definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA System
+S2: Argument over reliability in all suitable levels of GPCA System
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of data corruption
+S5: Argument over all specs related to high CPU load scenario
+S6: Argument the appropriateness of data integrity check over properties
+S7: Argument over the source of the checksum validity definition
+C1: All specs are given by allInstances()
+C2: Operational hazards are given by allInstances()
+C3: All related scenarios are given by data corruption
+C4: All related specs are given by high CPU load scenario.spec.allInstances()
+C5: Properties are given by data integrity check.property.allInstances()
+C6: Source is given by checksum validity.source
+Sn1: design specification
+Sn2: checksum validity

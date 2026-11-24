@@ -1,0 +1,30 @@
+G1: Ensure that the GPCA system is safe for patient use
+G1.1: Ensure the GPCA software functions safely
+G1.1.1: Software meets all predefined safety requirements
+G1.1.2: Software is reliable under intended operating conditions
+G1.2: Ensure the GPCA hardware functions safely
+G1.2.1: Hardware meets all predefined safety requirements
+G1.2.2: Hardware is reliable under all operating conditions
+G1.3: Ensure human-machine interface promotes safe use
+G1.3.1: Interface prevents operational errors
+G1.3.2: Instructions and warnings are clear and understandable
+G1.4: Implement monitoring and alerting mechanisms for system failure
+S1: Strategy to address safety by subsystem analysis
+S1.1: Use software verification and validation
+S1.2: Perform hardware safety analysis
+S1.3: Evaluate user interface usability and safety
+S2: Strategy for continuous safety monitoring
+A1: Assumption about user training
+A2: Assumption about the operational environment
+Sn1: Users are adequately trained to operate the GPCA safely
+Sn1.1.1: Results of software requirement testing
+Sn1.1.2: Results of software safety testing
+Sn1.1.3: Results of software reliability testing
+Sn1.2.1: Results of hardware design analysis
+Sn1.2.2: Results of hardware safety testing
+Sn1.2.3: Results of hardware reliability tests
+Sn1.3.1: Usability test results
+Sn1.3.2: Patient and healthcare provider feedback
+Sn1.4.1: Description and tests of implemented monitoring systems
+Sn1.4.2: Incident reports analysis
+Sn2: The GPCA operates in an environment as specified in safety tests

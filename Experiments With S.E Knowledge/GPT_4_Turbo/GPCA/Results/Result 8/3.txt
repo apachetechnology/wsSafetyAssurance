@@ -1,0 +1,23 @@
+G1: Operational safety is verified in insulin delivery system
+G2: All operational hazards are mitigated
+G3: Pump mechanics failure is mitigated
+G4: Pump mechanics failure is mitigated under scenario of power outage
+G5: Power failure handling specs are appropriate for emergency shutdown scenarios
+G6: Shutdown mechanism property is appropriate for power failure specs
+G7: System design source for safety properties is appropriate and trustworthy
+G8: Shutdown mechanism property definition is sufficient
+S1: Argument over the satisfaction of all specifications over the insulin delivery system (undeveloped)
+S2: Argument over reliability in all suitable levels of the insulin delivery system (undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of pump mechanics failure
+S5: Argument over all specs related to power outage scenarios
+S6: Argument the appropriateness of power failure specs over safety properties
+S7: Argument over the source of the shutdown mechanism property definition
+C1: Specifications are given by the official medical regulatory standards
+C2: Operational hazards are given by hazard analysis data
+C3: Scenarios related to pump mechanics failure during unexpected high dosage
+C4: Specs are given for power management and emergency shutdown
+C5: Properties are given by system's safety requirements documentation
+C6: Source is given by system design documentation
+Sn1: Verified source credentials document
+Sn2: Detailed property specification document

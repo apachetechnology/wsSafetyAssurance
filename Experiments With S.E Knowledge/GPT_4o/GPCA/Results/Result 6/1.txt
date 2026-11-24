@@ -1,0 +1,65 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G3: Underinfusion is mitigated
+G4: Overinfusion is mitigated under scenario (Dose limit exceeded due to excessive bolus requests)
+G4: Underinfusion is mitigated under scenario (Programmed rate too low)
+G4: Underinfusion is mitigated under scenario (Flow rate is less than 90% of the programmed rate setting)
+G4: Overinfusion is mitigated under scenario (Flow rate does not match the programmed rate)
+G5: spec (SR1.4) is appropriate for scenario (Dose limit exceeded due to excessive bolus requests)
+G5: spec (SR1.2) is appropriate for scenario (Programmed rate too low)
+G5: spec (SR6.1.3) is appropriate for scenario (Flow rate is less than 90% of the programmed rate setting)
+G5: spec (SR1.1) is appropriate for scenario (Flow rate does not match the programmed rate)
+G6: Trusted software limit is appropriate for SR1.4
+G6: Reliable alarm system is appropriate for SR6.1.3
+G6: 15-minute period trigger is appropriate for SR1.2
+G6: Flow rate sensor is appropriate for SR1.1
+G7: Expertise opinion is appropriate and trustworthy
+G7: Previous knowledge is appropriate and trustworthy
+G7: Previous knowledge is appropriate and trustworthy
+G7: FDA standard is appropriate and trustworthy
+G8: Trusted software limit definition is sufficient
+G8: 15-minute period trigger definition is sufficient
+G8: Reliable alarm system definition is sufficient
+G8: Flow rate sensor definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system
+S2: Argument over reliability in all suitable levels of GPCA system (Undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Underinfusion
+S4: Argument over the applied scenarios of Overinfusion
+S5: Argument over all specs related to scenario (Programmed rate too low)
+S5: Argument over all specs related to scenario (Flow rate does not match the programmed rate)
+S5: Argument over all specs related to scenario (Dose limit exceeded due to excessive bolus requests)
+S5: Argument over all specs related to scenario (Flow rate is less than 90% of the programmed rate setting)
+S6: Argument the appropriateness of spec (SR1.2) over properties
+S6: Argument the appropriateness of spec (SR6.1.3) over properties
+S6: Argument the appropriateness of spec (SR1.1) over properties
+S6: Argument the appropriateness of spec (SR1.4) over properties
+S7: Argument over the source of the 15-minute period trigger definition
+S7: Argument over the source of the reliable alarm system definition
+S7: Argument over the source of the Flow rate sensor definition
+S7: Argument over the source of the trusted software limit definition
+C1: All specs are given by spec.allInstances()
+C2: Operational hazards are given by operational hazard.allInstances()
+C3: All related scenarios are given by Underinfusion
+C3: All related scenarios are given by Overinfusion
+C4: All related specs are given by scenario.Flow rate is less than 90% of the programmed rate setting.spec.allinstances()
+C4: All related specs are given by scenario.Dose limit exceeded due to excessive bolus requests.spec.allinstances()
+C4: All related specs are given by scenario.Flow rate does not match the programmed rate.spec.allinstances()
+C4: All related specs are given by scenario.Programmed rate too low.spec.allinstances()
+C5: Properties are given by spec.property.allinstances()
+C5: Properties are given by spec.property.allinstances()
+C5: Properties are given by spec.property.allinstances()
+C5: Properties are given by spec.property.allinstances()
+C6: Source is given by property.source
+C6: Source is given by property.source
+C6: Source is given by property.source
+C6: Source is given by property.source
+Sn1: FDA standard
+Sn1: Previous knowledge
+Sn1: Expertise opinion
+Sn1: Previous knowledge
+Sn2: Reliable alarm system
+Sn2: 15-minute period trigger
+Sn2: Trusted software limit
+Sn2: Flow rate sensor

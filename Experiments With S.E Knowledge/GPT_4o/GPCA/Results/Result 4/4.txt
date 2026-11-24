@@ -1,0 +1,39 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Patient underdosing hazard is mitigated
+G3: Patient overdosing hazard is mitigated
+G4: Patient underdosing hazard is mitigated under normal operation scenario
+G4: Patient overdosing hazard is mitigated under normal operation scenario
+G5: Dosage control specification is appropriate for normal operation scenario
+G5: Dosage control specification is appropriate for normal operation scenario
+G6: Dosage accuracy property is appropriate for dosage control specification
+G6: Dosage accuracy property is appropriate for dosage control specification
+G7: Manufacturer specifications are appropriate and trustworthy
+G7: Manufacturer specifications are appropriate and trustworthy
+G8: Dosage accuracy property definition is sufficient
+G8: Dosage accuracy property definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system
+S2: Argument over reliability in all suitable levels of GPCA system (Undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of the patient overdosing hazard
+S4: Argument over the applied scenarios of the patient underdosing hazard
+S5: Argument over all specs related to normal operation scenario
+S5: Argument over all specs related to normal operation scenario
+S6: Argument the appropriateness of dosage control specification over properties
+S6: Argument the appropriateness of dosage control specification over properties
+S7: Argument over the source of the dosage accuracy property definition
+S7: Argument over the source of the dosage accuracy property definition
+C1: All specs are given by specific instances related with GPCA (Undeveloped)
+C2: Operational hazards are given by specific instances related with GPCA
+C3: All related scenarios are given by specific instances of patient underdosing hazard
+C3: All related scenarios are given by specific instances of patient overdosing hazard
+C4: All related specs are given by normal operation scenario
+C4: All related specs are given by normal operation scenario
+C5: Properties are given by dosage control specification.property.allinstances()
+C5: Properties are given by dosage control specification.property.allinstances()
+C6: Source is given by dosage accuracy property.source
+C6: Source is given by dosage accuracy property.source
+Sn1: Manufacturer documentation
+Sn1: Manufacturer documentation
+Sn2: Verification tests
+Sn2: Verification tests

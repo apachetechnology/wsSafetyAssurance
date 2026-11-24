@@ -1,0 +1,38 @@
+G1: Ensure that the BlueROV2 system is safe for underwater operations
+G1.1: The BlueROV2 is structurally sound under operational pressures
+G1.1.1: All materials meet the pressure and corrosion resistance requirements
+G1.1.2: Structural integrity is confirmed through simulations and pressure tests
+G1.2: BlueROV2 electrical systems are protected against water ingress
+G1.2.1: All electrical housings are waterproof
+G1.2.1.1: Seals maintain integrity at operational depths
+G1.3: BlueROV2 software ensures operational safety
+G1.3.1: Software has safety-critical operational controls
+G2: Ensure that the BlueROV2 system is reliable
+G2.1: The BlueROV2 has a failsafe mechanism in case of system failure
+G2.1.1: The ROV automatically surfaces on loss of power or signal
+G2.2: The BlueROV2 maintains operational communication under specified conditions
+G2.2.1: Communication is maintained up to the maximum operational range
+G3: Ensure that the BlueROV2 system performs effectively for intended tasks
+G3.1: The BlueROV2 can navigate and maneuver as required
+G3.1.1: The navigation system accurately tracks position underwater
+G3.2: The BlueROV2 carries and operates its payload effectively
+G3.2.1: ROV can deploy and retrieve payloads as per mission requirements
+S1: Context: BlueROV2's operational environment and intended use
+S2: Context: Standards and reliability requirements for underwater ROVs
+S3: Context: Mission profiles and performance benchmarks for BlueROV2
+Sn1: BlueROV2 design specifications and materials used
+Sn1.1: Material test reports and certifications
+Sn1.2: Simulation models and test results reports
+Sn2: Description of sealing and waterproofing techniques used
+Sn2.1: List of sealing methods and materials used
+Sn2.1.1: Depth test results for sealed components      
+Sn3: Software design and architecture documents
+Sn3.1: List of safety-critical control features in the software
+Sn4: Description of failsafe mechanisms in design
+Sn4.1: Test logs and failsafe activation records
+Sn5: Specifications of communication systems used
+Sn5.1: Communication range testing procedures and results
+Sn6: Navigation system specifications and maneuvering capabilities 
+Sn6.1: Test results of navigation accuracy
+Sn7: Technical specifications of payload handling systems
+Sn7.1: Payload deployment and retrieval test records

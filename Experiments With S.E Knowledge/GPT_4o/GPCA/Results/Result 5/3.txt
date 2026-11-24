@@ -1,0 +1,24 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Overdose hazard is mitigated
+G4: Overdose hazard is mitigated under failure to detect patient condition scenario
+G5: Sensor spec is appropriate for failure to detect patient condition scenario
+G6: Reliability property is appropriate for Sensor spec
+G7: Source is appropriate and trustworthy
+G8: Reliability property definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system
+S2: Argument over reliability in all suitable levels of GPCA system
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of overdose hazard
+S5: Argument over all specs related to failure to detect patient condition scenario
+S6: Argument the appropriateness of Sensor spec over properties
+S7: Argument over the source of the Reliability property definition
+C1: All specs are given by GPCA system.allInstances()
+C2: Operational hazards are given by GPCA system.allInstances()
+C2: Operational hazards are given by GPCA system.allInstances()
+C3: All related scenarios are given by overdose hazard
+C4: All related specs are given by failure to detect patient condition scenario.spec.allinstances()
+C5: Properties are given by Sensor spec.property.allinstances()
+C6: Source is given by Reliability property.source
+Sn1: Source document
+Sn2: Property assessment report

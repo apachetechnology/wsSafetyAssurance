@@ -1,0 +1,24 @@
+G1: Ensure that the GPCA system is safe for patient use.
+G2: Verify that the GPCA software calculates doses accurately.
+G3: Ensure the GPCA system provides clear and timely alerts.
+G4: Validate the reliability of hardware components.
+G5: Confirm the effectiveness and clarity of the user interface.
+S1: Decompose the safety goal into specific safety requirements.
+S1.1: Safety requirements related to software functionality.
+S1.2: Safety requirements related to hardware components.
+S1.3: Safety requirements related to user interactions.
+C1: The GPCA system is used for delivering controlled doses of analgesics to patients.
+C2: The system will be used in various healthcare settings including hospitals and clinics.
+J1: The dose calculation algorithm is based on clinically verified formulas.
+J2: Alert mechanisms are based on standard medical safety requirements.
+A1: The patients using the GPCA system have valid prescriptions.
+A2: Healthcare professionals are trained in the use of the GPCA system.
+E1: Test results showing accuracy of dose calculations.
+E2: User test results demonstrating effective alerts.
+E3: Hardware reliability test results.
+E4: User interface usability studies.
+SR1: The software must perform accurate dose calculations.
+SR2: The system must alert users to potential errors.
+SR3: The hardware must operate reliably under normal conditions.
+SR4: The system must allow for easy user interface interaction.
+I1: Satisfying all the safety requirements (SR1, SR2, SR3, SR4) will fulfill the top-level safety goal (G1) with provided contexts, assumptions, justifications, and evidence.

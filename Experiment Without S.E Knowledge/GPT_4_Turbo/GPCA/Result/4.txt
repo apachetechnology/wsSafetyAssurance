@@ -1,0 +1,25 @@
+G1: Ensure the GPCA system safely administers the correct dosage of medication to patients.
+G1.1: Ensure GPCA system design adheres to safety standards and guidelines.
+G1.2: Ensure implementation adheres to best coding practices.
+G1.3: Ensure the system performs reliably under operational conditions.
+G2.1: Identify and evaluate risks associated with the GPCA use.
+G2.2: Implement and verify risk control measures.
+G3.1: Develop and deploy effective training for GPCA system users.
+G3.2: Establish ongoing support and monitoring system for users.
+S1: Demonstrate safety through system design, implementation, and operational procedures.
+S2: Demonstrate risk management throughout the lifecycle of the GPCA.
+S3: Ensure user competency and proper use of the GPCA system.
+E1: Design documentation conforming to safety standards ISO 62304, IEC 60601.
+E2: Safety requirements and specifications review.
+E3: Code audit report.
+E4: Static code analysis report.
+E5: System test results including unit, integration, and system testing.
+E6: Real-world deployment and monitoring data.
+E7: Risk analysis report.
+E8: Failure Mode and Effects Analysis FMEA.
+E9: Design changes documentation.
+E10: Verification of risk control effectiveness report.
+E11: Training materials.
+E12: User competency assessments.
+E13: User support system documentation.
+E14: Post-implementation monitoring report.

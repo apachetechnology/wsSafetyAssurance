@@ -1,0 +1,24 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Operational hazard (e.g., medication overdose) is mitigated
+G4: Operational hazard (e.g., medication overdose) is mitigated under scenario (e.g., interruption of syringe infusion)
+G5: Specification (e.g., maximum infusion rate) is appropriate for scenario (e.g., interruption of syringe infusion)
+G6: Property (e.g., calibration accuracy) is appropriate for specification (e.g., maximum infusion rate)
+G7: Source (e.g., manufacturer's calibration report) is appropriate and trustworthy
+G8: Property definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (undeveloped)
+S2: Argument over reliability in all suitable levels of GPCA system (undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of operational hazard
+S5: Argument over all specs related to scenario
+S6: Argument the appropriateness of specification over properties
+S7: Argument over the source of the property definition
+C1: All specs are given by GPCA.allInstances()
+C1: All specs are given by GPCA.allInstances()
+C2: Operational hazards are given by operational_hazard.allInstances()
+C3: All related scenarios are given by operational_hazard.scenario.allInstances()
+C4: All related specs are given by scenario.spec.allinstances()
+C5: Properties are given by spec.property.allinstances()
+C6: Source is given by property.source
+Sn1: source (e.g., calibration report)
+Sn2: property (e.g., accuracy data)

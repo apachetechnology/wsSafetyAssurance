@@ -1,0 +1,20 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G4: Overinfusion is mitigated under excessive bolus requests scenario
+G5: Dose limit exceeded due to excessive bolus requests is appropriate for excessive bolus requests
+G6: Flow rate sensor is equipped is appropriate for dose limit spec
+G7: Source (FDA standard) is appropriate and trustworthy
+G8: Property definition (Flow rate sensor is equipped) is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (undeveloped)
+S2: Argument over reliability in all suitable levels of GPCA system (undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Overinfusion
+S5: Argument over all specs related to excessive bolus requests
+S6: Argument the appropriateness of dose limit spec over properties
+S7: Argument over the source of the property definition
+C1: All specs (including dose limit, flow rate sensor equipped)
+C2: Operational hazards (Overinfusion)
+C3: All related scenarios (Excessive bolus requests)
+Sn1: FDA standard document reference
+Sn2: Engineering calculations and design documents

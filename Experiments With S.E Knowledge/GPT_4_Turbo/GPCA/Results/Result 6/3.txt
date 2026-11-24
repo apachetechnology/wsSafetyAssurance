@@ -1,0 +1,35 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Underinfusion is mitigated
+G3: Overinfusion is mitigated
+G4: Underinfusion is mitigated under flow rate mismatch scenario
+G4: Overinfusion is mitigated under excessive bolus requests scenario
+G5: Flow rate sensor spec is appropriate for flow rate mismatch scenario
+G5: Dose limit check spec is appropriate for excessive bolus requests scenario
+G6: Property "flow rate does not match the programmed rate" is appropriate for flow rate sensor spec
+G6: Property "dose limit exceeded due to excessive bolus requests" is appropriate for dose limit check spec
+G7: Source "Expertise opinion" is appropriate and trustworthy
+G7: Source "FDA standard" is appropriate and trustworthy
+G8: "flow rate does not match" definition is sufficient
+G8: "dose limit exceeded" definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (Undeveloped)
+S2: Argument over reliability in all suitable levels of GPCA system (Undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Overinfusion
+S4: Argument over the applied scenarios of Underinfusion
+S5: Argument over all specs related to excessive bolus requests scenario
+S5: Argument over all specs related to flow rate mismatch scenario
+S6: Argument the appropriateness of dose limit check spec over properties
+S6: Argument the appropriateness of flow rate sensor spec over properties
+S7: Argument over the source of the property definition
+S7: Argument over the source of the property definition
+C1: All specs are given by spec.allInstances())
+C2: Operational hazards are given by operational hazard.allInstances())
+C3: All related scenarios are given by operational hazard)
+C4: All related specs are given by scenario.spec.allinstances())
+C5: Properties are given by spec.property.allinstances())
+C6: Source is given by property.source)
+Sn1: FDA standard documentation
+Sn1: Expert opinion documentation
+Sn2: Definition documentation
+Sn2: Definition documentation

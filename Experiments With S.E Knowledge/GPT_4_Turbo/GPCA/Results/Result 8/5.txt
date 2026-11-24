@@ -1,0 +1,23 @@
+G1: Operational safety is verified in the GPCA system.
+G2: All operational hazards are mitigated.
+G3: Power failure is mitigated.
+G4: Power failure is mitigated under low battery scenario.
+G5: Battery monitor spec is appropriate for low battery scenario.
+G6: Voltage threshold property is appropriate for battery monitor spec.
+G7: Manufacturer documents are appropriate and trustworthy.
+G8: Voltage threshold definition is sufficient.
+S1: Argument over the satisfaction of all specs over the GPCA system. (Undeveloped)
+S2: Argument over reliability in all suitable levels of the GPCA system. (Undeveloped)
+S3: Argument over operational hazards.
+S4: Argument over the applied scenarios of power failure.
+S5: Argument over all specs related to low battery scenario.
+S6: Argument the appropriateness of battery spec over properties.
+S7: Argument over the source of the property definition.
+C1: All specs are given by the GPCA system specs.
+C2: Operational hazards are given by predefined hazard list.
+C3: All related scenarios are given for power failure.
+C4: All related specs are given by low battery scenario specs.
+C5: Properties are given by battery monitor properties.
+C6: Source is given by manufacturer documents.
+Sn1: Manufacturer certification
+Sn2: Technical specification document

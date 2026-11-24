@@ -1,0 +1,18 @@
+G1: "Hazards for BlueROV2 system addressed in accordance with ALARP principle."
+G2: "No intolerable risks present in BlueROV2 system."
+G3: "Risk from specified hazards has been reduced as low as reasonably practicable"
+G4: "Model of BlueROV2 system accurately describes possible propagation of specific hazards."
+G5: "Quantitative risk estimates are accurate and below the acceptable threshold for BlueROV2 system."
+G6: "Possible hazard propagation paths correctly captured in BlueROV2 model" (Undeveloped)
+G7: "Barriers in the BlueROV2 model correctly describe their respective control action including any required system functions" (Undeveloped)
+G8: "All non-negligible threats have been identified in the BlueROV2 system" (Undeveloped)
+G9: "State probability distribution used for risk estimation is an accurate representation of expected BlueROV2 system states" (Undeveloped)
+G10: "Estimated probability of catastrophic failure is below allowable threshold for severity class defined for BlueROV2."
+S1: "Argument by risk reduction/elimination of each hazard for BlueROV2 system"
+S2: "Argue that risk posed by any remaining hazards is negligible" (Undeveloped)
+S3: "Argue that no other risks have been identified for BlueROV2 system" (Undeveloped)
+S4: "Apply ReSonAte to estimate level of risk from hazard conditions in BlueROV2."
+C1: "Definition of 'intolerable'"
+C2: "Assigned severity class based on identified hazards for BlueROV2" (Uninstantiated)
+Sn1: "Estimated risk level for BlueROV2 under defined operational conditions"
+A1: "All functions required by BlueROV2 system are available and operational" (Uninstantiated)

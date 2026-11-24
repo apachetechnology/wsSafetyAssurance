@@ -1,0 +1,23 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Over-dosage hazard is mitigated
+G4: Over-dosage hazard is mitigated under manual programming scenario
+G5: Safety lock feature is appropriate for manual programming scenario
+G6: Visibility property is appropriate for safety lock feature
+G7: Manufacturer documentation is appropriate and trustworthy
+G8: Visibility property definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (undeveloped)
+S2: Argument over reliability in all suitable levels of GPCA system (undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of over-dosage hazard
+S5: Argument over all specs related to manual programming scenario
+S6: Argument the appropriateness of safety lock feature over properties
+S7: Argument over the source of the visibility property definition
+C1: All specs are given by GPCA system specifications
+C2: Operational hazards are given by known hazards in PCA devices
+C3: All related scenarios are given by overdose hazard scenarios
+C4: All related specs are given by manual programming safety protocols
+C5: Properties are given by safety feature specifications
+C6: Source is given by manufacturer safety standards
+Sn1: Manufacturer safety certification (source)
+Sn2: Detailed visibility feature specification (property)

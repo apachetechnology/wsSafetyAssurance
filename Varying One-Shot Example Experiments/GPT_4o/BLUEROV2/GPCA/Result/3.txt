@@ -1,0 +1,65 @@
+G1: Operational safety is verified in GPCA system.
+G2: All operational hazards are mitigated.
+G3: Overinfusion is mitigated.
+G3: Underinfusion is mitigated.
+G4: Overinfusion is mitigated under Flow rate does not match the programmed rate.
+G4: Overinfusion is mitigated under Dose limit exceeded due to excessive bolus requests.
+G4: Underinfusion is mitigated under Programmed rate too low.
+G4: Underinfusion is mitigated under Flow rate is less than 90% of the programmed rate setting.
+G5: SR1.1 is appropriate for Flow rate does not match the programmed rate.
+G5: SR6.1.3 is appropriate for Dose limit exceeded due to excessive bolus requests.
+G5: SR1.2 is appropriate for Programmed rate too low.
+G5: SR6.1.4 is appropriate for Flow rate is less than 90% of the programmed rate setting.
+G6: Flow rate sensor is equipped is appropriate for SR1.1
+G6: Dose limit is implemented appropriately is appropriate for SR6.1.3
+G6: Programmed rate adjustment is implemented is appropriate for SR1.2
+G6: Period to trigger the underinfusion alarm is 15 minutes is appropriate for SR6.1.4
+G7: FDA standard is appropriate and trustworthy
+G7: Expert opinion is appropriate and trustworthy
+G7: Previous knowledge is appropriate and trustworthy
+G7: Expertise opinion is appropriate and trustworthy
+G8: Flow rate sensor is equipped definition is sufficient
+G8: Dose limit is implemented appropriately definition is sufficient
+G8: Programmed rate adjustment definition is sufficient
+G8: Period to trigger the underinfusion alarm is 15 minutes definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (undeveloped)
+S2: Argument over reliability in all suitable levels of GPCA system (undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Overinfusion
+S4: Argument over the applied scenarios of Underinfusion
+S5: Argument over all specs related to Flow rate does not match the programmed rate
+S5: Argument over all specs related to Dose limit exceeded due to excessive bolus requests
+S5: Argument over all specs related to Programmed rate too low
+S5: Argument over all specs related to Flow rate is less than 90% of the programmed rate setting
+S6: Argument the appropriateness of SR1.1 over properties
+S6: Argument the appropriateness of SR6.1.3 over properties
+S6: Argument the appropriateness of SR1.2 over properties
+S6: Argument the appropriateness of SR6.1.4 over properties
+S7: Argument over the source of the Flow rate sensor is equipped definition
+S7: Argument over the source of the Programmed rate adjustment is implemented definition
+S7: Argument over the source of the Dose limit is implemented appropriately definition
+S7: Argument over the source of the Period to trigger the underinfusion alarm is 15 minutes definition
+C1: All specs are given by spec.allInstances()
+C2: Operational hazards are given by operational hazard.allInstances()
+C3: All related scenarios are given by Overinfusion
+C3: All related scenarios are given by Underinfusion
+C4: All related specs are given by Flow rate does not match the programmed rate.spec.allInstances()
+C4: All related specs are given by Dose limit exceeded due to excessive bolus requests.spec.allInstances()
+C4: All related specs are given by Programmed rate too low.spec.allInstances()
+C4: All related specs are given by Flow rate is less than 90% of the programmed rate setting.spec.allInstances()
+C5: Properties are given by spec.property.allInstances()
+C5: Properties are given by spec.property.allInstances()
+C5: Properties are given by spec.property.allInstances()
+C5: Properties are given by spec.property.allInstances()
+C6: Source is given by property.source
+C6: Source is given by property.source
+C6: Source is given by property.source
+C6: Source is given by property.source
+Sn1: FDA standard
+Sn1: Expert opinion
+Sn1: Previous knowledge
+Sn1: Expertise opinion
+Sn2: Flow rate sensor is equipped
+Sn2: Dose limit is implemented appropriately
+Sn2: Programmed rate adjustment
+Sn2: Period to trigger the underinfusion alarm is 15 minutes

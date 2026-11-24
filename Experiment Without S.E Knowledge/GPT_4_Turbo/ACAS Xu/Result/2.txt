@@ -1,0 +1,27 @@
+Goal1: Ensure ACAS Xu system is reliable and secure for operational use.
+Goal2: ACAS Xu complies with international aviation safety standards.
+Goal2.1.1: ACAS Xu meets all requirements specified in RTCA DO385
+Goal2.1.2: ACAS Xu hardware and software pass all functionality tests.
+Goal3: ACAS Xu ensures robust collision detection and avoidance capabilities.
+Goal3.1.1: Algorithms detect potential collisions with 99.9% accuracy.
+Goal3.1.2: Algorithms successfully recommend avoidance maneuvers in all test scenarios.
+Goal4: ACAS Xu maintains high operational reliability.
+Goal4.1.1: System demonstrates 99.999% uptime in operational environments.
+Goal4.1.2: System has redundancy mechanisms for critical components.
+Goal5: ACAS Xu is secure against cyber threats.
+Goal5.1.1: Communication channels utilize encryption and secure protocols.
+Goal5.1.2: All software updates undergo security vetting before deployment.
+Strategy2.1: Demonstrate compliance through testing and certification processes.
+Strategy3.1: Validate detection and avoidance algorithms through simulation and realworld testing.
+Strategy4.1: Achieve and demonstrate high system availability and fault tolerance.
+Strategy5.1: Implement and verify cybersecurity measures.
+Context1.1: ACAS Xu is an airborne collision avoidance system for unmanned aircraft.
+Assumption1.2 ACAS Xu operates within controlled airspace alongside manned aircraft.
+Evidence2.1.1.1:  Certification documents from FAA indicating compliance.
+Evidence2.1.2.1:  Test log and results documentation.
+Evidence3.1.1.1:  Simulation test results.
+Evidence3.1.2.1:  Field test results and incident reports.
+Evidence4.1.1.1:  Operational performance records.
+Evidence4.1.2.1:  System design specifications and redundancy test results.
+Evidence5.1.1.1:  Security audit reports and encryption standards documentation.
+Evidence5.1.2.1:  Software update logs and security clearance documentation.

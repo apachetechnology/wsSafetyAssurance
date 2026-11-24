@@ -1,0 +1,23 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Malfunctioning is mitigated [Oper. Hazard]
+G4: Malfunctioning is mitigated under Power Failure
+G5: Alarm System specs are appropriate for Power Failure
+G6: Alarm Response Time is appropriate for Alarm System specs
+G7: Alarm Response Time source is appropriate and trustworthy
+G8: Alarm Response Time definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (Undeveloped)
+S2: Argument over reliability in all suitable levels of GPCA system (Undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Malfunctioning
+S5: Argument over all specs related to Power Failure
+S6: Argument the appropriateness of Alarm System specs over properties
+S7: Argument over the source of the Alarm Response Time definition
+C1: All specs are given by GPCA system.allSpecs()
+C2: Operational hazards are given by GPCA system.allOperationalHazards()
+C3: All related scenarios are given by Malfunctioning
+C4: All related specs are given by Power Failure.specs
+C5: Properties are given by Alarm System specs
+C6: Source is given by Alarm Response Time.source
+Sn1: Alarm Response Time Source Evidence
+Sn2: Alarm Response Time Definition Evidence

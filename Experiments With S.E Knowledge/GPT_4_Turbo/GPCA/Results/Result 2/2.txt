@@ -1,0 +1,22 @@
+G1: Operational safety is verified in the GPCA system
+G2: All operational hazards are mitigated (undeveloped)
+G3: Overinfusion is mitigated
+G4: Overinfusion is mitigated under high flow rate scenario
+G5: Flow rate sensor is appropriate for high flow rate scenario
+G6: Flow rate must be less than 90% of the programmed rate setting 
+G7: FDA standard is appropriate and trustworthy
+G8: Property definition is sufficiently rigorous
+S1: Argument over the satisfaction of all specs over the GPCA system
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Overinfusion
+S5: Argument over all specs related to high flow rate scenario
+S6: Argument the appropriateness of the flow rate sensor over properties
+S7: Argument over the source of the property definition
+C1: All specs are given by safety requirements SR1.1, SR1.2, SR1.4, SR1.5, SR1.10, SR3.4.6, SR6.1.3, SR6.1.4
+C2: Operational hazards are given by "Overinfusion" and "Underinfusion"
+C3: All related scenarios are given by operational settings for Overinfusion
+C4: All related specs are given by safety requirement SR1.10
+C5: Properties are given by "Flow rate sensor is equipped", "Flow rate is less than 90% of the programmed rate setting"
+C6: Source is given by FDA standard
+Sn1: source verification document
+Sn2: flow rate property specification document

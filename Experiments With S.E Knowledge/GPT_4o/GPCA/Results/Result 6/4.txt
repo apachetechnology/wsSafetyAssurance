@@ -1,0 +1,29 @@
+G1: Operational safety is verified in the GPCA system.
+G2: All operational hazards are mitigated.
+G3: Overinfusion is mitigated.
+G3: Underinfusion is mitigated. (Undeveloped)
+G4: Underinfusion is mitigated under Programmed rate too low scenario. (Undeveloped)
+G4: Underinfusion is mitigated under Flow rate mismatch scenario. (Undeveloped)
+G4: Overinfusion is mitigated under Flow rate mismatch scenario.
+G5: Dose limit spec is appropriate for Excessive bolus requests scenario. (Undeveloped)
+G5: Bolus concentration spec is appropriate for Bolus volume/concentration too high scenario. (Undeveloped)
+G5: Flow rate sensor spec is appropriate for Flow rate mismatch scenario.
+G6: Flow rate sensor is appropriate for Flow rate of 90% programmed setting.
+G7: Expert opinion.
+G8: Flow rate is less than 90% of the programmed rate setting.
+S1: Argument over the satisfaction of all specs over the GPCA system. (Undeveloped)
+S2: Argument over reliability in all suitable levels of the GPCA system. (Undeveloped)
+S3: Argument over operational hazards.
+S4: Argument over the applied scenarios of Underinfusion.
+S4: Argument over the applied scenarios of Overinfusion.
+S5: Argument over all specs related to Flow rate mismatch scenario.
+S6: Argument the appropriateness of Flow rate sensor spec over properties.
+S7: Argument over the source of the property definition.
+C1: All specs are given by spec.allInstances()
+C2: Operational hazards are given by operational_hazard.allInstances()
+C3: All related scenarios are given by Overinfusion
+C4: All related specs are given by Flow_rate_mismatch.spec.allinstances()
+C5: Properties are given by Flow_rate_sensor_spec.property.allinstances()
+C6: Source is given by property.source
+Sn1: Source Expert opinion.
+Sn2: Property Flow rate is less than 90% of the programmed rate setting.

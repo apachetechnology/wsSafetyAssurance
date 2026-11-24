@@ -1,0 +1,65 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G3: Underinfusion is mitigated
+G4: Underinfusion is mitigated under Dose limit exceeded due to excessive bolus requests
+G4: Underinfusion is mitigated under Bolus volume/concentration too high
+G4: Overinfusion is mitigated under Flow rate not matching programmed rate
+G4: Underinfusion is mitigated under Programmed rate too low
+G5: SR1.1 is appropriate for Flow rate not matching programmed rate
+G5: SR1.2 is appropriate for Programmed rate too low
+G5: SR1.3 is appropriate for Dose limit exceeded due to excessive bolus requests
+G5: SR1.4 is appropriate for Bolus volume/concentration too high
+G6: Maximum bolus concentration appropriate for SR1.4
+G6: Limit on bolus volume appropriate for SR1.3
+G6: Period (to trigger the underinfusion alarm is 15 minutes appropriate for SR1.2)
+G6: Flow rate sensor is appropriate for SR1.1
+G7: FDA standard is appropriate and trustworthy
+G7: Previous knowledge is appropriate and trustworthy
+G7: Expertise opinion is appropriate and trustworthy
+G7: FDA standard is appropriate and trustworthy
+G8: Maximum bolus concentration definition is sufficient
+G8: Limit on bolus volume definition is sufficient
+G8: Period (trigger the underinfusion alarm definition is sufficient)
+G8: Flow rate sensor definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system
+S2: Argument over reliability in all suitable levels of GPCA system (Undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Underinfusion
+S4: Argument over the applied scenarios of Overinfusion
+S5: Argument over all specs related to Programmed rate too low
+S5: Argument over all specs related to Dose limit exceeded due to excessive bolus requests
+S5: Argument over all specs related to Bolus volume/concentration too high
+S5: Argument over all specs related to Flow rate not matching programmed rate
+S6: Argument the appropriateness of SR1.1 over properties
+S6: Argument the appropriateness of SR1.2 over properties
+S6: Argument the appropriateness of SR1.3 over properties
+S6: Argument the appropriateness of SR1.4 over properties
+S7: Argument over the source of the Limit on bolus volume definition
+S7: Argument over the source of the Period (to trigger the underinfusion alarm definition)
+S7: Argument over the source of the Maximum bolus concentration definition
+S7: Argument over the source of the Flow rate sensor definition
+C1: All specs are given by spec.allInstances()
+C2: Operational hazards are given by operational hazard.allInstances()
+C3: All related scenarios are given by operational hazard
+C3: All related scenarios are given by operational hazard
+C4: All related specs are given by scenario.spec.allInstances()
+C4: All related specs are given by scenario.spec.allInstances()
+C4: All related specs are given by scenario.spec.allInstances()
+C4: All related specs are given by scenario.spec.allInstances()
+C5: Properties are given by spec.property.allInstances()
+C5: Properties are given by spec.property.allInstances()
+C5: Properties are given by spec.property.allInstances()
+C5: Properties are given by spec.property.allInstances()
+C6: Source is given by property.source
+C6: Source is given by property.source
+C6: Source is given by property.source
+C6: Source is given by property.source
+Sn1: FDA standard document
+Sn1: FDA standard document
+Sn1: Expertise opinion document
+Sn1: Previous knowledge document
+Sn2: Limit on bolus volume specification
+Sn2: Flow rate sensor specification
+Sn2: Period (trigger the underinfusion alarm specification)
+Sn2: Maximum bolus concentration specification

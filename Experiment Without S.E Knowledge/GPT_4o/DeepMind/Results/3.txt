@@ -1,0 +1,34 @@
+G1: Ensure the interpretability of DeepMind’s Machine Learning Enabled System.
+G1.1: Ensure that model decisions are explainable.
+G1.1.1: Implement and test XAI methods.
+G1.2: Document and communicate model behavior.
+G1.2.1: Maintain updated documentation.
+G1.3: Ensure stakeholders understand the model's decisions.
+G1.3.1: Evaluate the effectiveness of visualization tools.
+G1.4: Validate interpretability through external review.
+G1.4.1: Address feedback from external reviews.
+S1: Break down the overall goal into specific objectives for interpretability.
+C1: Scope of XAI methods including LIME, SHAP, and model-specific interpretations.
+C2: Includes details like model architecture, training process, and input-output relationships.
+C3: Visual tools to simplify understanding of model decisions.
+C4: Experts in ML interpretability.
+J1: Research shows XAI can significantly enhance interpretability.
+J2: Well-documented models are easier to interpret and debug.
+J3: Visualizations have been proven to be effective in conveying complex information.
+J4: Independent reviews help identify gaps in interpretability.
+A1: XAI techniques are sufficient for explaining decisions of the ML model.
+A2: Extensive documentation improves understanding and interpretability.
+A3: Visualization tools enhance stakeholder comprehension.
+A4: External reviews provide unbiased insights.
+Sn: Adopt explainable AI (XAI) techniques.
+Sn: Implement LIME and SHAP for decision explanation.
+Sn: Integrate suggestions and improve interpretability.
+Sn: Create comprehensive documentation.
+Sn: Use automated tools for documentation generation.
+Sn: Develop user-friendly visualization tools.
+Sn: Conduct user studies to gauge comprehension.
+Sn: Engage with external experts for model review.
+E1: Test results showing successful explanation of model decisions using XAI.
+E2: Examples of documentation maintained over time.
+E3: User study results showing improved understanding.
+E4: Review reports and subsequent improvements implemented.

@@ -1,0 +1,31 @@
+G1: The GPCA system is acceptably safe for use in clinical settings.
+G2: All identified hazards associated with the GPCA system are acceptably controlled.
+G3: Major risks have been identified and assessed.
+G4: The risk of overdose is controlled to an acceptable level.
+G5: The risk of equipment malfunction is controlled to an acceptable level.
+G6: User errors are minimized through effective design and training.
+G7: The GPCA system complies with relevant regulatory requirements.
+G8: The GPCA system meets the FDA requirements for medical devices.
+G9: The GPCA system meets IEC 62304 software lifecycle standards.
+S1: The GPCA system is intended for use in hospitals by patients for pain management.
+S2:  Hazard analysis and risk mitigation strategy.
+S3: Complete Hazard and Risk Analysis.
+S4:  Implement and verify overdose prevention mechanisms.
+S5: Dependability and reliability analysis.
+S6: User-Centered Design and Training Programs.
+S7:  Compliance with regulatory standards
+SC1: Risk Management Process
+C1: Safety standards for medical devices will be followed.
+C2: Following ISO 14971 standard for risk management of medical devices.
+C3: Adhering to FDA’s process for premarket approval.
+C4: Following IEC 62304 for software development and maintenance.
+E1: HRA Report dated MM/DD/YYYY
+E2: Dose limit feature verification report
+E3: Clinical trial results showing safe dose administration
+E4: Reliability testing report
+E5: Maintenance and error log analysis
+E6: Usability testing report
+E7: Training program documentation
+E8: FDA approval documentation
+E9: Software development lifecycle documentation
+E10: Software verification and validation reports

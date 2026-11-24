@@ -1,0 +1,24 @@
+G1: Instant Messaging Software is acceptably secure in managed systems.
+G2: All identified software critical assets are protected
+G3.1: Registration information is protected
+G3.2: User account information is protected
+G3.3: Authentication information is protected
+G3.4: Chat logs are protected
+G4.1: Registration information which belongs to Data Exchange is protected
+G4.2: User account information which belongs to Environment Entity is protected
+G4.3: Authentication information which belongs to Data Exchange is protected
+G4.4: Chat logs which belong to Data Storage are protected
+S1: Argument that software assets are under protection
+S2: Respective arguments of software critical assets
+S3.1: Argument of type: Data Exchange
+S3.2: Argument of type: Environment Entity
+S3.3: Argument of type: Data Exchange
+S3.4: Argument of type: Data Storage
+C1: Definition and description of Instant Messaging Software
+C2: Definition and description of managed systems
+C3: Definition of "acceptably secure"
+C4: List of Instant Messaging Software critical assets Registration information, User account information, Authentication information, Chat logs
+C5: List of software critical asset types in PEDD Process, Environment Entity, Data Exchange, Data Storage
+J1: Protection of software assets supports that software is acceptably secure
+J2: Relationship between assets is clear and can be argued separately
+J3: Types of software assets are according to PEDD

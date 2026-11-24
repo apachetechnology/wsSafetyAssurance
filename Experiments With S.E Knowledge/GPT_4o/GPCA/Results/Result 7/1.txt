@@ -1,0 +1,102 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G3: Underinfusion is mitigated
+G3: Flow rate does not match the programmed rate is mitigated
+G3: Programmed rate too low is mitigated
+G3: Dose limit exceeded due to excessive bolus requests is mitigated
+G3: Bolus volume/concentration too high is mitigated
+G4: Overinfusion is mitigated under scenario
+G4: Underinfusion is mitigated under scenario
+G4: Flow rate does not match the programmed rate is mitigated under scenario
+G4: Programmed rate too low is mitigated under scenario
+G4: Dose limit exceeded due to excessive bolus requests is mitigated under scenario
+G4: Bolus volume/concentration too high is mitigated under scenario
+G5: spec is appropriate for scenario
+G5: spec is appropriate for scenario
+G5: spec is appropriate for scenario
+G5: spec is appropriate for scenario
+G5: spec is appropriate for scenario
+G5: spec is appropriate for scenario
+G6: property is appropriate for spec
+G6: property is appropriate for spec
+G6: property is appropriate for spec
+G6: property is appropriate for spec
+G6: property is appropriate for spec
+G6: property is appropriate for spec
+G7: Source is appropriate and trustworthy
+G7: Source is appropriate and trustworthy
+G7: Source is appropriate and trustworthy
+G7: Source is appropriate and trustworthy
+G7: Source is appropriate and trustworthy
+G7: Source is appropriate and trustworthy
+G8: property definition is sufficient
+G8: property definition is sufficient
+G8: property definition is sufficient
+G8: property definition is sufficient
+G8: property definition is sufficient
+G8: property definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Overinfusion
+S4: Argument over the applied scenarios of Underinfusion
+S4: Argument over the applied scenarios of Flow rate does not match the programmed rate
+S4: Argument over the applied scenarios of Programmed rate too low
+S4: Argument over the applied scenarios of Dose limit exceeded due to excessive bolus requests
+S4: Argument over the applied scenarios of Bolus volume/concentration too high
+S5: Argument over all specs related to scenario
+S5: Argument over all specs related to scenario
+S5: Argument over all specs related to scenario
+S5: Argument over all specs related to scenario
+S5: Argument over all specs related to scenario
+S5: Argument over all specs related to scenario
+S6: Argument the appropriateness of spec over properties
+S6: Argument the appropriateness of spec over properties
+S6: Argument the appropriateness of spec over properties
+S6: Argument the appropriateness of spec over properties
+S6: Argument the appropriateness of spec over properties
+S6: Argument the appropriateness of spec over properties
+S7: Argument over the source of the property definition
+S7: Argument over the source of the property definition
+S7: Argument over the source of the property definition
+S7: Argument over the source of the property definition
+S7: Argument over the source of the property definition
+S7: Argument over the source of the property definition
+C1: All specs are given by spec.allInstances()
+C2: Operational hazards are given by operational hazard.allInstances()
+C3: All related scenarios are given by operational hazard
+C3: All related scenarios are given by operational hazard
+C3: All related scenarios are given by operational hazard
+C3: All related scenarios are given by operational hazard
+C3: All related scenarios are given by operational hazard
+C3: All related scenarios are given by operational hazard
+C4: All related specs are given by scenario.spec.allinstances()
+C4: All related specs are given by scenario.spec.allinstances()
+C4: All related specs are given by scenario.spec.allinstances()
+C4: All related specs are given by scenario.spec.allinstances()
+C4: All related specs are given by scenario.spec.allinstances()
+C4: All related specs are given by scenario.spec.allinstances()
+C5: Properties are given by spec.property.allinstances()
+C5: Properties are given by spec.property.allinstances()
+C5: Properties are given by spec.property.allinstances()
+C5: Properties are given by spec.property.allinstances()
+C5: Properties are given by spec.property.allinstances()
+C5: Properties are given by spec.property.allinstances()
+C6: Source is given by property.source
+C6: Source is given by property.source
+C6: Source is given by property.source
+C6: Source is given by property.source
+C6: Source is given by property.source
+C6: Source is given by property.source
+Sn1: source
+Sn1: source
+Sn1: source
+Sn1: source
+Sn1: source
+Sn1: source
+Sn2: property
+Sn2: property
+Sn2: property
+Sn2: property
+Sn2: property
+Sn2: property

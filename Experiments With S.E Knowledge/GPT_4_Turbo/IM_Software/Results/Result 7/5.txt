@@ -1,0 +1,14 @@
+G1: Instant Messaging (IM software is acceptably secure in its operational environment
+G2: All identified software critical assets are protected
+G3: Each software critical asset is protected
+S1: Argument that software assets are under protection
+S2: Respective arguments of software critical assets
+S3: Argument of the type to which the software critical asset belongs
+C1: Definition and description of Instant Messaging (IM software
+C2: Definition and description of the operational environment
+C3: Definition of acceptably secure as ensuring protection against unauthorized access and data breaches
+C4: List of Instant Messaging (IM software critical assets: Registration information, Registration process, User account information, Authentication information, Login process, Chat logs
+C5: List of software critical asset types in PEDD: Process, Environment Entity, Data Exchange, Data Storage
+J1: Protection of software assets supports that software is acceptably secure
+J2: Relationship between assets is clear and can be argued separately
+J3: Types of software assets according to PEDD

@@ -1,0 +1,40 @@
+G1: IM software is acceptably secure
+G2: All identified software critical assets are protected
+G3: Registration information is protected
+G3: Registration process is protected
+G3: User account information is protected
+G3: Authentication information is protected
+G3: Login process is protected
+G3: Chat logs are protected
+G4: Registration information which belongs to Data Storage is protected
+G4: Registration process which belongs to Process is protected
+G4: User account information which belongs to Data Storage is protected
+G4: Authentication information which belongs to Data Storage is protected
+G4: Login process which belongs to Process is protected
+G4: Chat logs which belong to Data Storage is protected
+S1: Argument of that software assets are under protection
+S2: Respective arguments of software critical assets
+S3: Argument of the type which the software critical asset belongs to
+S3: Argument of the type which the software critical asset belongs to
+S3: Argument of the type which the software critical asset belongs to
+S3: Argument of the type which the software critical asset belongs to
+S3: Argument of the type which the software critical asset belongs to
+S3: Argument of the type which the software critical asset belongs to
+C1: Definition and description of IM software
+C2: Description of the system within which the IM software operates
+C3: Definition of acceptably secure
+C4: List of IM software critical assets
+C5: List of software critical asset types in PEDD
+C5: List of software critical asset types in PEDD
+C5: List of software critical asset types in PEDD
+C5: List of software critical asset types in PEDD
+C5: List of software critical asset types in PEDD
+C5: List of software critical asset types in PEDD
+J1: Protection of software assets supports that software is acceptably secure
+J2: Relationship between assets is clear and can be argued separately
+J3: Types of software assets are according to PEDD
+J3: Types of software assets are according to PEDD
+J3: Types of software assets are according to PEDD
+J3: Types of software assets are according to PEDD
+J3: Types of software assets are according to PEDD
+J3: Types of software assets are according to PEDD

@@ -1,0 +1,33 @@
+G1: Ensure confidentiality of user messages
+G1.1.1: Use strong encryption algorithms (e.g., AES-256)
+G1.1.2: Securely manage encryption keys
+G1.2.1: Encrypt stored messages on server
+G1.2.2: Allow user to control backup and deletion of messages
+G2: Ensure integrity of the software and data
+G2.1.1: Regular code audits and reviews
+G2.1.2: Use of code analysis tools to detect vulnerabilities
+G2.2.1: Validate all incoming data
+G2.2.2: Sanitize outputs to avoid injection attacks
+G3. Ensure availability of service
+G3.2.1: Use rate limiting
+G3.2.2: Employ geographically distributed servers
+G4: Ensure authentication and authorization security
+G4.1.1: Support multi-factor authentication (MFA)
+G4.1.2: Ensure secure session management
+G4.2.1: Define user roles and permissions
+G4.2.2: Regularly audit and review access rights
+G5: Ensure compliance with relevant laws and regulations
+G5.2.1: Ensure lawful data access and retrieval processes
+G5.2.2: Keep audit logs for law enforcement reviews
+S1.1: Implement end-to-end encryption
+S1.1.2.1: Use hardware security modules for key storage
+S1.1.2.2: Rotate encryption keys periodically
+S1.2: Implement secure message storage practices
+S2.1: Implement secure coding practices
+S2.2: Implement data validation methods
+S3.1: Use redundant systems to handle key services
+S3.2: Implement DDoS protection mechanisms
+S4.1: Implement strong authentication mechanisms
+S4.2: Control access to resources based on roles
+S5.1: Comply with data protection regulations (e.g., GDPR)
+S5.2: Implement mechanisms for law enforcement requests

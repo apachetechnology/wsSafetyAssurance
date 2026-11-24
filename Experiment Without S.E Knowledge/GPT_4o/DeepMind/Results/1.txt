@@ -1,0 +1,22 @@
+G1: The DeepMind Machine Learning enabled system is interpretable.
+G1.1: The system's decision-making process is understandable.
+G1.2: The system's outputs can be traced back to inputs.
+G1.3: The system's behavior can be predicted and explained.
+G1.4: The system incorporates mechanisms for user feedback and refinement.
+G1.5: The system includes visualization tools for model insights.
+S1: Interpretability will be demonstrated through clearly defined sub-goals.
+C1: The scope includes all machine learning models used in the system.
+C2: This includes all input data, preprocessing steps, and model outputs.
+C3: This includes performance metrics, accuracy, and error analysis.
+C4: System allows for human-in-the-loop interventions.
+C5: Tools for visualizing various aspects of the model and data.
+Sol1: Provide detailed model descriptions and flowcharts.
+Sol2: Implement end-to-end traceability mechanisms.
+Sol3: Conduct extensive testing and provide analysis reports.
+Sol4: Implement features allowing users to interact with and refine the model.
+Sol5: Develop and integrate comprehensive visualization tools.
+E1: Documentation detailing the algorithms and data used.
+E2: Traceability matrix linking inputs to outputs.
+E3: Test reports showcasing consistent behavior under various conditions.
+E4: User feedback logs and refinement processes.
+E5: Screenshots and documentation of the visualization tools.

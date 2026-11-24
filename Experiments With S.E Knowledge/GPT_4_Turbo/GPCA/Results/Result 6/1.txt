@@ -1,0 +1,38 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G3: Underinfusion is mitigated
+G4: Underinfusion due to program rate too low is mitigated under patient alert scenario
+G4: Overinfusion due to excessive bolus is mitigated under nominal operation
+G5: Flow rate sensor spec is appropriate for nominal operation
+G5: Low rate alarm spec is appropriate for patient alert scenario
+G6: "Programmed rate too low" property is appropriate for patient alert scenario
+G6: "Flow rate is less than 90% of programmed rate" property is appropriate for nominal operation scenario
+G7: Expert opinion is appropriate and trustworthy
+G7: FDA standard is appropriate and trustworthy
+G8: "Programmed rate too low" definition is sufficient
+G8: "Flow rate < 90% of programmed rate" definition is sufficient
+S1: Argument over the satisfaction of all safety requirements in GPCA system (Developed)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Underinfusion
+S4: Argument over the applied scenarios of Overinfusion
+S5: Argument over all safety requirements related to patient alert scenario
+S5: Argument over all safety requirements related to nominal operation scenario
+S6: Argument the appropriateness of specs over properties
+S6: Argument the appropriateness of specs over properties
+S7: Argument over the source of the property definition
+S7: Argument over the source of the property definition
+C1: Safety requirements are given by FDA standard and expert opinion
+C2: Operational hazards include Overinfusion and Underinfusion
+C3: Scenarios include Overinfusion due to excessive bolus
+C3: Scenarios include Underinfusion due to program rate being too low
+C4: All related safety requirements vetted by the FDA
+C4: All related safety requirements vetted by expert opinions
+C5: Properties include triggering of the underinfusion alarm within 15 minutes
+C5: Properties include triggering of the Underinfusion alarm at correct rates
+C6: Source of property definition is FDA standard
+C6: Source of property definition is expert opinion
+Sn1: FDA compliance documentation
+Sn1: Expert peer reviews
+Sn2: Expert published papers on safe infusion rates
+Sn2: Published FDA guidance on infusion pump standards

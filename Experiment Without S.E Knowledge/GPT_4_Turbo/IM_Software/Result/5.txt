@@ -1,0 +1,29 @@
+G1: Ensure the security and privacy of the IM software
+G1.1: Ensure all messages are encrypted
+G1.1.1: Implement end-to-end encryption (E2EE)
+G1.1.2: Encryption keys are securely managed
+G1.2: Protect user identity and privacy
+G1.2.1: Anonymize user data where possible
+G1.2.2: Use secure methods for user authentication
+G1.3: Ensure IM software is free from vulnerabilities
+G1.3.1: Conduct regular security audits
+G1.3.2: Implement a robust patch management process
+G1.4: Ensure compliance with relevant legal and regulatory requirements
+G1.4.1: Adhere to data protection laws (e.g., GDPR, CCPA)
+G1.4.2: Maintain transparency in data processing operations
+S1.1.1.1: Use industry standard encryption protocols (e.g., AES, RSA)
+S1.1.1.2: Regularly update encryption algorithms
+S1.1.2.1: Keys are generated, stored, and disposed of securely
+S1.1.2.2: Implement key rotation policies
+S1.2.1.1: Use pseudonymization techniques for user identifiers
+S1.2.1.2: Provide users with privacy configuration options
+S1.2.2.1: Implement Multi-Factor Authentication (MFA)
+S1.2.2.2: Regularly review and update authentication methods
+S1.3.1.1: External audits are performed annually
+S1.3.1.2: Internal audits are performed quarterly
+S1.3.2.1: Patches are reviewed and tested before deployment
+S1.3.2.2: Patches are deployed in a timely manner
+S1.4.1.1: Implement procedures for handling, processing, and storing personal data
+S1.4.1.2: Perform regular compliance audits
+S1.4.2.1: Publicly available privacy policies
+S1.4.2.2: Clear user consent mechanisms for data processing

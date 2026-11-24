@@ -1,0 +1,23 @@
+G1: Operational safety is verified in Generic Patient-Controlled Analgesia system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G4: Overinfusion is mitigated under likely scenarios
+G5: Safety requirements are appropriate for likely scenarios
+G6: Flow rate settings are appropriate for safety requirements
+G7: Source FDA standard is appropriate and trustworthy
+G8: Property definition of flow rate settings is sufficient
+S1: Argument over the satisfaction of all specs over Generic Patient-Controlled Analgesia system (UNDEVELOPED)
+S2: Argument over reliability in all suitable levels of Generic Patient-Controlled Analgesia system (UNDEVELOPED)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Overinfusion
+S5: Argument over all specs related to likely scenarios
+S6: Argument the appropriateness of safety requirements over properties
+S7: Argument over the source of the property definition
+C1: All specs are given by FDA standards: Expert opinions and Previous Knowledge
+C2: Operational hazards are given by potential causes such as flow rate mismatch: programmed rate issues: dose limit exceeded
+C3: All related scenarios are given by possible operational contexts
+C4: All related specs are given by safety requirements like SR1.1: SR1.2: SR1.4
+C5: Properties are given by specs like Flow rate sensor equipped: Trigger period is 15 minutes
+C6: Source is given by standards like FDA
+Sn1: Source verification documentation
+Sn2: Detailed specifications and tests reports

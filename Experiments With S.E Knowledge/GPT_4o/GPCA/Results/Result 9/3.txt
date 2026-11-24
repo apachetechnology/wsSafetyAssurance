@@ -1,0 +1,39 @@
+G1: Operational safety is verified in Pacemaker System
+G2: All operational hazards are mitigated
+G3: Electrical hazard is mitigated
+G3: Software malfunction hazard is mitigated
+G4: Electrical hazard is mitigated under high voltage scenario
+G4: Software malfunction hazard is mitigated under unexpected input scenario
+G5: Input validation spec is appropriate for unexpected input scenario
+G5: Voltage tolerance spec is appropriate for high voltage scenario
+G6: Voltage tolerance property is appropriate for Voltage tolerance spec
+G6: Input validation property is appropriate for Input validation spec
+G7: Manufacturer specification is appropriate and trustworthy
+G7: Testing protocol is appropriate and trustworthy
+G8: Voltage tolerance property definition is sufficient
+G8: Input validation property definition is sufficient
+S1: Argument over the satisfaction of all specs over Pacemaker System
+S2: Argument over reliability in all suitable levels of Pacemaker System
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Electrical hazard
+S4: Argument over the applied scenarios of Software malfunction hazard
+S5: Argument over all specs related to high voltage scenario
+S5: Argument over all specs related to unexpected input scenario
+S6: Argument the appropriateness of Voltage tolerance spec over properties
+S6: Argument the appropriateness of Input validation spec over properties
+S7: Argument over the source of the Voltage tolerance property definition
+S7: Argument over the source of the Input validation property definition
+C1: All specs are given by PacemakerSystem.spec.allInstances()
+C2: Operational hazards are given by pacemakerSystem.operationalHazard.allInstances()
+C3: All related scenarios are given by ElectricalHazard
+C3: All related scenarios are given by SoftwareMalfunctionHazard
+C4: All related specs are given by highVoltageScenario.spec.allInstances()
+C4: All related specs are given by UnexpectedInputScenario.spec.allInstances()
+C5: Properties are given by VoltageToleranceSpec.property.allInstances()
+C5: Properties are given by InputValidationSpec.property.allInstances()
+C6: Source is given by VoltageToleranceProperty.source
+C6: Source is given by InputValidationProperty.source
+Sn1: Manufacturer certification
+Sn1: Testing protocol documentation
+Sn2: Voltage tolerance specification document
+Sn2: Input validation specification document

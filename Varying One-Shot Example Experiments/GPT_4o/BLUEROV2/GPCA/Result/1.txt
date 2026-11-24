@@ -1,0 +1,28 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3.0: Overinfusion is mitigated
+G4.0: Overinfusion is mitigated under Flow rate does not match the programmed rate
+G5.0: SR1.1 is appropriate for Flow rate does not match the programmed rate
+G5.1: SR1.2 is appropriate for Flow rate does not match the programmed rate
+G5.2: SR1.4 is appropriate for Flow rate does not match the programmed rate (undeveloped)
+G5.3: SR1.10 is appropriate for Flow rate does not match the programmed rate (undeveloped)
+G6.0: Flow rate sensor is equipped is appropriate for SR1.1
+G6.1: Period (to trigger the underinfusion alarm) is 15 minutes is appropriate for SR1.2 (undeveloped)
+G7.0: FDA standard is appropriate and trustworthy
+G8.0: Flow rate sensor is equipped definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Overinfusion
+S5: Argument over all specs related to Flow rate does not match the programmed rate
+S6: Argument the appropriateness of SR1.1 over properties
+S6: Argument the appropriateness of SR1.2 over properties
+S7: Argument over the source of the Flow rate sensor is equipped definition
+C1: All specs are given by spec.allInstances()
+C2: Operational hazards are given by operational hazard.allInstances()
+C3.0: All related scenarios are given by Overinfusion
+C4.0: All related specs are given by Flow rate does not match the programmed rate.spec.allinstances()
+C5.0: Properties are given by SR1.1.property.allinstances()
+C5.1: Properties are given by SR1.2.property.allinstances()
+C6.0: Source is given by Flow rate sensor is equipped.source
+Sn1: FDA standard
+Sn2: Flow rate sensor is equipped

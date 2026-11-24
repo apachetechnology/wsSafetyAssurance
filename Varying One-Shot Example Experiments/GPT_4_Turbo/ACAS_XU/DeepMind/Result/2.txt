@@ -1,0 +1,17 @@
+G1: Interpretability Claim. The DeepMind diagnosis ML Model is sufficiently transparent in the clinical context
+G2: Right Method. The right segmentation map method is implemented, i.e., the correct tissue-segmentation information is faithfully being explained
+G3: Right Context. Interpretations produced in the intended clinical context
+G4: Right Format. Segmentation map method is presented in the right format for the clinical practitioners (undeveloped)
+G5: Right Time. Interpretations produced at the appropriate time during the diagnosis
+G6: Right Setting. Interpretations available in the right clinical setting
+G7: Right Audience. Interpretations produced for the clinical practitioners
+G8: Segmentation map method is the right type for interpretivity e.g. locally interpretable on individual predictions
+G9: Segmentation map method is suitably faithful to DeepMind diagnosis ML model process
+S1: Argument based on the essential aspects of interpretability
+S2: Argument over interpretability methods
+C1: DeepMind diagnosis ML Model
+C2: Transparent
+C3: Context: Clinical settings, timing appropriate for clinical workflow
+C4: Essential aspects of interpretability: transparency and clarity in clinical decision support
+C5: Segmentation map method
+C6: Format familiar to clinicians, integrating into clinical workflow

@@ -1,0 +1,38 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G3: Underinfusion is mitigated
+G4: Overinfusion is mitigated under Flow rate does not match the programmed rate
+G4: Underinfusion is mitigated under Programmed rate too low
+G5: SR1.1 is appropriate for Flow rate does not match the programmed rate
+G5: SR1.2 is appropriate for Programmed rate too low
+G6: Flow rate sensor is equipped is appropriate for SR1.1
+G6: Period (to trigger the underinfusion alarm is 15 minutes is appropriate for SR1.2
+G7: FDA standard is appropriate and trustworthy
+G7: Expertise opinion is appropriate and trustworthy
+G8: Flow rate sensor is equipped definition is sufficient
+G8: Period (to trigger the underinfusion alarm is 15 minutes definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Overinfusion
+S4: Argument over the applied scenarios of Underinfusion
+S5: Argument over all specs related to Flow rate does not match the programmed rate
+S5: Argument over all specs related to Programmed rate too low
+S6: Argument the appropriateness of SR1.1 over properties
+S6: Argument the appropriateness of SR1.2 over properties
+S7: Argument over the source of the Flow rate sensor is equipped definition
+S7: Argument over the source of the Period (to trigger the underinfusion alarm is 15 minutes definition
+C1: All specs are given by spec.allInstances()
+C2: Operational hazards are given by operational_hazard.allInstances()
+C3: All related scenarios are given by operational_hazard
+C3: All related scenarios are given by operational_hazard
+C4: All related specs are given by scenario.spec.allInstances()
+C4: All related specs are given by scenario.spec.allInstances()
+C5: Properties are given by spec.property.allInstances()
+C5: Properties are given by spec.property.allInstances()
+C6: Source is given by property.source
+C6: Source is given by property.source
+Sn1: FDA standard
+Sn1: Expertise opinion
+Sn2: Flow rate sensor is equipped
+Sn2: Period (to trigger the underinfusion alarm is 15 minutes

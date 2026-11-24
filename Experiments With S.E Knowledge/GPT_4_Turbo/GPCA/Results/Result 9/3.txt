@@ -1,0 +1,17 @@
+G1: Operational safety is verified in GPCA
+G2: All operational hazards are mitigated
+G3: Drug overdose is mitigated
+G4: Drug overdose is mitigated under wrong dosage entry scenario
+G5: Dosage limit checking is appropriate for wrong dosage scenario
+G6: Real-time alarm system is appropriate for dosage limit checking
+G7: Alarm system source is appropriate and trustworthy
+G8: Real-time nature property definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA (Undeveloped)
+S2: Argument over reliability in all suitable levels of GPCA (Undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of drug overdose
+S5: Argument over all specs related to wrong dosage scenario
+S6: Argument the appropriateness of dosage limit checking over properties
+S7: Argument over the source of the alarms property definition
+Sn1: Certificate of compliance and manufacturer safety audit results
+Sn2: Technical specification and operational test results

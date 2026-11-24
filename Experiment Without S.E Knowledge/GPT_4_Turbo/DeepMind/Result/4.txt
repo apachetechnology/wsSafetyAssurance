@@ -1,0 +1,17 @@
+G1: Ensure the DeepMind Machine Learning System is Interpretable
+G1.1: Ensure transparency in the machine learning model
+G1.2: Ensure the model's decision process is understandable
+G1.3: Perform third-party audits to verify model interpretability
+G1.4: Benchmark model interpretability against industry standards
+S1: Demonstrate interpretability through model transparency and understandability
+S2: Validate interpretability through external verification
+C1: Definition of interpretability in context of machine learning
+C2: Users for the interpretability include both internal developers and external regulators
+A1: Interpretability encompasses both the ability to trace model decisions and the clarity of the model’s operating principles to a human expert
+A2: Both user groups require understanding the model to different extents and for different purposes
+E1.1.1: Documentation of model architecture and parameters
+E1.1.2: Documentation of the data flow and processing within the model
+E1.2.1: Existence of a feature importance report for model predictions
+E1.2.2: User studies validating the understandability of model outputs
+E1.3.1: Third-party audit reports assessing model transparency and understandability
+E1.4.1: Comparison report of interpretability with leading industry standards

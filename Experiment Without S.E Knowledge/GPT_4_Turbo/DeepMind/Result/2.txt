@@ -1,0 +1,23 @@
+G1: Demonstrate that the DeepMind Machine Learning (ML) system is interpretable
+G1.1: Define key interpretability metrics applicable to the DeepMind ML system
+G1.2: Identify interpretability requirements specific to the DeepMind ML system's application domain
+G2.1: Design and implement features that ensure model transparency
+G2.2: Incorporate human-understandable explanations for model decisions
+G3.1: Use established interpretability frameworks (e.g., LIME, SHAP) across DeepMind ML systems
+G3.2: Validate effectiveness of interpretability methods through user studies
+G4.1: Conduct case studies to assess the clarity of model explanations
+G4.2: Quantitative testing of interpretability metrics
+G5.1: Create comprehensive documentation detailing interpretability features and methods
+G5.2: Report on limitations and potential risks in current interpretability tools and techniques
+G6.1: Ensure compliance with relevant AI ethics and transparency standards
+G6.2: Evaluate and update interpretability protocols in line with evolving standards
+S1: Definition of Interpretability 
+S2: Design Considerations for Interpretability
+S3: Application of Interpretability Techniques
+S4: Testing for Interpretability
+S5: Documentation and Reporting
+S6: Compliance and Standard Adherence
+SN4.1.1: Report on qualitative feedback from test participants
+SN4.1.2: Evaluate the consistency of explanations across different model runs
+SN4.2.1: Measure fidelity and perturbation stability of explainability techniques
+SN4.2.2: Test robustness of interpretations under model re-training scenarios

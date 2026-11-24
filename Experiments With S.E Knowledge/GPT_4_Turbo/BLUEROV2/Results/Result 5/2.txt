@@ -1,0 +1,18 @@
+G1: Hazards for BlueROV2 addressed in accordance with ALARP principle.
+G2: No intolerable risks present in the system.
+G3: Risk from identified hazards has been reduced as low as reasonably practicable
+G4: Model accurately describes possible propagation of identified hazards (Uninstantiated and undeveloped)
+G5: Quantitative risk estimates are accurate and below acceptable threshold 
+G6: (undeveloped)
+G7: (undeveloped)
+G8: (undeveloped)
+G9: (undeveloped)
+G10: Estimated probability of severe consequences is below allowable threshold for high severity class
+S1: Argument by risk reduction/elimination of each hazard
+S2 is undeveloped
+S3 is undeveloped
+S4: Apply ReSonAte to estimate level of risk from specific hazard conditions
+C1: Definition of "intolerable"
+C2: Assigned severity class is high (Specific to identified hazards
+A1: is uninstantiated (Assuming no specific requisite function mentioned
+Sn1: Estimated risk level substantial: below 10E-4 (Uninstantiated)

@@ -1,0 +1,33 @@
+G1: Operational safety is verified in Generic Patient-Controlled Analgesia (GPCA) system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G3: Underinfusion is mitigated
+G4: Overinfusion is mitigated under condition of dose limit exceeded
+G4: Underinfusion is mitigated under condition of programmed rate too low
+G5: Flow rate sensor is equipped is appropriate for the scenario of dose limit exceeded
+G5: Period set to trigger underinfusion alarm is appropriate for the scenario of programmed rate too low'
+G6: "Flow rate sensor is equipped" property is appropriate for the spec
+G6: "Period set to trigger underinfusion alarm" property is appropriate for the spec
+G7: FDA standard is appropriate and trustworthy
+G7: Expert opinion is appropriate and trustworthy
+G8: "Flow rate sensor is equipped" property definition is sufficient
+G8: "Period set to trigger underinfusion alarm" property definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (undeveloped)
+S2: Argument over reliability in all suitable levels of GPCA system (undeveloped)
+S3: Argument over operational hazards (with context C2: Operational hazards are given by hazard.allInstances())
+S4: Argument over the applied scenarios of Overinfusion (with context )
+S4: Argument over the applied scenarios of Underinfusion (with context C3: All related scenarios are given by Underinfusion)
+S5: Argument over all specs related to scenario of dose limit exceeded 
+S5: Argument over all specs related to scenario of programmed rate too low
+S6: Argument the appropriateness of spec over properties 
+S6: Argument the appropriateness of spec over properties 
+S7: Argument over the source of the "flow rate sensor is equipped" property definition 
+S7: Argument over the source of the "period set to trigger underinfusion alarm" property definition
+C3: All related scenarios are given by Overinfusion.
+C4: All related specs are given by scenario.spec.allinstances()
+C5: Properties are given by spec.property.allinstances()
+C6: Source is given by property.source
+Sn1: FDA standard
+Sn1: Expert opinion validity source
+Sn2: Flow rate sensor feature specifications
+Sn2: Programmed rate control settings

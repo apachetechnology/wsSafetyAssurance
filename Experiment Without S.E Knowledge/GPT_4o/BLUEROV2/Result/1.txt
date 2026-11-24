@@ -1,0 +1,34 @@
+G1: The BlueROV2 system is safe for underwater exploration.
+G2: The hardware components are reliable.
+G3: The software components are reliable.
+G4: The system performs reliably in controlled water environments.
+G5: The system performs reliably in actual field deployments.
+G6: Clear operating procedures are provided.
+G7: Operators are adequately trained.
+G8: Regular maintenance and inspection protocols are established.
+G9: Pre-dive checklists are completed before every operation.
+G10: Critical system functions have redundancies.
+S1: The system has been designed in accordance with relevant safety standards.
+S2: Hardware components are selected based on their reliability ratings.
+S3: Software undergoes thorough testing.
+S4: Software follows best coding practices.
+S5: The system has been tested in real-world conditions.
+S6: Procedures cover normal and emergency operations.
+S7: Comprehensive training programs are in place.
+S8: The risk of system failure is mitigated.
+S9: Maintenance schedules are adhered to.
+S10: Dual communication paths are established.
+S11: Emergency recovery procedures are in place.
+E1: Manufacturer reliability documents for critical components.
+E2: Unit, integration, and system test reports.
+E3: Code review reports and adherence to coding standards.
+E4: Test results from controlled environment tests.
+E5: Field test reports and user feedback.
+E6: Documentation of standard and emergency procedures.
+E7: Training program materials and certificates.
+E8: Maintenance logs and inspection reports.
+E9: Example pre-dive checklists and completed forms.
+E10: Design specifications showing redundancy.
+E11: Documentation of recovery procedures and drills.
+St1: The system's operational procedures minimize risk.
+St2: Backup systems and fail-safes are implemented.

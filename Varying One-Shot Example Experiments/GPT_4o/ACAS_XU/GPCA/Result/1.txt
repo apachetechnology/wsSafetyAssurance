@@ -1,0 +1,27 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G3: Underinfusion is mitigated (undeveloped)
+G4: Overinfusion is mitigated under Programmed rate too low (undeveloped)
+G4: Overinfusion is mitigated under Dose limit exceeded due to excessive bolus requests (undeveloped)
+G4: Overinfusion is mitigated under Bolus volume/concentration too high (undeveloped)
+G4: Overinfusion is mitigated under Flow rate does not match the programmed rate
+G5: SR1.1 is appropriate for Flow rate does not match the programmed rate
+G6: Flow rate sensor is appropriate for SR1.1
+G7: FDA standard is appropriate and trustworthy
+G8: Flow rate sensor definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (undeveloped)
+S2: Argument over reliability in all suitable levels of GPCA system (undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Overinfusion
+S5: Argument over all specs related to Flow rate does not match the programmed rate
+S6: Argument the appropriateness of SR1.1 over properties
+S7: Argument over the source of the Flow rate sensor definition
+C1: All specs are given by spec.allInstances()
+C2: Operational hazards are given by operational hazard.allInstances()
+C3: All related scenarios are given by Overinfusion
+C4: All related specs are given by Flow rate does not match the programmed rate.scenario.spec.allInstances()
+C5: Properties are given by spec.property.allInstances()
+C6: Source is given by property.source
+Sn1: source
+Sn2: property

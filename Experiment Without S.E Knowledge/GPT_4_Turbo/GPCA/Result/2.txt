@@ -1,0 +1,28 @@
+G1: Ensure that the GPCA system is safe for patient use
+G1.1: Ensure the GPCA system accurately controls the delivery of analgesic medication.
+G1.2: Ensure that the GPCA system is tamper-proof.
+G1.3: Ensure that the GPCA system is fail-safe.
+G1.4: Ensure that the GPCA system provides alarms and warnings for critical conditions.
+G2: Ensure the GPCA system software is reliable
+G2.1: Ensure the software functions correctly under all defined operating conditions.
+G2.2: Ensure that the software maintains data integrity.
+G3: Ensure user training and support for the GPCA system
+G3.1: Ensure that all users are adequately trained.
+G3.2: Ensure there is support available for troubleshooting and maintenance.
+S1.1: The system complies with international safety standards for medical device software.
+S1.2: The system meets the accuracy requirements as per clinical guidelines.
+S1.3: Continuous monitoring and adjustment of the medication dosing.
+S1.4: The system has security measures in place to prevent unauthorized access.
+S1.5: The system performs regular security audits and updates.
+S1.6: The system has multiple redundant safety mechanisms.
+S1.7: The system automatically shuts down in the event of a critical failure.
+S1.8: The system includes visible and audible alarms for critical thresholds.
+S1.9: The system provides clear and actionable instructions in the event of an alarm.
+S2.1: The software has been tested under all scenarios outlined in the user requirements.
+S2.2: The software complies with real-time performance requirements.
+S2.3: The software implements end-to-end data encryption.
+S2.4: The software allows audit trails for all critical operations.
+S3.1: The system includes an accessible user manual.
+S3.2: Training programs are developed and regularly updated.
+S3.3: 24/7 customer support system.
+S3.4: Regularly scheduled maintenance checks and updates.

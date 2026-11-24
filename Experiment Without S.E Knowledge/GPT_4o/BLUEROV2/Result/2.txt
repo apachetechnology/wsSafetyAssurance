@@ -1,0 +1,65 @@
+Goal: BlueROV2 is safe to operate in underwater environments.
+Goal: BlueROV2 system risks are adequately managed.
+Goal: BlueROV2 meets all regulatory requirements.
+Goal: BlueROV2 customer feedback is positive and acted upon.
+Sub-Goal: Safety standards are maintained.
+Sub-Goal: BlueROV2 adheres to maritime regulations.
+Sub-Goal: BlueROV2 hardware is reliable.
+Sub-Goal: Customer feedback is systematically collected.
+Sub-Goal: Feedback is analyzed and acted on.
+Sub-Goal: BlueROV2 software is dependable.
+Sub-Goal: Software handles anomalies gracefully.
+Sub-Goal: BlueROV2 operational procedures ensure safety.
+Sub-Goal: BlueROV2 maintenance protocols ensure continued reliability.
+Sub-Goal: Environmental impact of BlueROV2 is minimal.
+Sub-Goal: Identified risks are mitigated.
+Sub-Goal: Unidentified risks are managed.
+Strategy: Demonstrate operational safety through a combination of design, testing, and operational procedures.
+Strategy: Implement a risk management framework.
+Strategy: Compliance with maritime and safety regulations.
+Strategy: Implement a feedback collection and response system.
+Context: Hardware specifications and environmental standards.
+Context: Software testing protocols and performance metrics.
+Context: Software error-handling design documents.
+Context: Training manuals and safety procedures.
+Context: Maintenance schedule and logs.
+Context: Environmental impact analysis reports.
+Context: Risk assessment reports.
+Context: Continuous risk monitoring and assessment procedures.
+Context: List of regulatory requirements.
+Context: Analytical framework for feedback.
+Context: Customer feedback mechanisms.
+Context: Safety audit procedures and frequency.
+Assumption: Components operate within specified environmental limits.
+Assumption: Test environment accurately reflects field conditions.
+Assumption: Operators follow training guidelines strictly.
+Assumption: Responses to feedback are timely and effective.
+Assumption: All maintenance is performed by certified technicians.
+Assumption: Materials degrade as per specified rates without harmful byproducts.
+Assumption: All relevant risks have been identified.
+Assumption: All necessary certifications are pursued in a timely manner.
+Assumption: Audits are thorough and cover all critical aspects.
+Assumption: Customers provide honest and comprehensive feedback.
+Assumption: Regular updates to risk management plans.
+Solution: Conduct regular safety audits.
+Solution: Software is thoroughly tested and verified.
+Solution: Feedback review and action procedures.
+Solution: Hardware components meet or exceed industry standards (e.g., IP68 rating for waterproof components).
+Solution: Implementation of error-handling and fail-safe mechanisms.
+Solution: Comprehensive training for operators.
+Solution: Use of feedback forms and direct communication avenues.
+Solution: Regular maintenance schedule is adhered to.
+Solution: Environmentally safe materials used in construction.
+Solution: Risk mitigation plans are in place for identified risks.
+Solution: Adaptive risk management procedures are in place.
+Solution: Obtain necessary certifications from relevant authorities.
+Evidence: Test results showing error-handling effectiveness.
+Evidence: Training completion records and operator certification.
+Evidence: Maintenance logs showing no missed services.
+Evidence: Certification of materials and compliance reports.
+Evidence: Documentation of risk mitigation strategies and their implementation.
+Evidence: Records of adaptive risk management activities and updates.
+Evidence: Audit reports and corrective action records.
+Evidence: Copies of certifications and compliance documents.
+Evidence: Records of collected feedback and response analytics.
+Evidence: Documentation of feedback analysis and resultant action plans.

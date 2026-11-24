@@ -1,0 +1,18 @@
+G1: Interpretability Claim. The DeepMind system is sufficiently interpretable in the intended clinical pathway
+G2: Right Method. The right interpretability methods are implemented, i.e. the correct information is faithfully being explained
+G3: Right Context. Interpretations produced in the intended clinical pathway
+G4: Right Format. Interpretability methods are presented in the right format (segmentation maps) understandable to clinicians
+G5: Right Time. Interpretations produced at the appropriate time during the diagnosis process
+G6: Right Setting. Interpretations are available in the right clinical setting
+G7: Right Audience. Interpretations produced for the right audience, i.e., retinal clinicians
+G8: Method correctness. Segmentation maps are of the right type (local explanation) for the context of retinal diagnosis
+G9: Faithfulness. Segmentation maps are suitably faithful to DeepMind system process and logic
+S1: Argument based on the essential aspects of interpretability
+S2: Argument over interpretability methods
+C1: DeepMind system comprises two neural networks for retinal disease diagnosis from scans
+C2: Interpretability as producing tissue-segmentation maps understandable by clinicians
+C3: Context: Setting is the clinical environment, Time is during diagnosis, Audience is retinal clinicians
+C4: Essential aspects of interpretability include transparency, understandability, and faithfulness of the method
+C5: Interpretability methods involve generating intermediate segmentation maps and providing context for the diagnosis
+C6: Interpretability methods involve producing segmentation maps familiar to clinicians
+C6: Segmentation maps provide visual and contextual clarity in a format clinicians are accustomed to analyzing

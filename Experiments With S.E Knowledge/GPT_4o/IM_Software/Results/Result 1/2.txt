@@ -1,0 +1,40 @@
+G1: Instant Messaging software is acceptably secure in given system
+G2: All identified Instant Messaging software critical assets are protected
+G3: Registration information is protected
+G3: Registration process is protected
+G3: User account information is protected
+G3: Authentication information is protected
+G3: Login process is protected
+G3: Chat logs are protected
+G4: Registration information which belongs to Data Storage type is protected
+G4: Registration process which belongs to Process type is protected
+G4: User account information which belongs to Data Storage type is protected
+G4: Authentication information which belongs to Data Exchange type is protected
+G4: Login process which belongs to Process type is protected
+G4: Chat logs which belong to Data Storage type are protected
+S1: Argument that Instant Messaging software assets are under protection
+S2: Respective arguments of Instant Messaging software critical assets
+S3: Argument of the type which the Registration information belongs to
+S3: Argument of the type which the Registration process belongs to
+S3: Argument of the type which the User account information belongs to
+S3: Argument of the type which the Authentication information belongs to
+S3: Argument of the type which the Login process belongs to
+S3: Argument of the type which the Chat logs belong to
+C1: Definition and description of Instant Messaging software
+C2: Definition and description of Instant Messaging system
+C3: Definition of acceptably secure
+C4: List of Instant Messaging software critical assets
+C5: List of software critical asset types in PEDD
+C5: List of software critical asset types in PEDD
+C5: List of software critical asset types in PEDD
+C5: List of software critical asset types in PEDD
+C5: List of software critical asset types in PEDD
+C5: List of software critical asset types in PEDD
+J1: Protection of software assets supports that Instant Messaging software is acceptably secure
+J2: Relationship between assets is clear and can be argued separately
+J3: Types of software assets are according to PEDD
+J3: Types of software assets are according to PEDD
+J3: Types of software assets are according to PEDD
+J3: Types of software assets are according to PEDD
+J3: Types of software assets are according to PEDD
+J3: Types of software assets are according to PEDD

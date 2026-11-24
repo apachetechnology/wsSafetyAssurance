@@ -1,0 +1,32 @@
+G1: Ensure the Safety of the BlueROV2 System
+G1.1: Ensure Structural Integrity of the BlueROV2
+G1.2: Ensure Electrical Safety
+G2: Ensure Reliability of the BlueROV2 System
+G2.1: Ensure Hardware Reliability
+G2.2: Ensure Software Reliability
+G3: Ensure Operational Performance of the BlueROV2
+G3.1: Ensure Effective Remote Control Operation
+G3.2: Ensure Accurate Navigation and Positioning
+G3.3: Ensure Adequate Imaging and Data Collection
+G4: Comply with Applicable Standards and Regulations
+G4.1: Meet Industry Safety Standards
+G4.2: Ensure Environmental Compliance
+S1.1: Analyze Structural Design 
+S1.2: Perform Stress Testing
+S1.3: Review Material Selection
+S1.4: Inspect Wiring and Connections
+S1.5: Verify Insulation and Waterproofing
+S2.1: Test Hardware Components under Extreme Conditions
+S2.2: Perform Longevity Tests on Critical Components
+S2.3: Conduct Software FMEA (Failure Mode and Effects Analysis)
+S2.4: Implement Robust Software Testing Regimen
+S3.1: Test Remote Control Range and Responsiveness
+S3.2: Validate Control Signal Integrity
+S3.3: Calibrate and Test Navigation Sensors
+S3.4: Verify GPS and IMU Integration
+S3.5: Test Camera and Sensor Functionality under Various Water Conditions
+S3.6: Review Data Transmission Integrity
+S4.1: Compare System Specifications with Safety Standards
+S4.2: Document Compliance with Safety Checks
+S4.3: Assess Environmental Impact of the ROV
+S4.4: Verify Compliance with Environmental Regulations

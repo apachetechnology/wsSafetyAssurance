@@ -1,0 +1,29 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated 
+G3.1: Overinfusion is mitigated
+G3.2: Underinfusion is mitigated
+G4.1: Overinfusion when dose limit exceeded due to excessive bolus requests is mitigated
+G4.2: Underinfusion when programmed rate too low is mitigated
+G5: Flow rate sensor is equipped for dose limit scenario
+G5: Period to trigger the underinfusion alarm is set at 15 minutes appropriate for low rate scenario
+G6: Flow rate less than 90% of the programmed rate setting is appropriate for flow rate sensor
+G6: Period property is appropriate for triggering underinfusion alarm
+G7: FDA standard is appropriate and trustworthy for defining properties 
+G7: Expert opinion is appropriate and trustworthy for period property definition
+G8: Flow rate property definition is sufficient
+G8: Period property definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (Undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Overinfusion
+S4: Argument over the applied scenarios of Underinfusion
+S5: Argument over all specs related to dose limit scenario
+S5: Argument over all specs related to low rate scenario
+S6: Argument the appropriateness of flow rate sensor over properties
+S6: Argument the appropriateness of period property for the spec
+S7: Argument over the source of the property definition
+S7: Argument over the source of the property definition
+C1: All specs are given by GPCA system requirements
+Sn1: FDA standard reference
+Sn1: Expert testimony
+Sn2: Expertise opinion documentation
+Sn2: Previous projects data

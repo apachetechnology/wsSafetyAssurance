@@ -1,0 +1,59 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G3: Underinfusion is mitigated
+G4: Overinfusion is mitigated under scenario 1
+G4: Underinfusion is mitigated under scenario 2
+G5: spec SR1.1 is appropriate for scenario 1
+G5: spec SR1.5 is appropriate for scenario 2
+G5: spec SR1.2 is appropriate for scenario 1
+G5: spec SR1.4 is appropriate for scenario 2
+G6: Flow rate sensor is appropriate for SR1.1
+G6: Period to trigger the underinfusion alarm is appropriate for SR1.2
+G6: Bolus volume/concentration is appropriate for SR1.5
+G6: Flow rate less than 90% is appropriate for SR1.4
+G7: Source is appropriate and trustworthy
+G7: Source is appropriate and trustworthy
+G7: Source is appropriate and trustworthy
+G7: Source is appropriate and trustworthy
+G8: Flow rate sensor definition is sufficient
+G8: Period definition is sufficient
+G8: Bolus volume/concentration definition is sufficient
+G8: Flow rate definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system
+S2: Argument over reliability in all suitable levels of GPCA system
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Overinfusion
+S4: Argument over the applied scenarios of Underinfusion
+S5: Argument over all specs related to scenario 1
+S5: Argument over all specs related to scenario 2
+S6: Argument the appropriateness of SR1.1 over properties
+S6: Argument the appropriateness of SR1.2 over properties
+S6: Argument the appropriateness of SR1.4 over properties
+S6: Argument the appropriateness of SR1.5 over properties
+S7: Argument over the source of the trigger period definition
+S7: Argument over the source of the bolus volume/concentration definition
+S7: Argument over the source of the flow rate definition
+S7: Argument over the source of the Flow rate sensor definition
+C1: All specs are given by spec.allInstances()
+C2: Operational hazards are given by operational_hazard.allInstances()
+C3: All related scenarios are given by Overinfusion
+C3: All related scenarios are given by Underinfusion
+C4: All related specs are given by scenario_1.spec.allInstances()
+C4: All related specs are given by scenario_2.spec.allInstances()
+C5: Properties are given by SR1.1.property.allInstances()
+C5: Properties are given by SR1.2.property.allInstances()
+C5: Properties are given by SR1.5.property.allInstances()
+C5: Properties are given by SR1.4.property.allInstances()
+C6: Source is given by Flow_rate_sensor.source
+C6: Source is given by trigger_period.source
+C6: Source is given by bolus_volume.source
+C6: Source is given by flow_rate.source
+Sn1: FDA standard
+Sn1: FDA standard
+Sn1: Expertise opinion
+Sn1: Previous knowledge
+Sn2: property definition
+Sn2: property definition
+Sn2: property definition
+Sn2: property definition

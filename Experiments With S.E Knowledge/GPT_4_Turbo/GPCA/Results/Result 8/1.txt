@@ -1,0 +1,48 @@
+G1: Operational safety is verified in GPCA System
+G2: All operational hazards are mitigated
+G3: Overdose is mitigated
+G4: Overdose is mitigated under standard operation
+G4: Underdose is mitigated under standard operation
+G4: Underdose is mitigated under emergency operation
+S4: Argument over the applied scenarios of underdose
+G4: Overdose is mitigated under emergency operation
+G5: Alarm specifications are appropriate for emergency operation
+G5: Alarm specifications are appropriate for emergency operation
+G5: Drug delivery specifications are appropriate for standard operation
+G5: Drug delivery specifications are appropriate for standard operation
+G6: Delivery rate is appropriate for drug delivery specifications
+G6: Alarm volume is appropriate for alarm specifications
+G6: Delivery rate is appropriate for drug delivery specifications
+G6: Alarm volume is appropriate for alarm specifications
+G7: Source is appropriate and trustworthy
+G7: Source is appropriate and trustworthy
+G7: Source is appropriate and trustworthy
+G7: Source is appropriate and trustworthy
+G8: Alarm volume definition is sufficient
+G8: Delivery rate definition is sufficient
+G8: Delivery rate definition is sufficient
+G8: Alarm volume definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA System (undeveloped)
+S2: Argument over reliability in all suitable levels of GPCA System (undeveloped)
+S3: Argument over operational hazards
+S5: Argument over all specs related to standard operation
+S4: Argument over the applied scenarios of overdose
+S5: Argument over all specs related to emergency operation
+S5: Argument over all specs related to standard operation
+S5: Argument over all specs related to emergency operation
+S6: Argument the appropriateness of alarm specifications over properties
+S6: Argument the appropriateness of drug delivery specifications over properties3
+S6: Argument the appropriateness of alarm specifications over properties
+S6: Argument the appropriateness of drug delivery specifications over properties
+S7: Argument over the source of the alarm volume definition
+S7: Argument over the source of the delivery rate definition
+S7: Argument over the source of the alarm volume definition
+S7: Argument over the source of the delivery rate definition
+Sn1: FDA regulations
+Sn1: FDA regulations
+Sn1: FDA regulations
+Sn1: FDA regulations
+Sn2: Manufacturer guidelines
+Sn2: Manufacturer guidelines
+Sn2: Manufacturer guidelines
+Sn2: Manufacturer guidelines

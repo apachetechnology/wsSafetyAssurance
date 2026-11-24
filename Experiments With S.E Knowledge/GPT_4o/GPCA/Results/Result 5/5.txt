@@ -1,0 +1,23 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Infusion pump failure is mitigated
+G4: Infusion pump failure is mitigated under hospital environment scenario
+G5: Hospital environment specification is appropriate for hospital environment scenario
+G6: Property is appropriate for hospital environment specification
+G7: Source is appropriate and trustworthy
+G8: Property definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system
+S2: Argument over reliability in all suitable levels of GPCA system
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of infusion pump failure
+S5: Argument over all specs related to hospital environment scenario
+S6: Argument the appropriateness of hospital environment specification over properties
+S7: Argument over the source of the property definition
+C1: All specs are given by GPCA_Spec.allInstances()
+C2: Operational hazards are given by operational_hazard.allInstances()
+C3: All related scenarios are given by operational_hazard
+C4: All related specs are given by scenario.spec.allinstances()
+C5: Properties are given by spec.property.allinstances()
+C6: Source is given by property.source
+Sn1: source
+Sn2: property

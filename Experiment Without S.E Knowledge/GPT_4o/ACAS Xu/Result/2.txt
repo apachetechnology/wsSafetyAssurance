@@ -1,0 +1,25 @@
+G1: Ensure the safety and security of ACAS Xu.
+G1.1: Demonstrate that ACAS Xu is functionally correct.
+G1.2: Ensure robustness of ACAS Xu against external threats.
+G1.2.1: Integrity: Prevent unauthorized data manipulation.
+G1.2.2: Confidentiality: Ensure data is accessed only by authorized entities.
+G1.2.3: Availability: Ensure ACAS Xu remains functional under stress conditions.
+G1.3: Verify compliance with global aviation standards.
+S1: Decompose the assurance argument into key safety and security aspects.
+S2: Address robustness through integrity, confidentiality, and availability aspects of ACAS Xu.
+C1: ACAS Xu operates on airborne platforms to prevent mid-air collisions.
+C2: Functional correctness relies on accurate detection and response to collision threats.
+C3: Covers threats such as malicious attacks and environmental disturbances.
+C4: ACAS Xu must comply with standards set by aviation authorities such as FAA and ICAO.
+J1: Functional correctness ensures timely and accurate response in collision scenarios.
+J2: Compliance ensures alignment with international safety norms.
+A1: Operational environment conditions are well-defined.
+A2: Cryptographic methods used are up to industry standards.
+A3: Access control policies are regularly updated and audited.
+A4: Backup systems and failover mechanisms are regularly tested.
+A5: Regulatory guidelines are clearly defined and executable.
+Sn1: Verified through rigorous testing and validation.
+Sn2: Implement strong cryptographic measures.
+Sn3: Employ access control mechanisms.
+Sn4: Design redundancy and failover systems.
+Sn5: Regular audits and certifications by regulatory bodies.

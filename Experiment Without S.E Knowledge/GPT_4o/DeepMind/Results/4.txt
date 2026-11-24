@@ -1,0 +1,23 @@
+G1: DeepMind Machine Learning system is interpretable
+G2: System components are interpretable
+G2.1: Data processing component is interpretable
+G2.2: Model training component is interpretable
+G2.3: Model inference component is interpretable
+G2.4: Output generation component is interpretable
+G3: Evidence supports the interpretability claim
+S1: Definition of interpretability
+S2: Breakdown of system components
+S3: Explanation of the data processing mechanism
+S4: Clarity in model training procedures
+S5: Understanding of how the model makes predictions
+S6: Clarity in how the system's outputs are generated and used
+S7: Collecting and presenting evidence
+C1: Interpretability refers to the ability to explain or to present in understandable terms to a human.
+C2: System components include data processing, model training, model inference, and output generation.
+E1: Documentation of data preprocessing techniques
+E2: Transparent model training documentation and reproducible code
+E3: Visualization tools to interpret model predictions
+E4: User-friendly output reports and explanations
+E5: Case studies demonstrating system interpretability
+E6: Expert reviews affirming system understandability
+E7: User feedback supporting ease of understanding

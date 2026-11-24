@@ -1,0 +1,15 @@
+G1: IM Software is acceptably secure in the user interaction system
+G2: All identified IM software critical assets are protected
+G3: User account information is protected
+G4: User account information, which belongs to Data Storage and Environment Entity, is protected
+S1: Argument that IM software assets are under protection
+S2: Respective arguments of IM software critical assets
+S3: Argument of the type which the user account information belongs to
+C1: IM Software includes features such as message transmission, media sharing, and user presence information.
+C2: User interaction system includes all networks, devices, and users interacting via the IM software.
+C3: Acceptably secure means that all critical assets are protected against unauthorized access and data breaches.
+C4: Critical Assets include registration information, user account details, authentication processes, chat logs, and login processes.
+C5: Types of software critical assets following PEDD: Process, Environment Entity, Data Exchange, Data Storage
+J1: Protection of IM software assets ensures that the software can be considered secure under typical operational conditions.
+J2: Each critical asset has distinct security measures, easily separable for individual argumentation.
+J3: User account information falls under Data Storage and Environment Entity, needing specific security measures like encryption and secure environment handling.

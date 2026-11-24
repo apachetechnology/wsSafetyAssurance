@@ -1,0 +1,29 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3.0: Overinfusion is mitigated
+G3.1: Underinfusion is mitigated
+G4.0: Overinfusion is mitigated under bolus excessive scenario
+G4.1: Underinfusion is mitigated under dose limit exceeded scenario
+G5.0: Flow rate control is appropriate for bolus excessive scenario
+G5.1: Dose monitoring system is appropriate for dose limit exceeded scenario
+G6.0: Flow rate is less than 90% of the programmed rate setting is appropriate for flow rate control
+G6.1: Dose amount within therapeutic level is appropriate for dose monitoring system
+G7.1: Expert opinion is appropriate and trustworthy
+G7.0: FDA standard is appropriate and trustworthy
+G8.0: Flow rate property definition is sufficient
+G8.1: Dose monitoring property definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (undeveloped)
+S2: Argument over reliability in all suitable levels of GPCA system (undeveloped)
+S3: Argument over operational hazards
+S4.0: Argument over the applied scenarios of Overinfusion
+S4.1: Argument over the applied scenarios of Underinfusion
+S5.0: Argument over all specs related to bolus excessive scenario
+S5.1: Argument over all specs related to dose limit exceeded scenario
+S6.0: Argument the appropriateness of flow rate control over properties
+S6.1: Argument the appropriateness of dose monitoring system over properties
+S7.0: Argument over the source of the flow rate property definition
+S7.1: Argument over the source of the dose monitoring property definition
+Sn1: FDA documentation
+Sn1: Expert testimony
+Sn2: Engineering analysis
+Sn2: Clinical study data

@@ -1,0 +1,18 @@
+G1: Hazards for BlueROV2 system addressed in accordance with ALARP principle.
+G2: No intolerable risks present in the BlueROV2 system
+G2: Definition of "intolerable"
+G3: Risk from a BlueROV2 hazard has been reduced as low as reasonably practicable
+G3: Assigned severity class is BlueROV2 Hazard.Severity
+G4: Model BlueROV2 Trace Dependency Model (BTD accurately describes possible propagation of hazard in BlueROV2 (Uninstantiated)
+G5: Quantitative risk estimates are accurate and below acceptable threshold
+G6: Possible hazard propagation paths correctly captured in BlueROV2 Trace Dependency Model (BTD (Undeveloped)
+G7: Barriers in the BlueROV2 Trace Dependency Model (BTD correctly describe their respective control action including any required system functions (Undeveloped)
+G8: All non-negligible threats have been identified (Undeveloped)
+G9: State probability distribution used for risk estimation is an accurate representation of expected system states (Undeveloped)
+G10: Estimated probability of BlueROV2 consequence is below allowable threshold for severity class (Uninstantiated)
+S1: Argument by risk reduction/elimination of each hazard
+S2: Argue that risk posed by any remaining hazards is negligible (Undeveloped)
+S3: Argue that no other risks have been identified (Undeveloped)
+S4: Apply ReSonAte to estimate level of risk from hazard condition in BlueROV2
+A1: Function required by BlueROV2 Trace Dependency Model (BTD is available (Uninstantiated)
+Sn1: Estimated risk level for BlueROV2 system (Uninstantiated)

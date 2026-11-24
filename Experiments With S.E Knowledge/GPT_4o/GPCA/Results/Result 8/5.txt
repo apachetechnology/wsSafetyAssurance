@@ -1,0 +1,23 @@
+G1: Operational safety is verified in GPCA
+G2: All operational hazards are mitigated
+G3: Overinfusion hazard is mitigated
+G4: Overinfusion hazard is mitigated under normal use scenario
+G5: Infusion rate spec is appropriate for normal use scenario
+G6: Reliability property is appropriate for Infusion rate spec
+G7: Source is appropriate and trustworthy
+G8: Reliability property definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA (undeveloped)
+S2: Argument over reliability in all suitable levels of GPCA (undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Overinfusion hazard
+S5: Argument over all specs related to normal use scenario
+S6: Argument the appropriateness of Infusion rate spec over properties
+S7: Argument over the source of the reliability property definition
+C1: All specs are given by GPCA specs
+C2: Operational hazards are given by GPCA operational hazards
+C3: All related scenarios are given by Overinfusion hazard
+C4: All related specs are given by normal use scenario specs
+C5: Properties are given by infusion rate spec properties
+C6: Source is given by reliability property source
+Sn1: Certification documents
+Sn2: Detailed reliability analysis

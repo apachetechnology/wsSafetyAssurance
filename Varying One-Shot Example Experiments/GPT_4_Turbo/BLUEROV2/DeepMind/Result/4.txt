@@ -1,0 +1,17 @@
+G1: Interpretability Claim. The neural networks used for retinal disease prediction are sufficiently transparent in the clinical context.
+G2: Right Method. The right transparency methods, such as segmentation map and diagnosis explanation, are implemented, i.e., the correct information is faithfully being explained.
+G3: Right Context. Interpretations produced in the clinical context for diagnosis.
+G4: Right Format. Transparency methods (segmentation maps and confidence levels) are presented in a format that is familiar and understandable to clinicians.
+G5: Right Time. Interpretations produced at the time of diagnosis.
+G6: Right Setting. Interpretations are available in clinical settings.
+G7: Right Audience. Interpretations are produced for retinal clinicians.
+G8: Transparency method is the right type (local/global) i.e., the correct thing (segmentation map) is being explained.
+G9: Transparency method (segmentation map) is suitably faithful to neural network processes.
+S1: Argument based on the essential aspects of interpretability
+S2: Argument over transparency methods
+C1: Neural Networks
+C2: Transparent
+C3: Clinical Context: setting time and audience
+C4: Essential aspects of interpretability
+C5: Transparency methods
+C6: Format of interpretations

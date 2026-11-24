@@ -1,0 +1,30 @@
+G1: The IM software is acceptably secure in the communication system
+G2: All identified IM software critical assets are protected
+G3: IM software user data is protected
+G3: IM software message history is protected
+G3: IM software contact list is protected
+G3: IM software media files are protected
+G4: User data which belongs to privacy data type is protected
+G4: Message history which belongs to confidentiality data type is protected
+G4: Contact list which belongs to integrity data type is protected
+G4: Media files which belong to availability data type are protected
+S1: Argument that software assets are under protection
+S2: Respective arguments of IM software critical assets
+S3: Argument of the type which the software critical asset belongs to
+S3: Argument of the type which the software critical asset belongs to
+S3: Argument of the type which the software critical asset belongs to
+S3: Argument of the type which the software critical asset belongs to
+C1: Definition and description of the IM software
+C2: Definition and description of the communication system
+C3: Definition of acceptably secure
+C4: List of IM software critical assets
+C5: List of software critical asset types in PEDD
+C5: List of software critical asset types in PEDD
+C5: List of software critical asset types in PEDD
+C5: List of software critical asset types in PEDD
+J1: Protection of software assets supports that the software is acceptably secure
+J2: Relationship between assets is clear and can be argued separately
+J3: Types of software assets are according to PEDD
+J3: Types of software assets are according to PEDD
+J3: Types of software assets are according to PEDD
+J3: Types of software assets are according to PEDD

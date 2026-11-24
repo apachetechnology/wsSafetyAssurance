@@ -1,0 +1,36 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Infusion rate error hazard is mitigated
+G4: Infusion rate error hazard is mitigated under low flow scenario
+G4: Infusion rate error hazard is mitigated under high flow scenario
+G5: Flow rate spec is appropriate for low flow scenario
+G5: Flow rate spec is appropriate for high flow scenario
+G6: Accuracy property is appropriate for flow rate spec
+G6: Accuracy property is appropriate for flow rate spec
+G7: Source is appropriate and trustworthy
+G7: Source is appropriate and trustworthy
+G8: Property definition is sufficient
+G8: Property definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (undeveloped)
+S2: Argument over reliability in all suitable levels of GPCA system (undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of infusion rate error hazard
+S5: Argument over all specs related to low flow scenario
+S5: Argument over all specs related to high flow scenario
+S6: Argument the appropriateness of flow rate spec over properties
+S6: Argument the appropriateness of flow rate spec over properties
+S7: Argument over the source of the accuracy property definition
+S7: Argument over the source of the accuracy property definition
+C1: All specs are given by spec.allInstances()
+C2: Operational hazards are given by operational hazard.allInstances()
+C3: All related scenarios are given by infusion rate error hazard
+C4: All related specs are given by low flow scenario.spec.allInstances()
+C4: All related specs are given by high flow scenario.spec.allInstances()
+C5: Properties are given by flow rate spec.property.allInstances()
+C5: Properties are given by flow rate spec.property.allInstances()
+C6: Source is given by accuracy property.source
+C6: Source is given by accuracy property.source
+Sn1: source (trustworthy institution)
+Sn1: source (trustworthy institution)
+Sn2: property (well-defined and precise)
+Sn2: property (well-defined and precise)

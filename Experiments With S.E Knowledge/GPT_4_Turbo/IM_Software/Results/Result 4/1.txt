@@ -1,0 +1,18 @@
+G1: IM software is acceptably secure in communication systems
+G2: All identified IM software critical assets are protected
+G3: Specific IM software critical asset is protected
+G4: Type A (e.g., in-transit data) IM software critical asset is protected
+G4: Type B (e.g., stored data on servers) IM software critical asset is protected
+G4: Type C (e.g., user credentials) IM software critical asset is protected
+G4: Type D (e.g., configuration data) IM software critical asset is protected
+S1: Argument that IM software assets are under protection
+S2: Respective arguments for IM software critical assets
+S3: Argument of the type to which the IM software critical asset belongs
+C1: IM software enables secure text, voice, and video communications
+C2: Communication systems including private and business networks
+C3: Acceptably secure means meeting all industry-standard encryption and privacy protocols
+C4: List of IM software critical assets (e.g., message stores, user data, transfer protocols)
+C5: List of IM software asset types (e.g., stored data, in-transit data)
+J1: Protection of software assets supports that software is acceptably secure
+J2: Relationship between assets is clear and can be argued separately
+J3: Types of IM software assets are according to Protection of Electronic Data Directive (PEDD)

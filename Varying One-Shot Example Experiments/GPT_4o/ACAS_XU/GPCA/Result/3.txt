@@ -1,0 +1,70 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G3: Underinfusion is mitigated
+G3: Bolus volume/concentration too high is mitigated
+G3: Dose limit exceeded due to excessive bolus requests is mitigated
+G4: Overinfusion is mitigated under scenario 1
+G4: Underinfusion is mitigated under scenario 2
+G4: Dose limit is mitigated under scenario 3
+G4: Bolus volume/concentration is mitigated under scenario 4
+G5: SR1.2 is appropriate for scenario 2
+G5: SR1.4 is appropriate for scenario 3
+G5: SR1.5 is appropriate for scenario 4
+G6: The concentration property is appropriate for SR1.5
+G6: The bolus request limit property is appropriate for SR1.4
+G5: SR1.1 is appropriate for scenario 1
+G6: The flow rate sensor property is appropriate for SR1.1
+G6: The period property is appropriate for SR1.2
+G7: FDA standard is appropriate and trustworthy
+G7: Expertise opinion is appropriate and trustworthy
+G7: Previous knowledge is appropriate and trustworthy
+G7: Authority is appropriate and trustworthy
+G8: Flow rate sensor definition is sufficient
+G8: Period definition is sufficientG8: Bolus request limit definition is sufficient
+G8: Concentration definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (undeveloped)
+S2: Argument over reliability in all suitable levels of GPCA system (undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Underinfusion
+S4: Argument over the applied scenarios of Overinfusion
+S4: Argument over the applied scenarios of Dose limit exceeded
+S4: Argument over the applied scenarios of Bolus volume/concentration too high
+S5: Argument over all specs related to scenario 3
+S5: Argument over all specs related to scenario 4
+S5: Argument over all specs related to scenario 1
+S5: Argument over all specs related to scenario 2
+S6: Argument the appropriateness of SR1.1 over properties
+S6: Argument the appropriateness of SR1.2 over properties
+S6: Argument the appropriateness of SR1.4 over properties
+S6: Argument the appropriateness of SR1.5 over properties
+S7: Argument over the source of the flow rate sensor property definition
+S7: Argument over the source of the period property definition
+S7: Argument over the source of the concentration property definition
+S7: Argument over the source of the bolus request limit property definition
+C1: All specs are given by spec.allInstances()
+C2: Operational hazards are given by operational hazard.allInstances()
+C3: All related scenarios are given by Overinfusion
+C3: All related scenarios are given by Underinfusion
+C3: All related scenarios are given by Dose limit exceeded
+C3: All related scenarios are given by Bolus volume/concentration too high
+C4: All related specs are given by scenario 1.spec.allInstances()
+C4: All related specs are given by scenario 2.spec.allInstances()
+C4: All related specs are given by scenario 3.spec.allInstances()
+C4: All related specs are given by scenario 4.spec.allInstances()
+C5: Properties are given by SR1.1.property.allInstances()
+C5: Properties are given by SR1.2.property.allInstances()
+C5: Properties are given by SR1.5.property.allInstances()
+C5: Properties are given by SR1.4.property.allInstances()
+C6: Source is given by period.property.source
+C6: Source is given by flow rate sensor.property.source
+C6: Source is given by bolus request limit.property.source
+C6: Source is given by concentration.property.source
+Sn1: Source
+Sn1: Source
+Sn1: Source
+Sn1: Source
+Sn2: Property
+Sn2: Property
+Sn2: Property
+Sn2: Property

@@ -1,0 +1,25 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Underinfusion is mitigated
+G3: Overinfusion is mitigated
+G4: Overinfusion due to incorrect flow rate is mitigated under normal use scenario
+G5: Flow rate sensor specification is appropriate for normal use scenario
+G6: Flow rate sensor accuracy is sufficient
+G7: FDA standard is appropriate and trustworthy
+G8: Definition of sufficient accuracy is well-documented
+S1: Argument over the satisfaction of all safety specifications over GPCA system
+S2: Argument over reliability in all suitable levels of GPCA system
+S3: Argument over operational hazards
+S4: Argument over Overinfusion scenarios
+S5: Argument over safety requirements related to flow rate control
+S6: Argument over the appropriateness of flow rate sensor specification
+S7: Argument over the source of flow rate sensor specification
+C1: Reliability considered at hardware, software, and user operation levels
+C1: All specifications related to safety requirements are taken into account
+C2: Operational hazards include Overinfusion and Underinfusion
+C3: Relevant scenarios for Overinfusion include incorrect flow rate setting and bolus volume high
+C4: Details provided by flow rate control scenario
+C5: Specifications include sensor accuracy and response time
+C6: Source is based on FDA standards and manufacturer data
+Sn1: FDA standard documentation
+Sn2: Documentation detailing sensor accuracy standards

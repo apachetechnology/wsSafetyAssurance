@@ -1,0 +1,28 @@
+G1: Operational safety is verified in GPCA
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G3: Underinfusion is mitigated
+G4: Underinfusion is mitigated under scenario of low patient response
+G4: Overinfusion is mitigated under scenario of high dosage error
+G5: Flow rate sensor is equipped for low patient response scenario
+G5: Dose limit exceeded alarm for high dosage error scenario
+G6: Dose limit is appropriate for Dose limit exceeded alarm
+G6: Flow rate less than 90% of the programmed rate is appropriate for Flow rate sensor
+G7: FDA standard is appropriate and trustworthy
+G7: Manufacturer specifications are appropriate and trustworthy
+G8: Dose limit definition is sufficient
+G8: Flow rate definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA (Uninstantiated)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Underinfusion
+S4: Argument over the applied scenarios of Overinfusion
+S5: Argument over all specs related to high dosage error scenario
+S5: Argument over all specs related to low patient response scenario
+S6: Argument the appropriateness of Dose limit exceeded alarm over properties
+S6: Argument the appropriateness of Flow rate sensor over properties
+S7: Argument over the source of the Dose limit definition
+S7: Argument over the source of the Flow rate definition
+Sn1: FDA standard certification
+Sn1: Manufacturer quality assurance
+Sn2: Clinical trial evidence
+Sn2: Expert opinion and previous studies

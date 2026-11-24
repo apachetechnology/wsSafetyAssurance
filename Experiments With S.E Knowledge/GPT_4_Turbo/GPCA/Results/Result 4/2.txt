@@ -1,0 +1,23 @@
+G1: Operational safety is verified in GPCA System
+G2: All operational hazards are mitigated
+G3: Specific operational hazard is mitigated (Repeat for each hazard)
+G4: Specific operational hazard is mitigated under specific scenario (Repeat for each scenario)
+G5: Specific spec is appropriate for the scenario
+G6: Specific property is appropriate for the specific spec
+G7: Source of Property is appropriate and trustworthy
+G8: Property definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA System (undeveloped)
+S2: Argument over reliability in all suitable levels of GPCA System (undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of specific operational hazards
+S5: Argument over all specs related to the scenario
+S6: Argument the appropriateness of specific spec over properties
+S7: Argument over the source of the property definition
+C1: All specs are given by complete spec list for GPCA
+C2: Operational hazards are defined by GPCA operational hazard list
+C3: All related scenarios are given by specific operational hazard scenarios
+C4: All related specs are given by scenario-specific spec list
+C5: Properties are given by spec-specific property list
+C6: Source is given by property source list
+Sn1: Source verification document or certification
+Sn2: Property definition document or standard

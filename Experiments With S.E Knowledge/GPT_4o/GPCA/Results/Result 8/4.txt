@@ -1,0 +1,22 @@
+G1: Operational safety is verified in the GPCA system
+G2: All operational hazards are mitigated
+G3: Shock hazard is mitigated
+G4: Shock hazard is mitigated under wet environment
+G5: Waterproof specification is appropriate for wet environment
+G6: Material properties are appropriate for waterproof specification
+G7: Material source is appropriate and trustworthy
+G8: Material property definition is sufficient
+S1: Argument over the satisfaction of all specs over the GPCA system
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of shock hazard
+S5: Argument over all specs related to wet environment
+S6: Argument the appropriateness of waterproof spec over properties
+S7: Argument over the source of the material property definition
+C1: All specs are given by spec.allInstances()
+C2: Operational hazards are given by operational hazard.allInstances()
+C3: All related scenarios are given by shock hazard
+C4: All related specs are given by wet environment.spec.allInstances()
+C5: Properties are given by waterproof spec.property.allInstances()
+C6: Source is given by property.source
+Sn1: Material source document verification
+Sn2: Material property analysis report

@@ -1,0 +1,39 @@
+Goal: Ensure the overall safety and effectiveness of the BlueROV2 system
+Goal: Ensure system safety of the BlueROV2
+Goal: Ensure physical integrity of BlueROV2
+Goal: Ensure operational safety under different environmental conditions
+Goal: Ensure system reliability of the BlueROV2
+Goal: Ensure reliability of critical components
+Goal: Ensure system redundancy for critical operations
+Goal: Verification and Validation of BlueROV2 safety, reliability, and performance
+Goal: Conduct comprehensive simulation testing to verify system models and performance predictions
+Goal: Perform field testing in a range of operational scenarios 
+Goal: Ensure performance efficiency of the BlueROV2
+Goal: Optimize mobility and maneuverability
+Goal: Ensure optimal data collection capabilities
+Strategy: Break down the assurance case into system safety, reliability, and performance  
+Strategy: Address both physical safety and operational safety
+Strategy: Focus on component reliability and system redundancy
+Strategy: Use a combination of simulation testing, field testing, and expert review
+Strategy: Optimize system performance for intended underwater tasks
+Context: The system is designed for underwater exploration and data collection
+Context: Simulation and field testing informed by latest research and industry standards
+Justification: Based on historical data and environmental study reports
+Justification: Integration of advanced technologies and thorough training ensures high quality data collection and efficient mission operations
+Assumption: No unexpected extreme environmental conditions beyond tested thresholds
+Argument: Redundancy ensures operational capability in the event of single component failure
+Solution: Implementation of robust material for waterproofing and pressure resistance
+Solution: Regular maintenance protocols for physical checks and repairs
+Solution: Use of failsafe mechanisms in control software
+Solution: Extensive testing in controlled and open water environments
+Solution: Use of high quality sensors and motors with verified performance specifications
+Solution: Implementation of ongoing component monitoring and diagnostic systems
+Solution: Dual motor configuration to allow continuation of operation if one fails
+Solution: Backup systems for data storage and transmission
+Solution: Tuning of thruster outputs and control algorithms
+Solution: Regular updates and calibrations based on feedback and performance data
+Solution: Integration of advanced sensors capable of collecting high quality data
+Solution: Regular training for operators on efficient data collection techniques
+Solution: Use industry standard simulation tools to model underwater operations
+Solution: Execute controlled and open water tests to validate performance under realistic conditions
+Solution: Involve independent third-party experts to review test processes and results

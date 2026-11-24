@@ -1,0 +1,50 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G4: Overinfusion is mitigated under Scenario1
+G5: SR1.1 is appropriate for Scenario1
+G6: Flow rate sensor is equipped is appropriate for SR1.1
+G7: FDA Standard is appropriate and trustworthy
+G8: Flow rate sensor is equipped definition is sufficient
+G9: Underinfusion is mitigated
+G10: Underinfusion is mitigated under Scenario2
+G11: SR1.2 is appropriate for Scenario2
+G12: Period (to trigger the underinfusion alarm) is 15 minutes is appropriate for SR1.2
+G13: Expertise opinion is appropriate and trustworthy
+G14: Period definition is sufficient
+G15: SR1.4 is appropriate for Scenario2
+G16: Flow rate is less than 90% of the programmed rate setting is appropriate for SR1.4
+G17: Previous knowledge is appropriate and trustworthy
+G18: Flow rate is less than 90% of the programmed rate setting definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system
+S2: Argument over reliability in all suitable levels of GPCA system
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Overinfusion
+S4: Argument over the applied scenarios of Underinfusion
+S5: Argument over all specs related to Scenario1
+S5: Argument over all specs related to Scenario2
+S6: Argument the appropriateness of SR1.1 over properties
+S6: Argument the appropriateness of SR1.2 over properties
+S6: Argument the appropriateness of SR1.4 over properties
+S7: Argument over the source of the Flow rate sensor is equipped definition
+S7: Argument over the source of the Period (to trigger the underinfusion alarm) is 15 minutes definition
+S7: Argument over the source of the Flow rate is less than 90% of the programmed rate setting definition
+C1: All specs are given by spec.allInstances()
+C2: Operational hazards are given by operational_hazard.allInstances()
+C2: Operational hazards are given by operational_hazard.allInstances()
+C3: All related scenarios are given by operational_hazard
+C3: All related scenarios are given by operational_hazard
+C4: All related specs are given by scenario.spec.allinstances()
+C4: All related specs are given by scenario.spec.allinstances()
+C5: Properties are given by spec.property.allinstances()
+C5: Properties are given by spec.property.allinstances()
+C5: Properties are given by spec.property.allinstances()
+C6: Source is given by property.source
+C6: Source is given by property.source
+C6: Source is given by property.source
+Sn1: source
+Sn1: source
+Sn1: source
+Sn2: property
+Sn2: property
+Sn2: property

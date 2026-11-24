@@ -1,0 +1,30 @@
+G1: IM software is acceptably secure in messaging system
+G2: All identified software critical assets are protected
+G3.1: IM server is protected
+G3.2: IM database is protected
+G3.3: IM client application is protected
+G3.4: IM network communication protocol is protected
+G4.1: IM server which belongs to software category is protected
+G4.2: IM database which belongs to software category is protected
+G4.3: IM client application which belongs to software category is protected
+G4.4: IM network communication protocol which belongs to software category is protected
+S1: Argument of that software assets are under protection
+S2: Respective arguments of software critical assets
+S3: Argument of the type which the software critical asset belongs to
+S3: Argument of the type which the software critical asset belongs to
+S3: Argument of the type which the software critical asset belongs to
+S3: Argument of the type which the software critical asset belongs to
+C1: Definition and description of IM software
+C2: Definition and description of messaging system
+C3: Definition of acceptably secure
+C4: List of IM software critical assets
+C5: List of software critical asset types in PEDD
+C5: List of software critical asset types in PEDD
+C5: List of software critical asset types in PEDD
+C5: List of software critical asset types in PEDD
+J1: Protection of software assets supports that software is acceptably secure
+J2: Relationship between assets is clear and can be argued separately
+J3: Types of software assets are according to PEDD
+J3: Types of software assets are according to PEDD
+J3: Types of software assets are according to PEDD
+J3: Types of software assets are according to PEDD

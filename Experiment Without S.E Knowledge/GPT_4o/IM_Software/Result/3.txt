@@ -1,0 +1,41 @@
+G1: IM software is secure for use.
+G2: Threats to data confidentiality are mitigated.
+G3: Threats to data integrity are mitigated.
+G4: Threats to data availability are mitigated.
+G5: User authentication is secure.
+G6: Access control mechanisms are robust.
+G7: Monitoring for security breaches is in place.
+G8: Incident response plans are established.
+G2: Threats to data confidentiality are mitigated.
+G2.1: Data at rest is encrypted.
+G2.2: Data in transit is encrypted.
+G3: Threats to data integrity are mitigated.
+G3.1: Integrity of messages is verified.
+G4: Threats to data availability are mitigated.
+G4.1: IM service is hosted on highly available infrastructure.
+G5: User authentication is secure.
+G5.1: Users are authenticated using MFA.
+G6: Access control mechanisms are robust.
+G6.1: Access permissions are managed based on user roles
+G7: Monitoring for security breaches is in place.
+G7.1: Real-time monitoring tools are deployed.
+G8: Incident response plans are established.
+G8.1: Incident response plans are documented and regularly tested.
+S1: Identify and mitigate security threats.
+S2: Ensure secure user authentication and access control.
+S2.1: Use encryption for data at rest and in transit.
+S3: Implement monitoring and response procedures.
+S3.1: Implement checksums and hashes.
+S4.1: Ensure redundancy and reliable hosting.
+S5.1: Implement multi-factor authentication (MFA).
+S6.1: Role-based access control (RBAC) is in place.
+S7.1: Use real-time monitoring tools.
+S8.1: Develop and test response plans.
+E2.1: Evidence of using AES-256 encryption for stored data.
+E2.2: Evidence of using TLS for transmitting data.
+E3.1: Proof of SHA-256 hash implementation on messages.
+E4.1: Details of using cloud services with 99.9% uptime SLA.
+E5.1: Documentation of MFA workflows and implementation.
+E6.1: Role definitions and access rights documentation.
+E7.1: Logs and reports from monitoring tools demonstrating their activity.
+E8.1: Test results and documentation of incident response drills.

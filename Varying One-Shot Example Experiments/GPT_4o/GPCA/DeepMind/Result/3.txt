@@ -1,0 +1,17 @@
+G1: Interpretability Claim. The "DeepMind System" is sufficiently "interpretable" in the intended "clinical pathway for retinal diagnosis"
+G2: Right Method. The right "interpretability methods" are implemented, i.e., the correct information is faithfully being explained
+G3: Right Context. "Interpretations" produced in the "intended context"
+G4: Right Format. "Interpretability methods" are presented in the right "format" for the "audience" (undeveloped and uninstantiated)
+G5: Right Time. "Interpretations" produced at the "appropriate time" (undeveloped and uninstantiated)
+G6: Right Setting. "Interpretations" are available in the "right setting" (undeveloped and uninstantiated)
+G7: Right Audience. "Interpretations" produced for the "right audience" (undeveloped and uninstantiated)
+G8: "Tissue-segmentation map" is the right type e.g., local/global (i.e., the correct thing is being explained) (undeveloped and uninstantiated)
+G9: "Tissue-segmentation map" is suitably faithful to "DeepMind System" process (undeveloped and uninstantiated)
+S1: Argument based on the "essential aspects of interpretability"
+S2: Argument over "interpretability methods"
+C1: "DeepMind System"
+C2: "Interpretable"
+C3: "Clinical pathway for retinal diagnosis"
+C4: "Essential aspects of interpretability"
+C5: "Interpretability methods"
+C6: "Format of interpretations"

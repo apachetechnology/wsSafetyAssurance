@@ -1,0 +1,23 @@
+G1: Operational safety is verified in GPCA
+G2: All operational hazards are mitigated
+G3: Pump failure is mitigated
+G4: Pump failure is mitigated under Continuous infusion mode
+G5: Infusion rate control spec is appropriate for Continuous infusion mode
+G6: Consistency is appropriate for Infusion rate control spec
+G7: Technical specification document is appropriate and trustworthy
+G8: Consistency definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA
+S2: Argument over reliability in all suitable levels of GPCA
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Pump failure
+S5: Argument over all specs related to Continuous infusion mode
+S6: Argument the appropriateness of Infusion rate control spec over properties
+S7: Argument over the source of the Consistency definition
+C1: All specs are given by GPCA.allInstances()
+C2: Operational hazards are given by Pump failure.allInstances()
+C3: All related scenarios are given by Pump failure
+C4: All related specs are given by Continuous infusion mode.spec.allinstances()
+C5: Properties are given by Infusion rate control spec.property.allinstances()
+C6: Source is given by Consistency.source
+Sn1: Technical specification document
+Sn2: Consistency

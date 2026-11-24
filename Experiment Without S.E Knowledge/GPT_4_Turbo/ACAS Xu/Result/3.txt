@@ -1,0 +1,32 @@
+G1: Ensure ACAS Xu operates securely to prevent midair collisions
+G1.1.1: Identify and categorize all operational scenarios of ACAS Xu
+G1.1.2: Establish security requirements derived from operational scenarios
+G1.2.1: Design and incorporate robust security features in ACAS Xu
+G1.2.2: Perform rigorous testing of security features
+G1.3.1: Identify and prioritize potential residual risks
+G1.3.2: Implement mitigation strategies for highest priority risks
+G2: Comply with international regulations on airborne collision avoidance systems
+G2.1.1: Review and align ACAS Xu features with ICAO standards
+G2.1.2: Certify ACAS Xu against ICAO standards
+G2.2.1: Maintain ongoing compliance with future amendments to regulations
+S1.1: Define and validate security requirements of ACAS Xu
+S1.2: Implement security features according to requirements    
+S1.3: Document and mitigate residual risks     
+S2.1: Ensure ACAS Xu compliance with ICAO (International Civil Aviation Organization) standards
+S2.2: Continuous update and reevaluation of compliance status       
+Sn1.1.1.1: Analyze flight data from field tests
+Sn1.1.1.2: Conduct expert elicitation sessions with pilots and air traffic controllers
+Sn1.1.2.1: Develop security requirements based on operational scenario analysis
+Sn1.1.2.2: Validate requirements with simulations and pilot feedback
+Sn1.2.1.1: Integrating encryption for inbound and outbound communications
+Sn1.2.1.2: Deploy intrusion detection systems specific to avionic systems    
+Sn1.2.2.1: Execute field tests with security feature integration
+Sn1.2.2.2: Conduct red team exercises to test system resilience    
+Sn1.3.1.1: Perform comprehensive risk assessment postimplementation      
+Sn1.3.2.1: Develop and apply mitigation techniques for identified risks
+Sn2.1.1.1: Analyze current ICAO standards and guidelines
+Sn2.1.1.2: Adapt ACAS Xu functionalities to meet ICAO standards
+Sn2.1.2.1: Engage with certification bodies for assessment and approval
+Sn2.1.2.2: Address feedback and modify systems to ensure compliance
+Sn2.2.1.1: Set up a regulatory watch to monitor changes in standards
+Sn2.2.1.2: Regularly update system as per new regulatory requirements

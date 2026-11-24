@@ -1,0 +1,23 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Overdose hazard is mitigated
+G4: Overdose hazard is mitigated under Over-infusion scenario
+G5: Over-infusion specification is appropriate for Over-infusion scenario
+G6: Dose accuracy property is appropriate for Over-infusion specification
+G7: Clinical guidelines are appropriate and trustworthy
+G8: Dose accuracy property definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system
+S2: Argument over reliability in all suitable levels of GPCA system
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Overdose hazard
+S5: Argument over all specs related to Over-infusion scenario
+S6: Argument the appropriateness of Over-infusion specification over properties
+S7: Argument over the source of the Dose Accuracy Property definition
+C1: All specs are given by {spec.allInstances()}
+C2: Operational hazards are given by {operational hazard.allInstances()}
+C3: All related scenarios are given by overdose.hazard.scenario.allInstances()
+C4: All related specs are given by scenario.spec.allInstances()
+C5: Properties are given by spec.property.allInstances()
+C6: Source is given by property.source
+Sn1: Clinical Guidelines Document
+Sn2: Dose Accuracy Property Definition Document

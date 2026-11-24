@@ -1,0 +1,18 @@
+G1: Instant Messaging software is acceptably secure in the system.
+G2: All identified IM software critical assets are protected
+G3: IM software critical asset is protected
+G4: User account information which belongs to Data Storage is protected
+G4: Registration process which belongs to Process is protected
+G4: Login process which belongs to Process is protected
+G4: Chat logs which belong to Data Storage is protected
+S1: Argument that software assets are under protection
+S2: Respective arguments of software critical assets
+S3: Argument of the type which the IM software critical asset belongs to
+C1: Instant Messaging (IM) software allows users to exchange messages instantly. Includes features and data central to user interactions.
+C2: System refers to the set of software and hardware that facilitates the operation of IM software within a specific operational environment.
+C3: "Acceptably secure" implies comprehensive protection against unauthorized data access, preventing data leaks and ensuring data integrity and confidentiality.
+C4: Critical assets include Registration information, Registration process, User account information, Authentication information, Login process, Chat logs.
+C5: Critical assets as classified under PEDD Process, Environment Entity, Data Exchange, Data Storage.
+J1: Protecting all assets of the software ensures the overall security of the software, aligning with industry standards and regulatory requirements.
+J1: Protection of software assets supports that software is acceptably secure
+J3: Types of software assets are according to PEDD classification, ensuring comprehensive coverage.

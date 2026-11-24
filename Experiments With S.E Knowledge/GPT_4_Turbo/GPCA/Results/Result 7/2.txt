@@ -1,0 +1,25 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G3: Underinfusion is mitigated
+G4: Overinfusion mitigated under excessive bolus requests scenario
+G4: Overinfusion mitigated under flow rate mismatch scenario
+G5: Flow rate sensor is equipped is appropriate for flow rate mismatch scenario
+G6: Flow rate is less than 90% of the programmed rate setting is appropriate
+G7: FDA standard is appropriate and trustworthy
+G8: Expertise opinion definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (Undeveloped)
+S2: Argument over reliability in all suitable levels of GPCA system (Undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Overinfusion
+S5: Argument over all specs related to flow rate scenarios
+S6: Argument the appropriateness of the specification over properties
+S7: Argument over the source of the property definition
+C1: All specs are given by specification instances concerning GPCA
+C2: Operational hazards are identified as 'Overinfusion' and 'Underinfusion'
+C3: All related scenarios are explained for each hazard
+C4: All related specs are detailed for variable scenarios
+C5: Properties such as 'Flow rate is less than 90%', 'Programmed rate too low'
+C6: Source is given by reference publications and standards
+Sn1: Reference to FDA standard documentation
+Sn2: Expertise opinion derived from clinical studies

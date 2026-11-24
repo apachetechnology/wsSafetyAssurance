@@ -1,0 +1,22 @@
+G1: Operational safety is verified in the GPCA system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G4: Overinfusion is mitigated under "flow rate does not match the programmed rate"
+G5: Flow rate sensor is appropriate for "flow rate does not match the programmed rate" scenario
+G6: Flow rate is less than 90% of the programmed rate setting is appropriate for flow rate sensor
+G7: FDA standard is appropriate and trustworthy
+G8: Flow rate definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system
+S2: Argument over reliability in all suitable levels of GPCA system (undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of overinfusion
+S5: Argument over all specs related to "flow rate does not match the programmed rate" scenario
+S6: Argument the appropriateness of flow rate sensor over properties
+C1: All specs are given by spec.allInstances() (undeveloped)
+C2: Operational hazards are given by operational hazard.allInstances()
+C3: All related scenarios are given by overinfusion
+C4: All related specs are given by scenario.spec.allInstances()
+C5: Properties are given by spec.property.allInstances()
+Sn1: FDA standard
+Sn2: Flow rate is less than 90% of the programmed rate setting
+Sn2: Flow rate is less than 90% of the programmed rate setting

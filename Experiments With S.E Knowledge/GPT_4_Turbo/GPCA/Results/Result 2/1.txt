@@ -1,0 +1,31 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G3: Underinfusion is mitigated
+G4: Overinfusion is mitigated under high patient demand scenario
+G4: Underinfusion is mitigated under low battery scenario
+G5: Flow rate sensor is appropriate for high patient demand scenario
+G5: Alarm system is appropriate for low battery scenario
+G6: Flow rate sensor's accuracy is appropriate for eliminating Overinfusion
+G6: Alarm system's volume is appropriate for alerting staff
+G7: Source for definition of flow rate sensor's accuracy is appropriate and trustworthy
+G7: Source for definition of alarm system's volume is appropriate and trustworthy
+G8: Definition of flow rate sensor's accuracy is sufficient
+G8: Definition of alarm system's volume is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (Undeveloped)
+S2: Argument over reliability in all suitable levels of GPCA system (Undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Underinfusion
+S4: Argument over the applied scenarios of Overinfusion
+S5: Argument over all specs related to high patient demand scenario
+S5: Argument over all specs related to low battery scenario
+S6: Argument the appropriateness of flow rate sensor over properties
+S6: Argument the appropriateness of alarm system over properties
+S7: Argument over the source of the flow rate sensor's accuracy definition
+S7: Argument over the source of the alarm system's volume definition
+C1: All specs are given by GPCA system specifications from FDA standard
+C2: Operational hazards are given by GPCA system operational hazard list
+Sn1: FDA standard
+Sn1: Previous knowledge
+Sn2: Expertise opinion
+Sn2: Expertise opinion

@@ -1,0 +1,38 @@
+G1: Operational safety is verified in the GPCA system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G3: Underinfusion is mitigated
+G4: Overinfusion is mitigated under Flow rate does not match programmed rate
+G4: Underinfusion is mitigated under Flow rate is less than 90% of the programmed rate setting
+G5: SR1.1 is appropriate for Flow rate does not match programmed rate
+G5: SR6.1.3 is appropriate for Flow rate is less than 90% of the programmed rate setting
+G6: Flow rate sensor is equipped is appropriate for SR1.1
+G6: Period (to trigger the underinfusion alarm) is 15 minutes is appropriate for SR6.1.3
+G7: FDA standard is appropriate and trustworthy
+G7: Expert opinion is appropriate and trustworthy
+G8: Flow rate sensor is equipped definition is sufficient
+G8: Period (to trigger the underinfusion alarm) is 15 minutes definition is sufficient
+S1: Argument over the satisfaction of all specs over the GPCA system (Undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Overinfusion
+S4: Argument over the applied scenarios of Underinfusion
+S5: Argument over all specs related to Flow rate does not match programmed rate
+S5: Argument over all specs related to Flow rate is less than 90% of the programmed rate setting
+S6: Argument the appropriateness of SR6.1.3 over properties
+S6: Argument the appropriateness of SR1.1 over properties
+S7: Argument over the source of the Period (to trigger the underinfusion alarm) is 15 minutes definition
+S7: Argument over the source of the Flow rate sensor is equipped definition
+C1: All specs are given by spec.allInstances()
+C2: Operational hazards are given by operational hazard.allInstances()
+C3: All related scenarios are given by Overinfusion
+C3: All related scenarios are given by Underinfusion
+C4: All related specs are given by Flow rate is less than 90% of the programmed rate setting.spec.allInstances()
+C4: All related specs are given by Flow rate does not match programmed rate.spec.allInstances()
+C5: Properties are given by SR1.1.property.allInstances()
+C5: Properties are given by SR6.1.3.property.allInstances()
+C6: Source is given by Flow rate sensor is equipped.source
+C6: Source is given by Period (to trigger the underinfusion alarm) is 15 minutes.source
+Sn1: source
+Sn1: source
+Sn2: property
+Sn2: property

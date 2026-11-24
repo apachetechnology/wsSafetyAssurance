@@ -1,0 +1,23 @@
+G1: IM software is acceptably secure in user interaction systems
+G2: All identified IM software critical assets are protected
+G3: Registration information is protected
+G3: User account information is protected
+G3: Authentication information is protected
+G3: Login process is protected
+G3: Chat logs are protected
+G4: Registration information which belongs to Data Storage is protected
+G4: User account information which belongs to Data Storage is protected
+G4: Authentication information which belongs to Data Exchange is protected
+G4: Login process which belongs to Process is protected
+G4: Chat logs which belong to Data Storage are protected
+S1: Argument that IM software assets are under protection
+S2: Respective arguments of IM software critical assets
+S3: Argument of the type which the IM software critical asset belongs to
+C1: Definition and description of IM software
+C2: Definition and description of user interaction systems
+C3: Definition of 'acceptably secure'
+C4: List of IM software critical assets (Registration information, User account information, Authentication information, Login process, Chat logs)
+C5: List of software critical asset types in PEDD (Process, Environment Entity, Data Exchange, Data Storage)
+J1: Protection of software assets supports that the software is acceptably secure
+J2: Relationship between assets is clear and can be argued separately
+J3: Types of software assets are according to PEDD classification

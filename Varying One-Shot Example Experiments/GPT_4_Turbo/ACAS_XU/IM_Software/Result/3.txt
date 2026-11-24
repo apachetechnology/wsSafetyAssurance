@@ -1,0 +1,20 @@
+G1: IM software is acceptably secure in digital communication systems
+G2: All identified IM software critical assets are protected
+G3: "Registration information" as software critical asset is protected
+G3: "Registration process" as software critical asset is protected
+G3: "User account information" as software critical asset is protected
+G3: "Authentication information" as software critical asset is protected
+G3: "Login process" as software critical asset is protected
+G3: "Chat logs" as software critical asset is protected
+G4: "Registration information," a key element of Data Storage, is protected
+S1: Argument that IM software assets are under protection
+S2: Respective arguments for IM software critical assets
+S3: Argument based on the type of asset belonging to "Data Storage"
+C1: IM software enables users to exchange information instantly
+C2: Digital communication systems include environments facilitating instant messaging
+C3: "Acceptably secure" means meeting all relevant security requirements to protect user data and interactions
+C4: Critical assets include Registration information, Registration process, User account information, Authentication information, Login process, Chat logs.
+C5: Data Storage is part of the internal structure of the software, focusing on maintaining data within secure confines
+J1: Protection of IM software assets supports that IM software is acceptably secure
+J2: Each asset's security can be argued separately due to their defined roles within the software
+J3: Data Storage as a type of asset is recognized under the PEDD classification and its protection is crucial

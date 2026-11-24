@@ -1,0 +1,16 @@
+G1: Operational safety is verified in GPCA System
+G2: All operational hazards are mitigated
+G3: Over-infusion is mitigated
+G4: Over-infusion is mitigated under Continuous infusion
+G5: Dosage calculation spec is appropriate for Continuous infusion
+G6: Accuracy is appropriate for Dosage calculation spec
+G7: FDA Guidelines are appropriate and trustworthy
+G8: Accuracy definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA System (Context: All specs are given by `GPCA specs`)
+S3: Argument over operational hazards (Context: Operational hazards are given by `listed GPCA hazards`
+S4: Argument over the applied scenarios of Over-infusion (Context: All related scenarios are given by `Multiple Infusion types`)
+S5: Argument over all specs related to Continuous infusion (Context: All related specs are given by `GPCA Continuous infusion specs`)
+S6: Argument the appropriateness of Dosage calculation spec over properties (Context: Properties are given by `Dosage Calculation properties`)
+S7: Argument over the source of the Accuracy definition (Context: Source is given by `Medical Device Standards`
+Sn1 source
+Sn2 property

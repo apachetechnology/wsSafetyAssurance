@@ -1,0 +1,52 @@
+
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Overinfusion is mitigated
+G3: Underinfusion is mitigated
+G4: Overinfusion is mitigated under scenario1
+G4: Overinfusion is mitigated under scenario2
+G4: Overinfusion is mitigated under scenario3
+G5: Specification SR1.1 is appropriate for scenario1
+G5: Specification SR1.2 is appropriate for scenario2
+G5: Specification SR6.1.3 is appropriate for scenario3
+G6: Flow rate sensor property is appropriate for SR1.1
+G6: Period property to trigger the underinfusion alarm is appropriate for SR1.2
+G6: Flow rate < 90% property is appropriate for SR6.1.3
+G7: FDA standard is appropriate and trustworthy
+G7: Expertise opinion is appropriate and trustworthy
+G7: Previous knowledge is appropriate and trustworthy
+G8: Flow rate sensor property definition is sufficient
+G8: Period property definition is sufficient
+G8: Flow rate < 90% property definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system (undeveloped)
+S2: Argument over reliability in all suitable levels of GPCA system (undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of Overinfusion
+S5: Argument over all specs related to scenario1
+S4: Argument over the applied scenarios of Overinfusion
+S5: Argument over all specs related to scenario2
+S5: Argument over all specs related to scenario3
+S6: Argument the appropriateness of spec over properties
+S6: Argument the appropriateness of spec over properties
+S6: Argument the appropriateness of spec over properties
+S7: Argument over the source of the property definition
+S7: Argument over the source of the property definition
+S7: Argument over the source of the property definition
+C1: All specifications are given by spec.allInstances()
+C2: Operational hazards are given by operational hazard.allInstances()
+C3: All related scenarios are given by Overinfusion
+C4: All related specs are given by scenario1.spec.allInstances()
+C4: All related specs are given by scenario2.spec.allInstances()
+C4: All related specs are given by scenario3.spec.allInstances()
+C5: Properties are given by spec.property.allInstances()
+C5: Properties are given by spec.property.allInstances()
+C5: Properties are given by spec.property.allInstances()
+C6: Source is given by property.source
+C6: Source is given by property.source
+C6: Source is given by property.source
+Sn1: Source: FDA standard
+Sn1: Source: Expertise opinion
+Sn1: Source: Previous knowledge
+Sn2: Source: Expertise opinion
+Sn2: Source: Previous knowledge
+Sn2: Source: FDA standard

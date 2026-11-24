@@ -1,0 +1,17 @@
+G1: Operational safety is verified in GPCA system
+G2: All operational hazards are mitigated
+G3: Medication overdose is mitigated
+G4: Medication overdose is mitigated under parameter settings scenario
+G5: Dose limits are appropriate for parameter settings scenario
+G6: System reliability is appropriate for dose limits
+G7: Source is appropriate and trustworthy for system reliability
+G8: System reliability definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA system  (Uninstantiated)
+S2: Argument over reliability in all suitable levels of GPCA system (Uninstantiated)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of medication overdose
+S5: Argument over all specs related to parameter settings scenario
+S6: Argument the appropriateness of dose limits over properties
+S7: Argument over the source of the system reliability definition
+Sn1: source (Clinical trial results confirm reliability)
+Sn2: property (Technical documentation supports property definitions)

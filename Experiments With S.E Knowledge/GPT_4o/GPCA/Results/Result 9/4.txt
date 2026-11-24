@@ -1,0 +1,23 @@
+G1: Operational safety is verified in GPCA System
+G2: All operational hazards are mitigated
+G3: Overpressure hazard is mitigated
+G4: Overpressure hazard is mitigated under High-pressure scenario
+G5: Pressure specification is appropriate for High-pressure scenario
+G6: Pressure threshold is appropriate for Pressure specification
+G7: Technical Documentation is appropriate and trustworthy
+G8: Pressure threshold definition is sufficient
+S1: Argument over the satisfaction of all specs over GPCA System
+S2: Argument over reliability in all suitable levels of GPCA System
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of overpressure hazard
+S5: Argument over all specs related to High-pressure scenario
+S6: Argument the appropriateness of Pressure specification over properties
+S7: Argument over the source of the Pressure threshold definition
+C1: All specs are given by GPCA.System.allInstances()
+C2: Operational hazards are given by GPCA.OperationalHazard.allInstances()
+C3: All related scenarios are given by GPCA.OperationalHazard.allInstances()
+C4: All related specs are given by GPCA.HighPressureScenario.spec.allInstances()
+C5: Properties are given by GPCA.PressureSpecification.property.allInstances()
+C6: Source is given by GPCA.PressureThreshold.source
+Sn1: Technical Documentation
+Sn2: Pressure threshold

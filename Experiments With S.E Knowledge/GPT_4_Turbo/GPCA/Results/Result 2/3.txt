@@ -1,0 +1,22 @@
+G1: Operational Safety of the GPCA System is Verified
+G2: All Operational Hazards of GPCA are Mitigated
+G3: Overinfusion is Mitigated
+G4: Overinfusion is Mitigated under Excessive Bolus
+G5: 'Flow rate sensor equipped' Spec is Appropriate for Excessive Bolus
+G6: 'Programmed rate too low' is Appropriate for 'Flow rate sensor equipped'
+G7: FDA Standard is Appropriate and Trustworthy for Programmed Rate
+G8: 'Programmed Rate' Definition is Sufficient
+S1: Argument over the satisfaction of all specs over the GPCA system (Uninstantiated & undeveloped)
+S3: Argument over Operational Hazards
+S4: Argument Over the Applied Scenarios of Overinfusion
+S5: Argument Over All Specs Related to Excessive Bolus
+S6: Argument the Appropriateness of 'Flow rate sensor equipped' over properties
+S7: Argument Over the Source of the Programmed Rate Property
+C1: All specifications are provided as per the safety requirements
+C2: Operational Hazards are Given by GPCA Operational Hazards
+C3: All Related Scenarios Given by Overinfusion Scenarios
+C4: All Related Specs Given by Excessive Bolus.spec.allInstances()
+C5: Properties are Given by 'Flow Rate Sensor Equipped'.property.allInstances()
+C6: Source is Given by 'Programmed Rate'.source (Safety Doc References)
+Sn1: FDA standard document
+Sn2: Safety requirement documentation

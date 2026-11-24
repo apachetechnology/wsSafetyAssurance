@@ -1,0 +1,56 @@
+Goal: GPCA system is safe to operate
+Goal: Identify safety requirements
+Goal: Implement safety features
+Goal: Provide hardware redundancy
+Goal: Provide software fault tolerance
+Goal: Implement alert system
+Goal: Provide manual override option
+Goal: Validate safety features
+Goal: Perform unit tests
+Goal: Perform integration tests
+Goal: Perform system tests
+Goal: Conduct model checking
+Goal: Perform code reviews
+Goal: Ensure compliance with safety standards
+Goal: Obtain FDA approval
+Goal: Obtain CE marking
+Goal: Regular safety audits
+Goal: External safety audits
+Goal: Monitor and improve safety post-deployment
+Goal: Monitor device performance in the field
+Goal: Incident Reporting
+Goal: Update software and hardware
+Strategy: Safety Requirements Satisfaction
+Strategy: Redundancy and Fault Tolerance
+Strategy: User Notification and Override
+Strategy: Comprehensive Testing
+Strategy: Formal Verification
+Strategy: Regulatory Certification
+Strategy: Post-Market Surveillance
+Strategy: Continuous Improvement
+Context: Regulatory context
+Regulation: FDA 21 CFR Part 820
+Regulation: ISO 13485
+Justification: Safety of patients is of utmost priority
+Assumption: Users are trained medical professionals
+Solution: Derived from regulatory guidelines
+Solution: Derived from industry standards
+Solution: Dual processors for critical operations
+Solution: Watchdog timers
+Solution: Error-correcting code in memory usage
+Solution: Visual and auditory alarms
+Solution: Notification of healthcare providers
+Solution: Physical shutdown switch
+Solution: Test individual modules
+Solution: Test interactions between modules
+Solution: End-to-end system testing
+Solution: Use mathematical models and algorithms
+Solution: Peer review for safety-critical code
+Solution: Submit required documentation and testing data
+Solution: Conformity assessment procedures
+Solution: Quarterly internal safety reviews
+Solution: Annual third-party audit
+Solution: Collect and analyze customer feedback
+Solution: Adverse event logging and analysis
+Solution: Periodic software updates
+Solution: Retrofit hardware improvements

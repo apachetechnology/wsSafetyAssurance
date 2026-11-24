@@ -1,0 +1,17 @@
+G1: Interpretability Claim. The DeepMind system is sufficiently interpretable in the intended clinical workflow.
+G2: Right Method. The right interpretability methods are implemented, i.e. the correct information is faithfully being explained
+G3: Right Context. Interpretations are produced in the intended context
+G4: Right Format. Interpretability methods are presented in the right format for the audience (undeveloped)
+G5: Right Time. Interpretations produced at the appropriate time (undeveloped)
+G6: Right Setting. Interpretations are available in the right setting (undeveloped)
+G7: Right Audience. Interpretations produced for the right audience (undeveloped)
+G8: Interpretability method is right type e.g. local/global (i.e. the correct thing is being explained). (undeveloped)
+G9: Interpretability method is suitably faithful to DeepMind system process (undeveloped)
+S1: Argument based on the essential aspects of interpretability
+S2: Argument over interpretability methods
+C1: DeepMind System
+C2: Interpretability
+C3: Clinical Pathway
+C4: Essential aspects of interpretability
+C5: Tissue-Segmentation Map
+C6: Visual format

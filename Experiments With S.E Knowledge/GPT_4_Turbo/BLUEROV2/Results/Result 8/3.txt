@@ -1,0 +1,18 @@
+G1: Hazards for BlueROV2 addressed in accordance with ALARP principle.
+G2: No intolerable risks present in the BlueROV2 system.
+G3: Risk from electrical short-circuit has been reduced as low as reasonably practicable in the BlueROV2.
+G4: Model BTD accurately describes possible propagation of hazard electrical short-circuit in BlueROV2 (uninstantiated)
+G5: Quantitative risk estimates for electrical hazards are accurate and below acceptable threshold in the BlueROV2 system.
+G6: Possible hazard propagation paths correctly captured in BTD (undeveloped)
+G7: Barriers in the BTD correctly describe their respective control actions including any required system functions (undeveloped)
+G8: All non-negligible electrical threats have been identified in BlueROV2 (undeveloped)
+G9: State probability distribution used for risk estimation is an accurate representation of expected system states in BlueROV2 (undeveloped)
+G10: Estimated probability of severe damage from electric shock is below allowable threshold for severity class in BlueROV2 (uninstantiated)
+S1: Argument by risk reduction/elimination of each hazard for BlueROV2
+S2: Argue that risk posed by any remaining hazards in BlueROV2 is negligible (undeveloped)
+S3: Argue that no other risks have been identified in BlueROV2 operations (undeveloped)
+S4: Apply ReSonAte to estimate level of risk from hazard condition electrical short-circuit in BlueROV2
+C1: Definition of "intolerable" risks in underwater operations
+C2: Assigned severity class is high due to proximity to water (uninstantiated)
+A1: Function automatic circuit breaker required by BTD to handle an electrical short-circuit is available (uninstantiated)
+Sn1: Estimated risk level 0.02% from electric shock (uninstantiated)

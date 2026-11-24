@@ -1,0 +1,18 @@
+G1: IM software is acceptably secure in its operational environment
+G2: All identified IM software critical assets are protected
+G3: Registration information is protected
+G4: Registration process which belongs to the type 'Process' is protected
+G4: User account information which belongs to the type 'Data Storage' is protected
+G4: Login process which belongs to the type 'Process' is protected
+G4: Chat logs which belong to the type 'Data Exchange' are protected
+S1: Argument that IM software assets are under protection
+S2: Respective arguments of IM software critical assets
+S3: Argument based on the data type which the software critical asset belongs to
+C1: IM software includes features such as message exchange, file transfer, and user authentication
+C2: Operational environment includes user devices, network connections, and server infrastructure
+C3: Acceptably secure means adequate protection against unauthorized access, data leaks, and other security threats
+C4: Critical assets include Registration information, Registration process, User account information, Authentication information, Login process, and Chat logs
+C5: List of software critical asset types include process related assets (e.g., Registration process, Login process) and data related assets (e.g., User account information, Chat logs)
+J1: Protection of IM software assets ensures the software is secure according to defined security standards
+J2: Each critical asset can be distinctly protected and verified
+J3: Types of software assets categorized under PEDD are Process, Environment Entity, Data Exchange, and Data Storage
