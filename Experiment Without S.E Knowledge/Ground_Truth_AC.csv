@@ -1,0 +1,123 @@
+﻿Case,AC
+ACAS XU,"G0: ACAS Xu satisfies security requirements
+G1: ACAS Xu satisfies the asset protection requirements
+G2: ACAS Xu satisfies secure development requirements (undeveloped)
+G3: Asset protection requirements are met during the architecture design phase
+G4: Asset protection requirements are met during other phases (undeveloped)
+G5: ACAS Xu architecture is protected against identified security threats (STs)
+G6: ACAS Xu architecture is validated (undeveloped)
+G0.1: ACAS Xu architecture is protected against ST1 (undeveloped)
+G0.2: ACAS Xu architecture is protected against ST2 (undeveloped)
+G0.3: ACAS Xu architecture is protected against ST3 (undeveloped)
+S0: Argue through asset protection and secure development requirements
+S1: Argue through the different stages of the system development life cycle
+S2: Argue through derivating security threats from SRs
+S3: Argue over each security threat
+C0: Description of ACAS Xu
+C1: SR are requirements about protecting the system from malicious entities
+C2: The architecture is based on components and connectors style. The communication paradigm is message-passing communication
+C3: ACAS Xu architecture formal model from work[24]
+J0: The argumentation is based on satisfaction of SRs
+J1: Detection and mitigation of threats fulfill SRs.
+A0: System SRs are complete, adequate, and consistent
+A1: Asset inventory is established
+A2: All relevant threats have been identified
+A3: ACAS Xu architecture model is well defined in Alloy"
+BlueROV2,"G1: Hazards for BlueROV2 addressed in accordance with ALARP principle.
+G2: No intolerable risks present in the system.
+G3.0: Risk from Loss of Pipeline hazard has been reduced as low as reasonably practicable (undeveloped)
+G3.1: Risk from Deviation from Area hazard has been reduced as low as reasonably practicable (undeveloped)
+G3.2: Risk from Obstacle Encounter hazard has been reduced as low as reasonably practicable
+G4: Model Obstacle Encounter BTD accurately describes possible propagation of hazard Obstacle Encounter
+G5: Quantitative risk estimates are accurate and below acceptable threshold
+G6: Possible hazard propagation paths correctly captured in BTD (undeveloped)
+G7: Barriers in the BTD correctly describe their respective control action including any required system functions (undeveloped)
+G8: All non-negligible threats have been identified (undeveloped)
+G9: State probability distribution used for risk estimation is an accurate representation of expected system states (undeveloped)
+G10: Estimated probability of Collision is below allowable threshold for severity class
+S1: Argument by risk reduction/elimination of each hazard
+S2: Argue that risk posed by any remaining hazards is negligible (undeveloped)
+S3: Argue that no other risks have been identified (undeveloped)
+S4: Apply ReSonAte to estimate level of risk from hazard condition Obstacle Encounter
+C1: Definition of ""intolerable""
+C2.0: Assigned severity class is Minor
+C2.1: Assigned severity class is Minor
+C2.2: Assigned severity class is Major
+A1.0: Function Obstacle Detection required by Obstacle Encounter BTD is available
+A1.1: Function Command Authority required by Obstacle Encounter BTD is available
+A1.2: Function Avoidance Logic required by Obstacle Encounter BTD is available
+Sn1: Estimated risk level 10^-3 per hour"
+GPCA,"G1: Operational safety is verified in ""GPCA system""
+G2: All operational hazards are mitigated
+G3.1: ""Overinfusion"" is mitigated (undeveloped)
+G3.2: ""Underinfusion"" is mitigated
+G4.1: ""Underinfusion"" is mitigated under ""Programmed flow rate too low"" (undeveloped)
+G4.2: ""Underinfusion"" is mitigated under ""Flow rate does not match programmed rate""
+G5.1: ""SR1.2"" is appropriate for ""Flow rate does not match programmed rate""
+G5.2: ""SR6.1.4"" is appropriate for ""Programmed flow rate too low"" (undeveloped)
+G6.1: ""period is 15 mins"" is appropriate for ""SR1.2""
+G6.2: ""flow rate sensor is equipped,"" is appropriate for ""SR1.2"" (undeveloped)
+G7.1: ""FDA standard"" is appropriate and trustworthy
+G7.2: ""period is 15 mins"" definition is sufficient
+S1: Argument over the satisfaction of specs over ""GPCA system"" (undeveloped)
+S2: Argument over reliability in all suitable levels of ""GPCA system"" (undeveloped)
+S3: Argument over operational hazards
+S4: Argument over the applied scenarios of ""Underinfusion""
+S5: Argument over the specs related to ""Flow rate does not match programmed rate""
+S6: Argument the appropriateness of ""SR1.2"" over properties
+S7: Argument over the source of the ""period is 15 mins"" definition
+C1: All specs are given by ""SR1.1,SR1.2,SR1.4, SR1.5,SR1.9SR1.10,SR3.4.6,SR6.1.3,SR6.1.4""
+C2: Operational hazards are given by ""Overinfusion, Underinfusion""
+C3: All related scenarios are given by ""Programmed flow rate too low, Flow rate does not match programmed rate,...""
+C4: All related specs are given by ""SR1.2, SR6.1.3, SR6.1.4""
+C5: Properties are given by ""flow rate sensor is equipped, period is 15 mins, flow rate less than 90% of the programmed rate setting""
+C6: Source is given by ""FDA standard""
+Sn1: ""FDA standard""
+Sn2: ""period is 15 mins"""
+IM_Software,"G1: IM server software is acceptable secure in system
+G2: All identified software critical assets are protected
+G3.1: Sign up information is protected
+G3.2: Sign up process is protected
+G3.3: User account information is protected
+G3.4: Authentication information is protected
+G3.5: Login process is protected
+G3.6: Chat log is protected
+G4.1: software related threat argument pattern Sign up information which belongs to data exchange asset and data storage asset is protected
+G4.2  software related threat argument pattern Login process which belongs to process asset is protected
+S1: Argument of that software assets are protected
+S2: Respective argument of software critical assets
+S3.1: Argument of the type which sign up information belongs to
+S3.2: Argument of the type which login process belongs to
+﻿C1: IM server software is used for instant messaging in corporation X and developed in VC
+C2: IM server software is running on normal server with Windows XP OS and has less than 500 users
+C3: Probability of user information leak caused by IM server software is less than 0.05%
+C4: List of IM server software critical assets: sign up information, sign up process, User account information, authentication information, login process, chat log
+C5.1: List of software critical asset types in PEDD: process asset, data exchange asset, data storage asset
+C5.2: List of software critical asset types in PEDD:process asset, data exchange asset, data storage asset
+J1: Protection of software assets supports that software is acceptable secure
+J2: Relationship between assets is clear and can be argued separately
+J3.1: Types of software assets are according to PEDD
+J3.2: Types of software assets are according to PEDD"
+DeepMind,"G1: Interpretability Claim - The ML system is sufficiently interpretable in the intended context.
+G2: Right Method - The system structure and segmentation map provide transparency of the system logic and allow clinicians to understand decisions.
+G3: Right Context - Segmentation map produced in the retinal diagnosis pathway.
+G4: Right Format - The format of the interpretation is the transparent system logic, including the segmentation map
+G5: Right Time - Segmentation map is produced alongside diagnosis prediction.
+G6: Right Setting - Explanations are available in the clinical setting.
+G7: Right Audience - Explanations produced for the retinal clinicians.
+G8: Interpretability method is right type (the correct thing is being explained).
+G9: Interpretability method is suitably faithful to the system process.
+G10: The system structure, including production of the segmentation map, closely resembles the normal clinical decision-making process & offers comprehensible insight into system logic. (undeveloped)
+G11: Clinicians need an explanation alongside every diagnosis prediction. (undeveloped)
+G12: Clearly clinicians need to be able to access these explanations within the clinical setting. (undeveloped)
+G13: The clinicians need an explanation to understand and trust system predictions. (undeveloped)
+G14: The system structure closely resembles the normal decision-process taken by clinicians (first producing the segmentation map then the diagnosis) (undeveloped)
+G15: The interpretability method is the comprehensible structure of the system and the production of the segmentation map. (undeveloped)
+S1: Argument based on the essential aspects of interpretability.
+S2: Argument over interpretability methods
+C1: Dual NN system
+C2: Interpretable = transparency of system logic
+C3: Context: setting - retinal diagnosis pathway; time- alongside diagnosis predictions; audience - retinal/ clinicians.
+C4: Essential aspects of interpretability: method, context & format
+C5: System structure and segmentation map
+C6: Segmentation map"
