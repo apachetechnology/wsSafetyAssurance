@@ -46,14 +46,14 @@ class CSafetyAssurance:
     def __init__(self):
         print('CSafetyAssurance::init')
 
-    def installed_models(self):
+    def Installed_models(self):
         r = requests.get(f"{self.OLLAMA_URL}/api/tags", timeout=10)
         r.raise_for_status()
         return [m["name"] for m in r.json().get("models", [])
                 if "embed" not in m["name"].lower()]
 
 
-    def generate(self, model, temperature, max_tokens, seed=None, num_ctx=8192):
+    def Generate(self, model, temperature, max_tokens, seed=None, num_ctx=8192):
         options = {"temperature": temperature, "num_predict": max_tokens,
                 "num_ctx": num_ctx}
         if seed is not None:
@@ -93,7 +93,7 @@ class CSafetyAssurance:
                 # a fixed seed + offset makes each run reproducible but different.
                 s = None if seed is None else seed + i
                 print(f"{model}  run {i}/{runs} ...", flush=True)
-                text, reason = self.generate(model, temperature, max_tokens, s)
+                text, reason = self.Generate(model, temperature, max_tokens, s)
                 (folder / f"{i}.txt").write_text(text, encoding="utf-8")
                 meta = {"model": model, "run": i, "temperature": temperature,
                         "max_tokens": max_tokens, "seed": s, "done_reason": reason}
@@ -153,12 +153,14 @@ if __name__ == "__main__":
     out_dir = Path(a.out)
     out_dir.mkdir(parents=True, exist_ok=True)
 
+    objSA = CSafetyAssurance()
+
     if not a.score_only:
         try:
-            run_experiment(a.models, a.runs, a.temperature,
+            objSA.run_experiment(a.models, a.runs, a.temperature,
                            a.max_tokens, a.seed, out_dir)
         except requests.ConnectionError:
             sys.exit("Ollama is not running. Start it with: ollama serve")
     if not a.no_score:
-        score(out_dir, Path(a.ground_truth))
+        objSA.score(out_dir, Path(a.ground_truth))
 
