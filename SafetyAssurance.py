@@ -78,26 +78,31 @@ class CSafetyAssurance:
     def safe(self, name):
         return name.replace(":", "_").replace("/", "_")
 
-
-    def run_experiment(self, models, runs, temperature, 
+    def Run_experiment(self, listModels, runs, temperature, 
                        max_tokens, seed, out_dir):
-        have = self.installed_models()
-        for model in models:
-            if model not in have:
+        listInstalledModels = self.Installed_models()
+        for model in listModels:
+            if model not in listInstalledModels:
                 print(f"[skip] {model} not installed. Run: ollama pull {model}")
                 continue
-            folder = out_dir / self.safe(model) / "IM_Software"
-            folder.mkdir(parents=True, exist_ok=True)
+            folder = out_dir + self.safe(model) + '_'
+            #folder.mkdir(parents=True, exist_ok=True)
+
             for i in range(1, runs + 1):
                 # seed=None keeps runs random (matches the original temp=1 setup);
                 # a fixed seed + offset makes each run reproducible but different.
                 s = None if seed is None else seed + i
                 print(f"{model}  run {i}/{runs} ...", flush=True)
+                
                 text, reason = self.Generate(model, temperature, max_tokens, s)
+                
                 (folder / f"{i}.txt").write_text(text, encoding="utf-8")
+                
                 meta = {"model": model, "run": i, "temperature": temperature,
                         "max_tokens": max_tokens, "seed": s, "done_reason": reason}
+                
                 (folder / f"{i}.json").write_text(json.dumps(meta, indent=2))
+                
                 if reason == "length":
                     print("   warning: output cut off by max_tokens")
 
@@ -110,7 +115,7 @@ class CSafetyAssurance:
         raise ValueError(f"{case} not found in {path} (expected columns: Case, AC)")
 
 
-    def score(self, out_dir, gt_path):
+    def Score(self, out_dir, gt_path):
         gt = self.load_ground_truth(gt_path)
         rows = []
         for model_dir in sorted(p for p in out_dir.iterdir() if p.is_dir()):
@@ -157,10 +162,10 @@ if __name__ == "__main__":
 
     if not a.score_only:
         try:
-            objSA.run_experiment(a.models, a.runs, a.temperature,
+            objSA.Run_experiment(a.models, a.runs, a.temperature,
                            a.max_tokens, a.seed, out_dir)
         except requests.ConnectionError:
             sys.exit("Ollama is not running. Start it with: ollama serve")
     if not a.no_score:
-        objSA.score(out_dir, Path(a.ground_truth))
+        objSA.Score(out_dir, Path(a.ground_truth))
 
