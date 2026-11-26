@@ -137,6 +137,17 @@ class CSafetyAssurance:
                 seq = difflib.SequenceMatcher(None, t, gt).ratio()
                 rows.append((model, run, bleu, seq, c))
 
+        #return rows
+        print(f"{'model':<22}{'run':<5}{'BLEU':>7}{'seqmatch':>10}{'tfidf':>8}")
+        for m, r, b, s, c in rows:
+            print(f"{m:<22}{r:<5}{b:>7.2f}{s:>10.2f}{c:>8.2f}")
+        with open(out_dir / "scores.csv", "w", newline="") as f:
+            w = csv.writer(f)
+            w.writerow(["model", "run", "bleu", "seqmatch", "tfidf_cosine"])
+            w.writerows(rows)
+            
+        print(f"\nSaved {out_dir / 'scores.csv'}")
+
 
 ###########################################################################
 ## 
