@@ -9,7 +9,7 @@
 
 **In scope:** prompt construction, model execution, output storage, GSN parsing, metrics, reporting. 
 
-**Out of scope:** fine-tuning, training new models, graphical GSN rendering (optional later), and the SLR chatbot (separate project).
+**Out of scope:** fine-tuning, training new models, graphical GSN rendering (optional later).
 
 ---
 
