@@ -116,30 +116,27 @@ class CSafetyAssurance:
         raise ValueError(f"{case} not found in {path} (expected columns: Case, AC)")
 
 
-    def Score(self, out_dir, gt_path):
-        gt = self.load_ground_truth(gt_path)
+    def Score(self, out_dir, gt_path, strKey):
+        gt = self.load_ground_truth(gt_path, strKey)
+        pat = re.compile(rf"^{re.escape(strKey)}_(.+)_(\d+)\.txt$")
+        
+        groups = {}
+        for p in out_dir.glob( strKey + "_*.txt"):
+            m = pat.match(p.name)
+            if m:
+                groups.setdefault(m.group(1), []).append((int(m.group(2)), p))
+
         rows = []
-        for model_dir in sorted(p for p in out_dir.iterdir() if p.is_dir()):
-            folder = model_dir / "IM_Software"
-            files = sorted(folder.glob("*.txt"), key=lambda p: int(p.stem))
-            if not files:
-                continue
-            texts = [f.read_text(encoding="utf-8") for f in files]
+        for model, items in sorted(groups.items()):
+            items.sort()
+            texts = [p.read_text(encoding="utf-8") for _, p in items]
             tfidf = TfidfVectorizer().fit_transform(texts + [gt])
             cos = cosine_similarity(tfidf[:-1], tfidf[-1]).ravel()
-            for f, t, c in zip(files, texts, cos):
-                bleu = sacrebleu.sentence_bleu(t, [gt]).score / 100  # 0-1 like R1
+            for (run, _), t, c in zip(items, texts, cos):
+                bleu = sacrebleu.sentence_bleu(t, [gt]).score / 100
                 seq = difflib.SequenceMatcher(None, t, gt).ratio()
-                rows.append((model_dir.name, f.stem, bleu, seq, c))
+                rows.append((model, run, bleu, seq, c))
 
-        print(f"{'model':<22}{'run':<5}{'BLEU':>7}{'seqmatch':>10}{'tfidf':>8}")
-        for m, r, b, s, c in rows:
-            print(f"{m:<22}{r:<5}{b:>7.2f}{s:>10.2f}{c:>8.2f}")
-        with open(out_dir / "scores.csv", "w", newline="") as f:
-            w = csv.writer(f)
-            w.writerow(["model", "run", "bleu", "seqmatch", "tfidf_cosine"])
-            w.writerows(rows)
-        print(f"\nSaved {out_dir / 'scores.csv'}")
 
 ###########################################################################
 ## 
