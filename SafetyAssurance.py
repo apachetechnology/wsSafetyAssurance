@@ -81,24 +81,25 @@ class CSafetyAssurance:
     def Run_experiment(self, listModels, runs, temperature, 
                        max_tokens, seed, out_dir):
         listInstalledModels = self.Installed_models()
-        for model in listModels:
-            if model not in listInstalledModels:
-                print(f"[skip] {model} not installed. Run: ollama pull {model}")
+        for strModel in listModels:
+            print('Model:', strModel)
+            if strModel not in listInstalledModels:
+                print(f"[skip] {strModel} not installed. Run: ollama pull {strModel}")
                 continue
-            folder = out_dir + self.safe(model) + '_'
+            folder = out_dir + self.safe(strModel) + '_'
             #folder.mkdir(parents=True, exist_ok=True)
 
             for i in range(1, runs + 1):
                 # seed=None keeps runs random (matches the original temp=1 setup);
                 # a fixed seed + offset makes each run reproducible but different.
                 s = None if seed is None else seed + i
-                print(f"{model}  run {i}/{runs} ...", flush=True)
+                print(f"{strModel}  run {i}/{runs} ...", flush=True)
                 
-                text, reason = self.Generate(model, temperature, max_tokens, s)
+                text, reason = self.Generate(strModel, temperature, max_tokens, s)
                 
                 (folder / f"{i}.txt").write_text(text, encoding="utf-8")
                 
-                meta = {"model": model, "run": i, "temperature": temperature,
+                meta = {"model": strModel, "run": i, "temperature": temperature,
                         "max_tokens": max_tokens, "seed": s, "done_reason": reason}
                 
                 (folder / f"{i}.json").write_text(json.dumps(meta, indent=2))
