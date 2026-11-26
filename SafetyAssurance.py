@@ -53,8 +53,8 @@ class CSafetyAssurance:
                 if "embed" not in m["name"].lower()]
 
 
-    def Generate(self, model, temperature, max_tokens, seed=None, num_ctx=8192):
-        options = {"temperature": temperature, "num_predict": max_tokens,
+    def Generate(self, model, fTemperature, max_tokens, seed=None, num_ctx=8192):
+        options = {"temperature": fTemperature, "num_predict": max_tokens,
                 "num_ctx": num_ctx}
         if seed is not None:
             options["seed"] = seed
@@ -71,14 +71,14 @@ class CSafetyAssurance:
         r = requests.post(f"{self.OLLAMA_URL}/api/chat", json=payload, timeout=900)
         r.raise_for_status()
         data = r.json()
-        text = data.get("message", {}).get("content", "")
-        return self.THINK_RE.sub("", text).strip(), data.get("done_reason")
+        strText = data.get("message", {}).get("content", "")
+        return self.THINK_RE.sub("", strText).strip(), data.get("done_reason")
 
 
     def safe(self, name):
         return name.replace(":", "_").replace("/", "_")
 
-    def Run_experiment(self, listModels, runs, temperature, 
+    def Run_experiment(self, listModels, runs, fTemperature, 
                        max_tokens, seed, out_dir):
         listInstalledModels = self.Installed_models()
         for strModel in listModels:
@@ -86,8 +86,9 @@ class CSafetyAssurance:
             if strModel not in listInstalledModels:
                 print(f"[skip] {strModel} not installed. Run: ollama pull {strModel}")
                 continue
-            folder = out_dir + self.safe(strModel) + '_'
-            #folder.mkdir(parents=True, exist_ok=True)
+
+            # Assign the file name
+            strFilename = 'IM_Software_' + self.safe(strModel) + '_'
 
             for i in range(1, runs + 1):
                 # seed=None keeps runs random (matches the original temp=1 setup);
@@ -95,18 +96,17 @@ class CSafetyAssurance:
                 s = None if seed is None else seed + i
                 print(f"{strModel}  run {i}/{runs} ...", flush=True)
                 
-                text, reason = self.Generate(strModel, temperature, max_tokens, s)
+                strText, strReason = self.Generate(strModel, fTemperature, max_tokens, s)
                 
-                (folder / f"{i}.txt").write_text(text, encoding="utf-8")
+                (out_dir / f"{strFilename}{i}.txt").write_text(strText, encoding="utf-8")
                 
-                meta = {"model": strModel, "run": i, "temperature": temperature,
-                        "max_tokens": max_tokens, "seed": s, "done_reason": reason}
+                meta = {"model": strModel, "run": i, "temperature": fTemperature,
+                        "max_tokens": max_tokens, "seed": s, "done_reason": strReason}
                 
-                (folder / f"{i}.json").write_text(json.dumps(meta, indent=2))
+                (out_dir / f"{strFilename}{i}.json").write_text(json.dumps(meta, indent=2))
                 
-                if reason == "length":
+                if strReason == "length":
                     print("   warning: output cut off by max_tokens")
-
 
     def load_ground_truth(self, path, case="IM_Software"):
         with open(path, newline="", encoding="utf-8-sig") as f:
