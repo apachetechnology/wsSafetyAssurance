@@ -3,7 +3,7 @@
 
 ## 1. `IM_software_ACP.png`: the Assurance Case Pattern
 
-![Dataset](IM_software_ACP.png)
+![IM_software_ACP](./Dataset/IM_software_ACP.png)
 
 A generic GSN template with placeholders in curly braces: `{software}`, `{system}`, `{software critical asset}` and `{type}`.
 
@@ -21,7 +21,7 @@ The pattern also carries the contexts that need defining (**C1 to C5**) and just
 
 ## 2. `IM_Software_AC.png`: the Assurance Case instantiated from the pattern
 
-![Dataset](IM_Software_AC.png)
+![IM_Software_AC](./Dataset/IM_Software_AC.png)
 
 This is the ground truth in `Ground_Truth_AC.csv`.
 
