@@ -1,4 +1,4 @@
-# IM_Software: Assurance Case Pattern (ACP) and Assurance Case (AC)
+# Assurance Case Pattern (ACP) and Assurance Case (AC)
 
 
 ## 1. `IM_software_ACP.png`: the Assurance Case Pattern
