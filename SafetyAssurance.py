@@ -108,7 +108,7 @@ class CSafetyAssurance:
                 if strReason == "length":
                     print("   warning: output cut off by max_tokens")
 
-    def load_ground_truth(self, path, case="IM_Software"):
+    def load_ground_truth(self, path, case):
         with open(path, newline="", encoding="utf-8-sig") as f:
             for row in csv.DictReader(f):
                 if row.get("Case") == case:
